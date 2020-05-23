@@ -81,6 +81,7 @@ body{
   border: 1px solid white;
   border-radius: 100%;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .button {
@@ -91,6 +92,7 @@ body{
   top: 42px;
   border-radius: 100%;
   background-color: white;
+  cursor: pointer;
 }
 
 .magazin {
@@ -187,4 +189,55 @@ body{
   border-radius: 100%;
   border: 1px solid white;
   box-sizing: border-box;
+}
+
+.leftprice {
+  position: absolute;
+  width: 51px;
+  height: 15px;
+  left: 346px;
+  top: 585px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.rightprice1 {
+  position: absolute;
+  width: 46px;
+  height: 15px;
+  left: 918px;
+  top: 182px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.rightprice2 {
+  position: absolute;
+  width: 67px;
+  height: 15px;
+  left: 862px;
+  top: 611px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
