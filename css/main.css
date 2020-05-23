@@ -1,0 +1,190 @@
+@font-face{
+  font-family: 'AkzidenzGroteskPro';
+  src: url('../fonts/AkzidenzGroteskPro-BoldCn.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'AkzidenzGroteskPro';
+  src: url('../fonts/AkzidenzGroteskPro-LightCn.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+main {
+  font-family: 'AkzidenzGroteskPro';
+  position: relative;
+}
+
+body{
+  margin: 0;
+}
+
+.firstpage_block {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  font-family: AkzidenzGroteskPro;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.description {
+  position: absolute;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.info {
+  position: absolute;
+  width: 506px;
+  height: 64px;
+  left: 468px;
+  top: 389px;
+  font-family: Helvetica;
+  font-style: normal;
+  width: 506px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.buttonstroke{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 1313px;
+  top: 38px;
+  border: 1px solid white;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+.button {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 1317px;
+  top: 42px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.magazin {
+  position: absolute;
+  width: 44px;
+  height: 22px;
+  left: 223px;
+  top: 38px;
+}
+
+.katalog {
+  position: absolute;
+  width: 40px;
+  height: 22px;
+  left: 345px;
+  top: 38px;
+}
+
+.remont {
+  position: absolute;
+  width: 37px;
+  height: 22px;
+  left: 467px;
+  top: 39px;
+}
+
+.o_proekte {
+  position: absolute;
+  width: 52px;
+  height: 22px;
+  left: 586px;
+  top: 39px;
+}
+
+.faza {
+  position: absolute;
+  width: 135px;
+  height: 63px;
+  left: 652px;
+  top: 238px;
+  font-size: 50px;
+}
+
+.center {
+  position: absolute;
+  font-size: 36px;
+  width: 436px;
+  height: 45px;
+  left: 502px;
+  top: 301px;
+}
+
+.circlestrokeleft {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 468px;
+  top: 179px;
+  border-radius: 100%;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.circlefillleft {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 153px;
+  top: 197px;
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.circlestrokeright {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 832px;
+  top: 105px;
+  border-radius: 100%;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.circlefillright {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 769px;
+  top: 597px;
+  background-color: white;
+  border-radius: 100%;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
