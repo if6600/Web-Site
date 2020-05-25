@@ -74,10 +74,10 @@ body{
 
 .buttonstroke{
   position: absolute;
-  width: 25px;
-  height: 25px;
-  left: 1313px;
-  top: 38px;
+  width: 32px;
+  height: 32px;
+  left: 1312px;
+  top: 37px;
   border: 1px solid white;
   border-radius: 100%;
   box-sizing: border-box;
@@ -86,8 +86,8 @@ body{
 
 .button {
   position: absolute;
-  width: 17px;
-  height: 17px;
+  width: 22px;
+  height: 22px;
   left: 1317px;
   top: 42px;
   border-radius: 100%;
@@ -303,4 +303,141 @@ body{
   border-radius: 124px;
   transform: rotate(-31.97deg);
   z-index: 1;
+}
+
+.theway_circle {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 1163px;
+  top: 449px;
+  border-radius: 100%;
+  background: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 97;
+}
+
+.theway_circle2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 1233px;
+  top: 403px;
+  border-radius: 100%;
+  background-color: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 97;
+}
+
+.theway_circle3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 1280px;
+  top: 500px;
+  border-radius: 100%;
+  background-color: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 97;
+}
+
+.theway_circle4 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left: 1378px;
+  top: 385px;
+  border-radius: 100%;
+  background-color: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 97;
+}
+
+.theway_circle5 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left: 1408px;
+  top: 321px;
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 97;
+}
+
+.star1 {
+  position: absolute;
+  width: 120px;
+  height: 119px;
+  left: 94px;
+  top: 527px;
+  box-sizing: border-box;
+}
+
+.sparkletheway {
+  position: absolute;
+  width: 58px;
+  height: 53px;
+  left: 1290px;
+  top: 584px;
+  z-index: 99;
+}
+
+.sparkleleft {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 497px;
+  top: 619px;
+}
+
+.sparkleright {
+  position: absolute;
+  width: 23px;
+  height: 21px;
+  left: 1231px;
+  top: 562px;
+  z-index: 99;
+}
+
+.sparklethewaygroup {
+  position: absolute;
+  width: 16px;
+  height: 19px;
+  left: 1326px;
+  top: 356px;
+  z-index: 99;
+}
+
+.star2 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 994px;
+  top: 99px;
+}
+
+.ramka {
+  position: absolute;
+  width: 597px;
+  height: 95px;
+  left: 421px;
+  top: 371px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 47.5px;
+}
+
+.drop {
+  position: absolute;
+  width: 15px;
+  height: 25px;
+  left: 316px;
+  top: 266px;
+  box-sizing: border-box;
 }
