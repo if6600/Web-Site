@@ -241,3 +241,66 @@ body{
   text-align: center;
   color: white;
 }
+
+.ellipseleft {
+  position: absolute;
+  width: 448px;
+  height: 448px;
+  left: -69px;
+  top: 371px;
+  border-radius: 100%;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.ellipseleft2 {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  left: -35px;
+  top: 405px;
+  border-radius: 100%;
+  background-image: url('../img/str.jpg');
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.planet1 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 1004px;
+  top: 515px;
+  border-radius: 100%;
+  background: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 98;
+}
+
+.planet2 {
+  position: absolute;
+  width: 67px;
+  height: 66px;
+  left: 1037px;
+  top: 553px;
+  border-radius: 100%;
+  background: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.theway {
+  position: absolute;
+  width: 842.97px;
+  height: 248px;
+  left: 931px;
+  top: 320px;
+  background-image: url('../img/str.jpg');
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 124px;
+  transform: rotate(-31.97deg);
+  z-index: 1;
+}
