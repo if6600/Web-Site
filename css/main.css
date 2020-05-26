@@ -240,6 +240,7 @@ body{
   align-items: center;
   text-align: center;
   color: white;
+  z-index: 99;
 }
 
 .ellipseleft {
@@ -392,8 +393,8 @@ body{
   position: absolute;
   width: 28px;
   height: 28px;
-  left: 497px;
-  top: 619px;
+  left: 500px;
+  top: 640px;
 }
 
 .sparkleright {
@@ -440,4 +441,67 @@ body{
   left: 316px;
   top: 266px;
   box-sizing: border-box;
+}
+
+.sparkles {
+  position: absolute;
+  height: 35px;
+  left: 1326px;
+  top: 356px;
+  z-index: 99;
+}
+
+.cost {
+  position: absolute;
+  width: 120px;
+  left: 836px;
+  top: 588px;
+  z-index: 98;
+}
+
+.costleft {
+  position: absolute;
+  width: 120px;
+  left: 312px;
+  top: 562px;
+}
+
+.costright {
+  position: absolute;
+  width: 120px;
+  left: 879px;
+  top: 159px;
+}
+
+.figuremenu {
+  position: absolute;
+  width: 33px;
+  left: 102px;
+  top: 31px;
+}
+
+.figuremenu2 {
+  position: absolute;
+  width: 35px;
+  left: 704px;
+  top: 197px;
+}
+
+.planettheway {
+  position: absolute;
+  top: 70px;
+}
+
+.duga {
+  position: absolute;
+  width: 51px;
+  left: 936px;
+  top: 643px;
+}
+
+.sparkleright2 {
+  position: absolute;
+  width: 21px;
+  left: 1115px;
+  top: 390px;
 }
