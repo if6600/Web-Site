@@ -512,7 +512,7 @@ body{
   background-color: white;
   top: 821px;
   width: 100%;
-  height: 120%;
+  height: 116%;
   z-index: 1;
 }
 
@@ -630,13 +630,27 @@ body{
 .blockdashed {
   position: absolute;
   width: 993px;
-  height: 570px;
+  height: 600px;
   left: 101px;
   top: 1052px;
   background-color: white;
   border: 1px dashed black;
   box-sizing: border-box;
   z-index: 1;
+}
+
+div.blockdashed::after {
+  content: "";
+  background: url("../img/fon.png");
+  background-repeat: no-repeat;
+  background-position: 0 -150px;
+  opacity: 0.1;
+  top: -10px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .krestik {
@@ -659,7 +673,7 @@ body{
   position: absolute;
   width: 19px;
   left: 92px;
-  top: 1612px;
+  top: 1642px;
   z-index: 99;
 }
 
@@ -667,6 +681,16 @@ body{
   position: absolute;
   width: 19px;
   left: 1084px;
-  top: 1612px;
+  top: 1642px;
   z-index: 99;
 }
+
+.slider {
+  position: absolute;
+  width: 1440px;
+  height: 713px;
+  opacity: 30%;
+  left: 0px;
+  top: 1643px;
+  background-color: gray;
+  z-index: 2;
