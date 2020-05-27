@@ -478,6 +478,7 @@ body{
   width: 33px;
   left: 102px;
   top: 31px;
+  cursor: pointer;
 }
 
 .figuremenu2 {
@@ -489,7 +490,7 @@ body{
 
 .planettheway {
   position: absolute;
-  top: 70px;
+  top: 50px;
 }
 
 .duga {
@@ -504,4 +505,13 @@ body{
   width: 21px;
   left: 1115px;
   top: 390px;
+}
+
+.secondpage_block {
+  position: absolute;
+  background-color: red;
+  opacity: 10%;
+  top: 821px;
+  width: 100%;
+  height: 100%;
 }
