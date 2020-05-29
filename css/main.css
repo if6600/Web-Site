@@ -623,7 +623,7 @@ body{
   width: 15px;
   left: 77px;
   top: 40px;
-  //display:none;
+  display:none;
 }
 
 
@@ -636,21 +636,22 @@ body{
   background-color: white;
   border: 1px dashed black;
   box-sizing: border-box;
-  z-index: 1;
+  z-index: 2;
 }
 
 div.blockdashed::after {
   content: "";
   background: url("../img/fon.png");
   background-repeat: no-repeat;
-  background-position: 0 -150px;
+  background-position: 280px 20px;
+  background-size: 45%;
   opacity: 0.1;
   top: -10px;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;
+  z-index: 1;
 }
 
 .krestik {
