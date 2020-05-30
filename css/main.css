@@ -193,8 +193,6 @@ body{
 
 .leftprice {
   position: absolute;
-  width: 51px;
-  height: 15px;
   left: 346px;
   top: 585px;
   font-family: Helvetica;
@@ -210,8 +208,6 @@ body{
 
 .rightprice1 {
   position: absolute;
-  width: 46px;
-  height: 15px;
   left: 918px;
   top: 182px;
   font-family: Helvetica;
@@ -737,5 +733,289 @@ div.blockdashed::after {
   width: 35px;
   left: 409px;
   top: 1170px;
+  z-index: 99;
+}
+
+.sputnuk {
+  position: absolute;
+  width: 53px;
+  left: 944px;
+  top: 1078px;
+  z-index: 99;
+}
+
+.sparkle_2page {
+  position: absolute;
+  width: 25px;
+  left: 908px;
+  top: 1003px;
+  z-index: 99;
+}
+
+.starwthcubes {
+  position: absolute;
+  width: 27px;
+  left: 846px;
+  top: 1053px;
+  z-index: 99;
+}
+
+.circleblackandwhite {
+  position: absolute;
+  width: 24px;
+  left: 821px;
+  top: 1128px;
+  z-index: 99;
+}
+
+.flower {
+  position: absolute;
+  width: 35px;
+  left: 525px;
+  top: 1077px;
+  z-index: 99;
+}
+
+.circlestar {
+  position: absolute;
+  width: 35px;
+  left: 596px;
+  top: 1040px;
+  z-index: 99;
+}
+
+.sparkles_2page {
+  position: absolute;
+  width: 30px;
+  left: 615px;
+  top: 1108px;
+  z-index: 99;
+}
+
+.circlepage2 {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 608px;
+  top: 1000px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.bigplanet {
+  position: absolute;
+  width: 48px;
+  left: 480px;
+  top: 1300px;
+  z-index: 99;
+}
+
+.zvezda {
+  position: absolute;
+  width: 35px;
+  left: 300px;
+  top: 1150px;
+  z-index: 99;
+}
+
+.sparkleincircle {
+  position: absolute;
+  width: 38px;
+  left: 264px;
+  top: 1267.21px;
+  z-index: 99;
+}
+
+.kvadrat {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 224px;
+  top: 1233.21px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.krestik_2page {
+  position: absolute;
+  width: 15px;
+  left: 260px;
+  top: 1190px;
+  z-index: 99;
+}
+
+.romb {
+  position: absolute;
+  width: 30px;
+  left: 767px;
+  top: 1243px;
+  z-index: 99;
+}
+
+.ellipse {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  left: 720px;
+  top: 1260.61px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+  z-index: 99;
+}
+
+.triangle {
+  position: absolute;
+  width: 14px;
+  left: 659px;
+  top: 1253px;
+  transform: rotate(-180deg);
+  z-index: 99;
+}
+
+.fillstar {
+  position: absolute;
+  width: 38px;
+  left: 946px;
+  top: 1239px;
+  z-index: 99;
+}
+
+.star_2page {
+  position: absolute;
+  width: 25px;
+  left: 903px;
+  top: 1213px;
+  z-index: 99;
+}
+
+.krestik_2page_2line {
+  position: absolute;
+  width: 20px;
+  left: 926.81px;
+  top: 1310px;
+  z-index: 99;
+}
+
+.str_2page_3line {
+  position: absolute;
+  width: 40px;
+  left: 183px;
+  top: 1544px;
+  z-index: 99;
+}
+
+.blackcircles {
+  position: absolute;
+  width: 30px;
+  left: 335px;
+  top: 1363.38px;
+  z-index: 99;
+}
+
+.linestar {
+  position: absolute;
+  width: 33px;
+  left: 372px;
+  top: 1430px;
+  z-index: 99;
+}
+
+.blackellipse {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 429px;
+  top: 1367.38px;
+  border-radius: 100%;
+  background: #000000;
+  z-index: 99;
+}
+
+.twocircles {
+  position: absolute;
+  width: 30px;
+  left: 455px;
+  top: 1444.38px;
+  z-index: 99;
+}
+
+.strway {
+  position: absolute;
+  width: 40px;
+  left: 478px;
+  top: 1320px;
+  z-index: 99;
+}
+
+.trianglestar {
+  position: absolute;
+  width: 34px;
+  left: 739px;
+  top: 1372px;
+  z-index: 99;
+}
+
+.sparkincirc2 {
+  position: absolute;
+  width: 30px;
+  left: 688px;
+  top: 1410px;
+  z-index: 99;
+}
+
+.trianglewithfill {
+  position: absolute;
+  width: 30px;
+  left: 647px;
+  top: 1357px;
+  z-index: 99;
+}
+
+.constellation2 {
+  position: absolute;
+  top: 100px;
+}
+
+.constellation3_2 {
+  position: absolute;
+  top: 150px;
+}
+
+.constellation3_1 {
+  position: absolute;
+  top: 120px;
+}
+
+.constellation2_1 {
+  position: absolute;
+  top: 100px;
+}
+
+.constellation2_2 {
+  position: absolute;
+  top: 100px;
+}
+
+.constellation2_3 {
+  position: absolute;
+  top: 170px;
+}
+
+.constellation3 {
+  position: absolute;
+  top: 110px;
+}
+
+.line1_1 {
+  position: absolute;
+  top: 1133px;
+  left: 170px;
+  width: 71px;
   z-index: 99;
 }

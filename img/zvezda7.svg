@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg class="strway" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 286.7 167.1" style="enable-background:new 0 0 286.7 167.1;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.stp0{fill:none;stroke:#000000;stroke-miterlimit:10;}
 </style>
-<line class="st0" x1="119.2" y1="58" x2="261.3" y2="17.8"/>
-<line class="st0" x1="136" y1="83.3" x2="278.2" y2="43.1"/>
-<polygon class="st0" points="75.8,83.7 116.7,96.2 75.8,108.7 63.3,149.6 49.7,108.7 9.9,96.2 50.8,83.7 63.3,42.8 "/>
+<line class="stp0" x1="119.2" y1="58" x2="261.3" y2="17.8"/>
+<line class="stp0" x1="136" y1="83.3" x2="278.2" y2="43.1"/>
+<polygon class="stp0" points="75.8,83.7 116.7,96.2 75.8,108.7 63.3,149.6 49.7,108.7 9.9,96.2 50.8,83.7 63.3,42.8 "/>
 </svg>
