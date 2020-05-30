@@ -724,5 +724,18 @@ div.blockdashed::after {
   z-index: 99;
 }
 
+.constellation1 {
+  position: absolute;
+  top: 100px;
+}
+
 .constellation1_line1 {
+}
+
+.moon {
+  position: absolute;
+  width: 35px;
+  left: 409px;
+  top: 1170px;
+  z-index: 99;
 }
