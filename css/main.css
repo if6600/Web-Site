@@ -1289,3 +1289,423 @@ div.blockdashed::after {
   left: 794px;
   top: 326px;
 }
+
+.katalog_fonpic {
+  position: absolute;
+  width: 1018px;
+  left: 218px;
+  top: 543px;
+  z-index: 60;
+}
+
+.cubekatalog {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 569.27px;
+  top: 470px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.cubekatalog2 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.02px;
+  left: 750.63px;
+  top: 470px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog2_1 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 385.9px;
+  top: 650px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog2_2 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 569.27px;
+  top: 650px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog2_3 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.02px;
+  left: 750.63px;
+  top: 650px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog2_4 {
+  position: absolute;
+  width: 119.28px;
+  height: 119.28px;
+  left: 932.27px;
+  top: 650px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_1 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 206px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_2 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.77px;
+  left: 385.9px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_3 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 569.27px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_4 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.77px;
+  left: 750.63px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_5 {
+  position: absolute;
+  width: 119.28px;
+  height: 119.28px;
+  left: 932.27px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_6 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.77px;
+  left: 1110px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_1 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 206px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_2 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.77px;
+  left: 385.9px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_3 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 569.27px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_4 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 750.63px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_5 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.02px;
+  left: 932.27px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_6 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.77px;
+  left: 1110px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_1 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 206px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_2 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 385.9px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_3 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 569.27px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_4 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 750.63px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_5 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.02px;
+  left: 932.27px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_6 {
+  position: absolute;
+  width: 119.28px;
+  height: 119.28px;
+  left: 1110px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog6_2 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 385.9px;
+  top: 1355px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog6_3 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 569.27px;
+  top: 1355px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog6_4 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.02px;
+  left: 750.63px;
+  top: 1355px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog6_5 {
+  position: absolute;
+  width: 119.28px;
+  height: 119.28px;
+  left: 932.27px;
+  top: 1355px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog7_3 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 569.27px;
+  top: 1525px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog7_4 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 750.63px;
+  top: 1525px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+
+.mail {
+  position: absolute;
+  height: 16px;
+  left: 486px;
+  top: 1800px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+  z-index: 99;
+}
+
+.telefon {
+  position: absolute;
+  width: 167px;
+  height: 16px;
+  left: 727px;
+  top: 1800px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+  z-index: 99;
+}
+
+.logo {
+  position: absolute;
+  height: 26px;
+  left: 132px;
+  top: 1798px;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  z-index: 99;
+}
