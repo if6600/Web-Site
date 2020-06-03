@@ -1920,3 +1920,67 @@ div.blockdashed::after {
   top: 1205px;
   z-index: 100;
 }
+
+.figure5_5 {
+  position: absolute;
+  width: 69.33px;
+  left: 957px;
+  top: 1205px;
+  z-index: 100;
+}
+
+.figure5_6 {
+  position: absolute;
+  width: 69.33px;
+  left: 1134.4px;
+  top: 1205px;
+  z-index: 100;
+}
+
+.figure6_1 {
+  position: absolute;
+  width: 47.71px;
+  height: 48.46px;
+  left: 421px;
+  top: 1390px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.figure6_2 {
+  position: absolute;
+  width: 60px;
+  left: 599px;
+  top: 1386px;
+  z-index: 100;
+}
+
+.figure6_3 {
+  position: absolute;
+  width: 65px;
+  left: 777px;
+  top: 1383px;
+  z-index: 100;
+}
+
+.figure6_4 {
+  position: absolute;
+  width: 65px;
+  left: 960px;
+  top: 1381px;
+  z-index: 100;
+}
+
+.figure7_1 {
+  position: absolute;
+  width: 75px;
+  height: 74px;
+  left: 591px;
+  top: 1547px;
+  z-index: 100;
+}
+
+.figure7_2 {
+  
+}
