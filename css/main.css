@@ -1982,5 +1982,10 @@ div.blockdashed::after {
 }
 
 .figure7_2 {
-  
+  position: absolute;
+  width: 70px;
+  left: 775px;
+  top: 1555px;
+  z-index: 100;
+  transform: rotate(45deg);
 }
