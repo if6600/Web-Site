@@ -1989,3 +1989,11 @@ div.blockdashed::after {
   z-index: 100;
   transform: rotate(45deg);
 }
+
+.logofigure {
+  position: absolute;
+  width: 25px;
+  left: 90px;
+  top: 1798px;
+  z-index: 100;
+}
