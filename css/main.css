@@ -1709,3 +1709,23 @@ div.blockdashed::after {
   -webkit-text-stroke-color: black;
   z-index: 99;
 }
+
+.figure1 {
+  position: absolute;
+  width: 35.04px;
+  height: 63.37px;
+  left: 610.27px;
+  top: 498px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.figure2 {
+  position: absolute;
+  width: 65px;
+  left: 778px;
+  top: 497px;
+  z-index: 100;
+}
