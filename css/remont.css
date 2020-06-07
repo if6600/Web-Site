@@ -1,0 +1,70 @@
+.firstpage_block {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  color: black;
+}
+
+.remontname {
+  position: absolute;
+  width: 148px;
+  height: 63px;
+  left: 635px;
+  top: 312px;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 63px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 0.055em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.info {
+  position: absolute;
+  width: 504px;
+  height: 89px;
+  left: 468px;
+  top: 406px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.buttonstroke {
+  border: 1px solid black;
+}
+
+.button {
+  background-color: black;
+}
+
+.sparklename {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 704px;
+  top: 276px;
+}
+
+.sozvezdie1 {
+  position: absolute;
+  width: 230px;
+  left: 230px;
+  top: 136.52px;
+}

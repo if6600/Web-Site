@@ -20,3 +20,84 @@ main {
 body{
   margin: 0;
 }
+
+.menu {
+  font-family: AkzidenzGroteskPro;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.figuremenu {
+  position: absolute;
+  width: 33px;
+  left: 102px;
+  top: 31px;
+  cursor: pointer;
+}
+
+.buttonstroke {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 1312px;
+  top: 37px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.button {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 1317px;
+  top: 42px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.sparklemenu {
+  position: absolute;
+  width: 15px;
+  left: 77px;
+  top: 40px;
+  display:none;
+}
+
+.magazin {
+  position: absolute;
+  width: 44px;
+  height: 22px;
+  left: 223px;
+  top: 38px;
+}
+
+.katalog {
+  position: absolute;
+  width: 40px;
+  height: 22px;
+  left: 345px;
+  top: 38px;
+}
+
+.remont {
+  position: absolute;
+  width: 37px;
+  height: 22px;
+  left: 467px;
+  top: 39px;
+}
+
+.o_proekte {
+  position: absolute;
+  width: 52px;
+  height: 22px;
+  left: 586px;
+  top: 39px;
+}

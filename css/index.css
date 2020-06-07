@@ -660,18 +660,7 @@ div.blockdashed::after {
   top: 1642px;
   z-index: 99;
 }
-/*
-.slider {
-  position: absolute;
-  width: 1440px;
-  height: 713px;
-  opacity: 30%;
-  left: 0px;
-  top: 1643px;
-  background-color: gray;
-  z-index: 2;
-}
-*/
+
 .constellation1_1 {
   position: absolute;
   width: 15px;
