@@ -1,26 +1,3 @@
-@font-face{
-  font-family: 'AkzidenzGroteskPro';
-  src: url('../fonts/AkzidenzGroteskPro-BoldCn.otf');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: 'AkzidenzGroteskPro';
-  src: url('../fonts/AkzidenzGroteskPro-LightCn.otf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-main {
-  font-family: 'AkzidenzGroteskPro';
-  position: relative;
-}
-
-body{
-  margin: 0;
-}
-
 .firstpage_block {
   position: absolute;
   background-color: black;
