@@ -68,3 +68,82 @@
   left: 230px;
   top: 136.52px;
 }
+
+.sozvezdie2 {
+  position: absolute;
+  width: 330px;
+  left: 100px;
+  top: 520px;
+}
+
+.sozvezdie3 {
+  position: absolute;
+  width: 180px;
+  left: 969px;
+  top: 138px;
+}
+
+.sozvezdie4 {
+  position: absolute;
+  width: 330px;
+  left: 970px;
+  top: 530px;
+}
+
+.triangle {
+  position: absolute;
+  width: 35px;
+  left: 523px;
+  top: 184px;
+}
+
+.circle1 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 108px;
+  top: 395px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.circle2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 832px;
+  top: 174px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.circle3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 646px;
+  top: 607px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.circle4 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 1322px;
+  top: 351px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.romb {
+  position: absolute;
+  width: 30px;
+  left: 815px;
+  top: 680px;
+}
