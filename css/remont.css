@@ -147,3 +147,113 @@
   left: 815px;
   top: 680px;
 }
+
+.secondpage_block {
+  position: absolute;
+  background-color: black;
+  top: 821px;
+  width: 100%;
+  height: 100%;
+}
+
+.secondpage_block_name {
+  position: absolute;
+  width: 486px;
+  height: 94px;
+  left: 102px;
+  top: 60px;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 93.5%;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  letter-spacing: 0.055em;
+  display: flex;
+  align-items: center;
+}
+
+.secondpage_block_name2 {
+  position: absolute;
+  width: 385px;
+  height: 94px;
+  left: 102px;
+  top: 200px;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: white;
+  letter-spacing: 0.055em;
+  display: flex;
+  align-items: center;
+}
+
+.circ {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 652px;
+  top: 200px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.sparkle_secondpage {
+  position: absolute;
+  width: 28px;
+  left: 751px;
+  top: 350px;
+}
+
+.page_pic {
+  position: absolute;
+  width: 385px;
+  left: 905px;
+  top: 210px;
+}
+
+.counter_line {
+  position: absolute;
+  width: 263px;
+  left: 102px;
+  top: 420px;
+}
+
+.secondpage_block_info {
+  position: absolute;
+  width: 504px;
+  height: 48px;
+  left: 104px;
+  top: 606px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.secondpage_cost {
+  position: absolute;
+  width: 119px;
+  height: 16px;
+  left: 153px;
+  top: 1435px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
