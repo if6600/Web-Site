@@ -230,7 +230,7 @@
   width: 504px;
   height: 48px;
   left: 104px;
-  top: 606px;
+  top: 560px;
   font-family: Helvetica;
   font-style: normal;
   font-weight: 300;
@@ -246,7 +246,7 @@
   width: 119px;
   height: 16px;
   left: 153px;
-  top: 1435px;
+  top: 720px;
   font-family: Helvetica;
   font-style: normal;
   font-weight: 300;
@@ -257,3 +257,223 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+.secondpage_border {
+  position: absolute;
+  width: 223px;
+  height: 52px;
+  left: 101px;
+  top: 702px;
+  border-radius: 100%;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 26px;
+}
+
+.counter_circle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 102px;
+  top: 417px;
+  border-radius: 100%;
+  background: #000000;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.counter_cost {
+  position: absolute;
+  height: 57px;
+  left: 467px;
+  top: 417px;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 57px;
+  display: flex;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: white;
+  letter-spacing: 0.055em;
+  align-items: center;
+}
+
+.circle_planet1 {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  left: 1058px;
+  top: 145px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+
+.circle_planet2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 1083px;
+  top: 145px;
+  background: #FFFFFF;
+  border-radius: 100%;
+}
+
+.circle_planet3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 1108px;
+  top: 145px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+
+.circle_planet4 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 1133px;
+  top: 145px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+
+.circle_underplanet1 {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  left: 950px;
+  top: 650px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+
+.circle_underplanet2 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 1018px;
+  top: 665px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.circle_underplanet3 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 1086px;
+  top: 672px;
+  background: white;
+  border-radius: 100%;
+}
+
+.circle_underplanet4 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 1166px;
+  top: 665px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.circle_underplanet5 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 1238px;
+  top: 650px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.thirdpage_block {
+  position: absolute;
+  background-color: white;
+  top: 1640px;
+  width: 100%;
+  height: 100%;
+}
+
+.duga {
+  position: absolute;
+  width: 350px;
+  left: 920px;
+  top: 680px;
+}
+
+.info_underplanet {
+  position: absolute;
+  width: 65px;
+  height: 16px;
+  left: 1068px;
+  top: 760px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.picright {
+  position: absolute;
+  top: -20px;
+}
+
+.strelka {
+  position: absolute;
+  width: 30px;
+  left: 1000px;
+  top: 142px;
+  box-sizing: border-box;
+}
+
+.strelka2 {
+  position: absolute;
+  width: 30px;
+  left: 1170px;
+  top: 142px;
+  box-sizing: border-box;
+  transform: rotate(180deg);
+}
+
+.thirdpage_block_name {
+  position: absolute;
+  height: 51px;
+  left: 88px;
+  top: 55px;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 0.055em;
+  color: #FFFFFF;
+}
+
+.thirdpage_block_info {
+  position: absolute;
+  height: 72px;
+  left: 104px;
+  top: 456px;
+  font-family: Akzidenz-Grotesk Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.thirdpage_block_info {
