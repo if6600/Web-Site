@@ -1,0 +1,18 @@
+.firstpage_block {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  color: white;
+}
+
+.buttonstroke {
+  border: 1px solid white;
+}
+
+.button {
+  background-color: white;
+}
