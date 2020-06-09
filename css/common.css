@@ -12,26 +12,13 @@
   font-style: normal;
 }
 
-html {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 main {
   font-family: 'AkzidenzGroteskPro';
   position: relative;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-
 }
 
 body{
   margin: 0;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
 .menu {
