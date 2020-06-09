@@ -16,3 +16,269 @@
 .button {
   background-color: white;
 }
+
+.oproektename {
+  position: absolute;
+  width: 358px;
+  height: 63px;
+  left: 600px;
+  top: 312px;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 63px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.055em;
+  color: #000000;
+}
+
+.info {
+  position: absolute;
+  width: 507px;
+  height: 48px;
+  left: 462px;
+  top: 406px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.linestarname {
+  position: absolute;
+  width: 31px;
+  left: 702px;
+  top: 271.8px;
+  box-sizing: border-box;
+}
+
+.circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 229px;
+  top: 192px;
+  border-radius: 100%;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.circle2 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 646px;
+  top: 584px;
+  border-radius: 100%;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.circle3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 1139px;
+  top: 527.8px;
+  border-radius: 100%;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.sparkle {
+  position: absolute;
+  width: 337px;
+  left: 102px;
+  top: 388px;
+}
+
+.sparkle2 {
+  position: absolute;
+  width: 135px;
+  left: 352px;
+  top: 154px;
+}
+
+.sparkle3 {
+  position: absolute;
+  width: 385px;
+  left: 946px;
+  top: 89px;
+}
+
+.sparkle4 {
+  position: absolute;
+  width: 93px;
+  height: 90px;
+  left: 973px;
+  top: 606px;
+}
+
+.secondpage_block {
+  position: absolute;
+  background-color: white;
+  top: 821px;
+  width: 100%;
+  height: 110%;
+}
+
+.circlefon {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 1021px;
+  top: 639px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.sparklesfon {
+  position: absolute;
+  width: 44px;
+  left: 1246px;
+  top: 192px;
+}
+
+.web {
+  position: absolute;
+  height: 63px;
+  left: 832px;
+  top: 335px;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 0.055em;
+  color: #FFFFFF;
+}
+
+.about2 {
+  position: absolute;
+  width: 506px;
+  height: 35px;
+  left: 832px;
+  top: 438px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.thirdpage_block {
+  position: absolute;
+  background-color: black;
+  top: 1640px;
+  width: 100%;
+  height: 120%;
+}
+
+.kniga {
+  position: absolute;
+  width: 439px;
+  height: 63px;
+  left: 103px;
+  top: 335px;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  letter-spacing: 0.055em;
+  color: #000000;
+}
+
+.about3 {
+  position: absolute;
+  width: 494px;
+  height: 49px;
+  left: 105px;
+  top: 440px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.circlefon_2 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 529px;
+  top: 183px;
+  border-radius: 100%;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.circlefon_2_2 {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 474px;
+  top: 708px;
+  border-radius: 100%;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.sparkleincircle {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 217px;
+  top: 620px;
+}
+
+.sticker {
+  position: absolute;
+  width: 263px;
+  left: 80px;
+  top: 26px;
+  z-index: 99;
+}
+
+.sticker2 {
+  position: absolute;
+  width: 263px;
+  left: 1087px;
+  top: 563px;
+  z-index: 99;
+}
+
+.card {
+  position: absolute;
+  width: 477px;
+  left: 212px;
+  top: 117px;
+  z-index: 50;
+}
