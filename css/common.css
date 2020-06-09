@@ -21,6 +21,10 @@ html {
 main {
   font-family: 'AkzidenzGroteskPro';
   position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+
 }
 
 body{
