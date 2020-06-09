@@ -1118,7 +1118,7 @@ div.blockdashed::after {
   background-color: white;
   top: 2480px;
   width: 100%;
-  height: 100%;
+  height: 110%;
   z-index: 7;
 }
 
