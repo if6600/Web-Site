@@ -1964,3 +1964,31 @@ div.blockdashed::after {
   top: 1798px;
   z-index: 100;
 }
+
+.twitter {
+  position: absolute;
+  width: 55px;
+  left: 1010px;
+  top: 1785px;
+}
+
+.facebook {
+  position: absolute;
+  width: 24px;
+  left: 1120px;
+  top: 1785px;
+}
+
+.instagram {
+  position: absolute;
+  width: 45px;
+  left: 1200px;
+  top: 1785px;
+}
+
+.vk {
+  position: absolute;
+  width: 62px;
+  left: 1291px;
+  top: 1790px;
+}

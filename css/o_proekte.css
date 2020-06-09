@@ -282,3 +282,45 @@
   top: 117px;
   z-index: 50;
 }
+
+.card2 {
+  position: absolute;
+  width: 489px;
+  height: 628.71px;
+  left: 738px;
+  top: 87px;
+  z-index: 50;
+}
+
+.twitter {
+  position: absolute;
+  width: 55px;
+  left: 1010px;
+  top: 1783px;
+}
+
+.facebook {
+  position: absolute;
+  width: 24px;
+  left: 1120px;
+  top: 1783px;
+}
+
+.instagram {
+  position: absolute;
+  width: 45px;
+  left: 1200px;
+  top: 1783px;
+}
+
+.vk {
+  position: absolute;
+  width: 62px;
+  left: 1291px;
+  top: 1788px;
+}
+
+.description2 {
+  position: absolute;
+  top: -880px;
+}

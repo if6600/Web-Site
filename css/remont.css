@@ -606,3 +606,38 @@
   position: absolute;
   top: -970px;
 }
+
+.center {
+  position: absolute;
+  width: 280px;
+  left: 795.59px;
+  top: 345px;
+}
+
+.twitter {
+  position: absolute;
+  width: 55px;
+  left: 1010px;
+  top: 1783px;
+}
+
+.facebook {
+  position: absolute;
+  width: 24px;
+  left: 1120px;
+  top: 1783px;
+}
+
+.instagram {
+  position: absolute;
+  width: 45px;
+  left: 1200px;
+  top: 1783px;
+}
+
+.vk {
+  position: absolute;
+  width: 62px;
+  left: 1291px;
+  top: 1788px;
+}
