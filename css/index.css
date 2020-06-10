@@ -1992,3 +1992,1424 @@ div.blockdashed::after {
   left: 1291px;
   top: 1790px;
 }
+
+
+
+@media (max-width: 834px) {
+
+  .firstpage_block {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 110%;
+  }
+
+  .figurestarleft {
+    position: absolute;
+    top: -20px;
+  }
+
+  .menu {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .description {
+    top: -10px;
+  }
+
+  .description1_1 {
+    position: absolute;
+    top: -10px;
+  }
+
+  .info {
+    width: 362px;
+    height: 48px;
+    left: 236px;
+    top: 431px;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .buttonstroke{
+    width: 26px;
+    height: 26px;
+    left: 743px;
+    top: 31px;
+  }
+
+  .button {
+    width: 18px;
+    height: 18px;
+    left: 747px;
+    top: 35px;
+  }
+
+  .magazin {
+    width: 53px;
+    height: 22px;
+    left: 147px;
+    top: 29px;
+  }
+
+  .katalog {
+    width: 47px;
+    height: 22px;
+    left: 236px;
+    top: 31px;
+  }
+
+  .remont {
+    width: 43px;
+    height: 22px;
+    left: 319px;
+    top: 31px;
+  }
+
+  .o_proekte {
+    width: 63px;
+    height: 22px;
+    left: 407px;
+    top: 31px;
+  }
+
+  .faza {
+    width: 107px;
+    height: 60px;
+    left: 364px;
+    top: 281px;
+    letter-spacing: 0.055em;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .center {
+    font-size: 36px;
+    line-height: 45px;
+    width: 373px;
+    height: 45px;
+    left: 231px;
+    top: 342px;
+    -webkit-text-stroke-width: 0.8px;
+    letter-spacing: 0.055em;
+  }
+
+  .circlestrokeleft {
+    width: 10px;
+    height: 10px;
+    left: 288px;
+    top: 165px;
+  }
+
+  .circlefillleft {
+    width: 6px;
+    height: 6px;
+    left: 71px;
+    top: 199px;
+  }
+
+  .circlestrokeright {
+    width: 8px;
+    height: 8px;
+    left: 750px;
+    top: 238px;
+  }
+
+  .circlefillright {
+    width: 5px;
+    height: 5px;
+    left: 703px;
+    top: 350px;
+  }
+
+  .leftprice {
+    width: 52px;
+    height: 17px;
+    left: 237px;
+    top: 646px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .rightprice1 {
+    width: 49px;
+    height: 14px;
+    left: 517px;
+    top: 175px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .rightprice2 {
+    width: 69px;
+    height: 18px;
+    left: 425px;
+    top: 664px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .ellipseleft {
+    width: 350px;
+    height: 350px;
+    left: -76px;
+    top: 506px;
+  }
+
+  .ellipseleft2 {
+    width: 298px;
+    height: 298px;
+    left: -50px;
+    top: 532px;
+  }
+
+  .planet1 {
+    width: 119px;
+    height: 119px;
+    left: 544px;
+    top: 612px;
+  }
+
+  .planet2 {
+    width: 44px;
+    height: 44px;
+    left: 566px;
+    top: 637px;
+  }
+
+  .theway {
+    width: 559.3px;
+    height: 164.54px;
+    left: 495.48px;
+    top: 485px;
+  }
+
+  .theway_circle {
+    width: 23px;
+    height: 23px;
+    left: 649px;
+    top: 567px;
+  }
+
+  .theway_circle2 {
+    width: 7px;
+    height: 7px;
+    left: 695px;
+    top: 537px;
+  }
+
+  .theway_circle3 {
+    width: 5px;
+    height: 5px;
+    left: 731px;
+    top: 601px;
+  }
+
+  .theway_circle4 {
+    width: 5px;
+    height: 5px;
+    left: 792px;
+    top: 525px;
+  }
+
+  .theway_circle5 {
+    width: 10px;
+    height: 10px;
+    left: 800px;
+    top: 589px;
+  }
+
+  .star1 {
+    width: 90px;
+    height: 89px;
+    left: 54px;
+    top: 631px;
+  }
+
+  .sparkletheway {
+    width: 38px;
+    left: 734px;
+    top: 650px;
+  }
+
+  .sparkleleft {
+    width: 21px;
+    left: 367px;
+    top: 578px;
+  }
+
+  .sparkleright {
+    width: 31px;
+    height: 31px;
+    left: 100px;
+    top: 241px;
+  }
+
+  .sparklethewaygroup {
+    position: absolute;
+    width: 16px;
+    height: 19px;
+    left: 1326px;
+    top: 356px;
+    z-index: 99;
+  }
+
+  .star2 {
+    width: 160px;
+    left: 585px;
+    top: 92px;
+  }
+
+  .ramka {
+    width: 446px;
+    height: 89px;
+    left: 195px;
+    top: 408px;
+  }
+
+  .drop {
+    width: 11px;
+    left: 174px;
+    top: 291px;
+  }
+
+  .sparkles {
+    width: 25px;
+    left: 758px;
+    top: 498px;
+  }
+
+  .cost {
+    width: 106px;
+    height: 51px;
+    left: 407px;
+    top: 648px;
+  }
+
+  .costleft {
+    width: 106px;
+    height: 51px;
+    left: 210px;
+    top: 650px;
+  }
+
+  .costright {
+    width: 106px;
+    height: 51px;
+    left: 485px;
+    top: 157px;
+  }
+
+  .figuremenu {
+    width: 30px;
+    left: 65px;
+    top: 25px;
+  }
+
+  .figuremenu2 {
+    width: 31px;
+    height: 31px;
+    left: 404px;
+    top: 241px;
+  }
+
+  .planettheway {
+    top: -10px;
+  }
+
+  .duga {
+    width: 40px;
+    left: 493px;
+    top: 694px;
+  }
+
+  .sparkleright2 {
+    width: 15px;
+    left: 695px;
+    top: 640px;
+    z-index: 100;
+  }
+
+  .secondpage_block {
+    position: absolute;
+    background-color: white;
+    top: 821px;
+    width: 100%;
+    height: 116%;
+  }
+
+  .description2 {
+    position: absolute;
+    font-family: AkzidenzGroteskPro;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    z-index: 99;
+  }
+
+  .magazin2 {
+    width: 195px;
+    height: 60px;
+    left: 321px;
+    top: 84px;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .namestar {
+    width: 206px;
+    height: 29px;
+    left: 559px;
+    font-size: 36px;
+    line-height: 92.69%;
+    letter-spacing: 0.055em;
+  }
+
+  .info2 {
+    width: 84px;
+    height: 12px;
+    left: 619px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .ramka_2 {
+    width: 103px;
+    height: 33px;
+    left: 610px;
+  }
+
+  .kupit {
+    width: 36px;
+    height: 21px;
+    left: 644px;
+    top: 390px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .content_2page {
+    position: absolute;
+    top: 170px;
+  }
+
+  .figureundername {
+    width: 42px;
+    height: 42px;
+    left: 398px;
+    top: 33px;
+  }
+
+  .sparklemenu {
+    position: absolute;
+    width: 15px;
+    left: 77px;
+    top: 40px;
+    display:none;
+  }
+
+  .blockdashed {
+    width: 591px;
+    height: 582px;
+    left: 71px;
+  }
+
+  div.blockdashed::after {
+    background-position: 110px 20px;
+    background-size: 65%;
+    opacity: 0.1;
+    top: -10px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .krestik {
+    left: 62px;
+  }
+
+  .krestik2 {
+    position: absolute;
+    width: 19px;
+    left: 652px;
+    top: 1043px;
+  }
+
+  .krestik3 {
+    left: 62px;
+    top: 1624px;
+  }
+
+  .krestik4 {
+    left: 652px;
+    top: 1624px;
+  }
+
+  .constellation1 {
+    position: absolute;
+    left: -60px;
+  }
+
+  .constellation2 {
+    position: absolute;
+    left: -240px;
+  }
+
+  .constellation3 {
+    position: absolute;
+    left: -350px;
+  }
+
+  .constellation2_1 {
+    position: absolute;
+    left: -110px;
+  }
+
+  .constellation2_2 {
+    position: absolute;
+    left: -310px;
+  }
+
+  .constellation2_3 {
+    position: absolute;
+    left: -380px;
+  }
+
+  .constellation3_1 {
+    position: absolute;
+    left: -140px;
+  }
+
+  .constellation3_2 {
+    position: absolute;
+    left: -250px;
+  }
+
+  .constellation1_1 {
+    position: absolute;
+    width: 15px;
+    left: 159px;
+    top: 1016px;
+    z-index: 99;
+  }
+
+  .constellation1_2 {
+    position: absolute;
+    width: 34px;
+    left: 177px;
+    top: 1076px;
+    z-index: 99;
+  }
+
+  .constellation1_3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 245px;
+    top: 1042px;
+    background: white;
+    border-radius: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    z-index: 99;
+  }
+
+  .constellation1 {
+    position: absolute;
+    top: 100px;
+  }
+
+  .moon {
+    position: absolute;
+    width: 35px;
+    left: 249px;
+    top: 1090px;
+    z-index: 99;
+  }
+
+  .sputnuk {
+    position: absolute;
+    width: 53px;
+    left: 944px;
+    top: 1078px;
+    z-index: 99;
+  }
+
+  .sparkle_2page {
+    position: absolute;
+    width: 25px;
+    left: 908px;
+    top: 1003px;
+    z-index: 99;
+  }
+
+  .starwthcubes {
+    position: absolute;
+    width: 27px;
+    left: 846px;
+    top: 1053px;
+    z-index: 99;
+  }
+
+  .circleblackandwhite {
+    position: absolute;
+    width: 24px;
+    left: 821px;
+    top: 1128px;
+    z-index: 99;
+  }
+
+  .flower {
+    position: absolute;
+    width: 35px;
+    left: 525px;
+    top: 1077px;
+    z-index: 99;
+  }
+
+  .circlestar {
+    position: absolute;
+    width: 35px;
+    left: 596px;
+    top: 1040px;
+    z-index: 99;
+  }
+
+  .sparkles_2page {
+    position: absolute;
+    width: 30px;
+    left: 615px;
+    top: 1108px;
+    z-index: 99;
+  }
+
+  .circlepage2 {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 608px;
+    top: 1000px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    z-index: 99;
+  }
+
+  .bigplanet {
+    position: absolute;
+    width: 48px;
+    left: 260px;
+    top: 1300px;
+    z-index: 99;
+  }
+
+  .zvezda {
+    position: absolute;
+    width: 35px;
+    left: 300px;
+    top: 1150px;
+    z-index: 99;
+  }
+
+  .sparkleincircle {
+    position: absolute;
+    width: 38px;
+    left: 264px;
+    top: 1267.21px;
+    z-index: 99;
+  }
+
+  .kvadrat {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 224px;
+    top: 1233.21px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    z-index: 99;
+  }
+
+  .krestik_2page {
+    position: absolute;
+    width: 15px;
+    left: 260px;
+    top: 1190px;
+    z-index: 99;
+  }
+
+  .romb {
+    position: absolute;
+    width: 30px;
+    left: 767px;
+    top: 1243px;
+    z-index: 99;
+  }
+
+  .ellipse {
+    position: absolute;
+    width: 10px;
+    height: 17px;
+    left: 720px;
+    top: 1260.61px;
+    border-radius: 100%;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    transform: rotate(45deg);
+    z-index: 99;
+  }
+
+  .triangle {
+    position: absolute;
+    width: 14px;
+    left: 659px;
+    top: 1253px;
+    transform: rotate(-180deg);
+    z-index: 99;
+  }
+
+  .fillstar {
+    position: absolute;
+    width: 38px;
+    left: 946px;
+    top: 1239px;
+    z-index: 99;
+  }
+
+  .star_2page {
+    position: absolute;
+    width: 25px;
+    left: 903px;
+    top: 1213px;
+    z-index: 99;
+  }
+
+  .krestik_2page_2line {
+    position: absolute;
+    width: 20px;
+    left: 926.81px;
+    top: 1310px;
+    z-index: 99;
+  }
+
+  .str_2page_3line {
+    position: absolute;
+    width: 40px;
+    left: 110px;
+    top: 1544px;
+    z-index: 99;
+  }
+
+  .blackcircles {
+    position: absolute;
+    width: 30px;
+    left: 335px;
+    top: 1363.38px;
+    z-index: 99;
+  }
+
+  .linestar {
+    position: absolute;
+    width: 33px;
+    left: 372px;
+    top: 1430px;
+    z-index: 99;
+  }
+
+  .blackellipse {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 429px;
+    top: 1367.38px;
+    border-radius: 100%;
+    background: #000000;
+    z-index: 99;
+  }
+
+  .twocircles {
+    position: absolute;
+    width: 30px;
+    left: 460px;
+    top: 1444.38px;
+    z-index: 99;
+  }
+
+  .strway {
+    position: absolute;
+    width: 40px;
+    left: 478px;
+    top: 1320px;
+    z-index: 99;
+  }
+
+  .trianglestar {
+    position: absolute;
+    width: 34px;
+    left: 739px;
+    top: 1372px;
+    z-index: 99;
+  }
+
+  .sparkincirc2 {
+    position: absolute;
+    width: 30px;
+    left: 688px;
+    top: 1410px;
+    z-index: 99;
+  }
+
+  .trianglewithfill {
+    position: absolute;
+    width: 30px;
+    left: 647px;
+    top: 1357px;
+    z-index: 99;
+  }
+
+  .line1_1 {
+    position: absolute;
+    top: 1133px;
+    left: 110px;
+    width: 71px;
+    z-index: 99;
+  }
+
+  .line1_2 {
+    position: absolute;
+    left: 317px;
+    top: 1108px;
+    width: 69px;
+    z-index: 99;
+  }
+
+  .line1_3 {
+    position: absolute;
+    left: 485px;
+    top: 1126px;
+    width: 120px;
+    z-index: 99;
+  }
+
+  .line2_1 {
+    position: absolute;
+    left: 108px;
+    top: 1273px;
+    width: 110px;
+    z-index: 99;
+  }
+
+  .line2_2 {
+    position: absolute;
+    left: 362px;
+    top: 1354px;
+    width: 100px;
+    z-index: 99;
+  }
+
+  .line3_1 {
+    position: absolute;
+    left: 211px;
+    top: 1447px;
+    width: 130px;
+    z-index: 99;
+  }
+
+  .line3_2 {
+    position: absolute;
+    left: 422px;
+    top: 1535px;
+    width: 70px;
+    z-index: 99;
+  }
+
+  .line3_3 {
+    position: absolute;
+    left: 546px;
+    top: 1403px;
+    width: 40px;
+    z-index: 99;
+  }
+
+  .picblock {
+    position: absolute;
+    top: 1770px;
+    width: 100%;
+    height: 713px;
+    background: url("../img/slider.png");
+    z-index: 8;
+  }
+
+  .sumka {
+    width: 121px;
+    height: 60px;
+    left: 72px;
+    top: 2276px;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .about {
+    width: 191px;
+    height: 36px;
+    left: 236px;
+    top: 2288px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .strelka {
+    width: 30px;
+    left: 95px;
+    top: 2027px;
+  }
+
+  .strelka2 {
+    width: 30px;
+    left: 740px;
+    top: 2027px;
+  }
+
+  .fourpage_block {
+    position: absolute;
+    background-color: white;
+    top: 2480px;
+    width: 100%;
+    height: 110%;
+    z-index: 7;
+  }
+
+  .katalog_4 {
+    width: 165px;
+    height: 60px;
+    left: 334px;
+    top: 111px;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .circleblackandwhite2 {
+    width: 34px;
+    height: 34px;
+    left: 400px;
+    top: 54px;
+  }
+
+  .katalog_info {
+    width: 362px;
+    height: 24px;
+    left: 236px;
+    top: 197px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .cubemenu {
+    width: 54px;
+    height: 52px;
+    left: 322px;
+    top: 298px;
+  }
+
+  .cubemenu2 {
+    width: 55px;
+    height: 52px;
+    left: 391px;
+    top: 298px;
+  }
+
+  .cubemenu3 {
+    width: 54px;
+    height: 52px;
+    left: 459px;
+    top: 298px;
+  }
+
+  .bubble {
+    width: 33px;
+    height: 33px;
+    left: 539px;
+    top: 266px;
+  }
+
+  .vopros {
+    width: 11px;
+    height: 16px;
+    left: 550px;
+    top: 274px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .krestikcube {
+    width: 20px;
+    height: 20px;
+    left: 339px;
+    top: 314px;
+  }
+
+  .sparklecube {
+    width: 24px;
+    height: 22px;
+    left: 407px;
+    top: 313px;
+  }
+
+  .circlestarcube {
+    width: 29px;
+    height: 28px;
+    left: 472px;
+    top: 310px;
+  }
+
+  .katalog_fonpic {
+    width: 639.98px;
+    left: 97px;
+    top: 516px;
+  }
+
+  .cubekatalog {
+    width: 118px;
+    height: 118px;
+    left: 361px;
+    top: 442px;
+  }
+
+  .cubekatalog2 {
+    width: 118px;
+    height: 118px;
+    left: 224px;
+    top: 523px;
+  }
+
+  .cubekatalog2_1 {
+    width: 118px;
+    height: 118px;
+    left: 87px;
+    top: 573px;
+  }
+
+  .cubekatalog2_2 {
+    width: 118px;
+    height: 118px;
+    left: 87px;
+    top: 706px;
+  }
+
+  .cubekatalog2_3 {
+    width: 118px;
+    height: 118px;
+    left: 87px;
+    top: 840px;
+  }
+
+  .cubekatalog2_4 {
+    width: 118px;
+    height: 118px;
+    left: 87px;
+    top: 971px;
+  }
+
+  .cubekatalog3_1 {
+    width: 118px;
+    height: 118px;
+    left: 87px;
+    top: 1103px;
+  }
+
+  .cubekatalog3_2 {
+    width: 118px;
+    height: 118px;
+    left: 225px;
+    top: 655px;
+  }
+
+  .cubekatalog3_3 {
+    width: 118px;
+    height: 118px;
+    left: 225px;
+    top: 788px;
+  }
+
+  .cubekatalog3_4 {
+    width: 118px;
+    height: 118px;
+    left: 225px;
+    top: 920px;
+  }
+
+  .cubekatalog3_5 {
+    width: 118px;
+    height: 118px;
+    left: 225px;
+    top: 1053px;
+  }
+
+  .cubekatalog3_6 {
+    width: 118px;
+    height: 118px;
+    left: 225px;
+    top: 1185px;
+  }
+
+  .cubekatalog4_1 {
+    width: 118px;
+    height: 118px;
+    left: 361px;
+    top: 573px;
+  }
+
+  .cubekatalog4_2 {
+    width: 118px;
+    height: 118px;
+    left: 361px;
+    top: 706px;
+  }
+
+  .cubekatalog4_3 {
+    width: 118px;
+    height: 118px;
+    left: 361px;
+    top: 839px;
+  }
+
+  .cubekatalog4_4 {
+    width: 118px;
+    height: 118px;
+    left: 361px;
+    top: 971px;
+  }
+
+  .cubekatalog4_5 {
+    width: 118px;
+    height: 118px;
+    left: 361px;
+    top: 1104px;
+  }
+
+  .cubekatalog4_6 {
+    width: 118px;
+    height: 118px;
+    left: 361px;
+    top: 1236px;
+  }
+
+  .cubekatalog5_1 {
+    width: 118px;
+    height: 118px;
+    left: 361px;
+    top: 1367px;
+  }
+
+  .cubekatalog5_2 {
+    width: 118px;
+    height: 118px;
+    left: 494px;
+    top: 523px;
+  }
+
+  .cubekatalog5_3 {
+    width: 118px;
+    height: 118px;
+    left: 494px;
+    top: 655px;
+  }
+
+  .cubekatalog5_4 {
+    width: 118px;
+    height: 118px;
+    left: 494px;
+    top: 788px;
+  }
+
+  .cubekatalog5_5 {
+    width: 118px;
+    height: 118px;
+    left: 494px;
+    top: 920px;
+  }
+
+  .cubekatalog5_6 {
+    width: 118px;
+    height: 118px;
+    left: 494px;
+    top: 1053px;
+  }
+
+  .cubekatalog6_2 {
+    width: 118px;
+    height: 118px;
+    left: 494px;
+    top: 1185px;
+  }
+
+  .cubekatalog6_3 {
+    width: 120px;
+    height: 118px;
+    left: 633px;
+    top: 573px;
+  }
+
+  .cubekatalog6_4 {
+    width: 120px;
+    height: 118px;
+    left: 633px;
+    top: 706px;
+  }
+
+  .cubekatalog6_5 {
+    width: 120px;
+    height: 118px;
+    left: 633px;
+    top: 840px;
+  }
+
+  .cubekatalog7_3 {
+    width: 120px;
+    height: 118px;
+    left: 633px;
+    top: 971px;
+  }
+
+  .cubekatalog7_4 {
+    width: 120px;
+    height: 118px;
+    left: 633px;
+    top: 1103px;
+  }
+
+
+  .mail {
+    width: 59px;
+    height: 14px;
+    left: 236px;
+    top: 1557px;
+    font-size: 14px;
+    line-height: 12px;
+  }
+
+  .telefon {
+    width: 72px;
+    height: 13px;
+    left: 407px;
+    top: 1557px;
+    font-size: 14px;
+    line-height: 12px;
+  }
+
+  .logo {
+    width: 12px;
+    height: 12px;
+    left: 115px;
+    top: 1556px;
+    font-size: 36px;
+    line-height: 15px;
+    -webkit-text-stroke-width: 1px;
+  }
+
+  .figure1 {
+    width: 35px;
+    left: 402px;
+    top: 1132px;
+  }
+
+  .figure2 {
+    left: 663px;
+    top: 865px;
+  }
+
+  .figure2_1 {
+    left: 254px;
+    top: 553px;
+  }
+
+  .figure2_2 {
+    width: 58px;
+    height: 58px;
+    left: 391px;
+    top: 472px;
+  }
+
+  .figure2_2_2 {
+    width: 41px;
+    height: 41px;
+    left: 400px;
+    top: 480px;
+  }
+
+  .figure2_3 {
+    width: 59px;
+    left: 524px;
+    top: 555px;
+  }
+
+  .figure2_4 {
+    left: 525px;
+    top: 950px;
+  }
+
+  .figure3_1 {
+    width: 45px;
+    left: 262px;
+    top: 1090px;
+  }
+
+  .figure3_2 {
+    width: 58px;
+    height: 58px;
+    left: 117px;
+    top: 603px;
+  }
+
+  .figure3_3 {
+    width: 58px;
+    height: 57px;
+    left: 391px;
+    top: 606px;
+  }
+
+  .figure3_4 {
+    width: 65px;
+    left: 661px;
+    top: 599px;
+  }
+
+  .figure3_5 {
+    left: 391px;
+    top: 1267px;
+  }
+
+  .figure3_6 {
+    width: 63px;
+    left: 522px;
+    top: 1080px;
+  }
+
+  .figure4_1 {
+    width: 55px;
+    height: 62px;
+    left: 258px;
+    top: 1214px;
+  }
+
+  .figure4_2 {
+    left: 115px;
+    top: 1127px;
+  }
+
+  .figure4_3 {
+    left: 253px;
+    top: 684px;
+  }
+
+  .figure4_4 {
+    width: 73px;
+    left: 384px;
+    top: 728px;
+  }
+
+  .figure4_5 {
+    left: 520px;
+    top: 667px;
+  }
+
+  .figure4_6 {
+    left: 254px;
+    top: 819px;
+  }
+
+  .figure5_1 {
+    left: 119px;
+    top: 1002px;
+  }
+
+  .figure5_2 {
+    left: 90px;
+    top: 695px;
+  }
+
+  .figure5_3 {
+    left: 390px;
+    top: 875px;
+  }
+
+  .figure5_4 {
+    left: 386px;
+    top: 996px;
+  }
+
+  .figure5_5 {
+    left: 658px;
+    top: 995px;
+  }
+
+  .figure5_6 {
+    left: 520px;
+    top: 1209px;
+  }
+
+  .figure6_1 {
+    left: 670px;
+    top: 1137px;
+  }
+
+  .figure6_2 {
+    left: 117px;
+    top: 871px;
+  }
+
+  .figure6_3 {
+    left: 660px;
+    top: 733px;
+  }
+
+  .figure6_4 {
+    left: 523px;
+    top: 815px;
+  }
+
+  .figure7_1 {
+    left: 383px;
+    top: 1389px;
+  }
+
+  .figure7_2 {
+    left: 250px;
+    top: 950px;
+  }
+
+  .logofigure {
+    width: 35px;
+    left: 65px;
+    top: 1545px;
+  }
+
+  .twitter {
+    width: 51px;
+    left: 550px;
+    top: 1541px;
+  }
+
+  .facebook {
+    left: 625px;
+    top: 1539px;
+  }
+
+  .instagram {
+    left: 675px;
+    top: 1541px;
+  }
+
+  .vk {
+    left: 738px;
+    top: 1544px;
+  }
+
+}
