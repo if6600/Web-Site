@@ -275,14 +275,6 @@
   z-index: 99;
 }
 
-.card {
-  position: absolute;
-  width: 477px;
-  left: 212px;
-  top: 117px;
-  z-index: 50;
-}
-
 .card2 {
   position: absolute;
   width: 489px;
@@ -387,4 +379,88 @@
   -webkit-text-stroke-width: 0.7px;
   -webkit-text-stroke-color: white;
   z-index: 99;
+}
+
+.card {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+  z-index: 50;
+}
+
+  .card:hover .oborot1,
+  .card.hover .oborot1 {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  }
+
+.card, .magedsan, .oborot2 {
+  position: absolute;
+  left: 212px;
+  top: 112px;
+  width: 477px;
+  height: 613px;
+}
+
+.oborot1 {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.magedsan, .oborot2 {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.magedsan {
+  content: "";
+  position: absolute;
+  width: 477px;
+  height: 613px;
+  background-image: url('../img/card1.png');
+  background-repeat: no-repeat;
+  background-position: 0 0px;
+  background-size: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.oborot2 {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  oborot2ground: #f8f8f8;
+}
+
+.gepukod-kesvegan {
+  content: "";
+  position: absolute;
+  width: 477px;
+  height: 613px;
+  background-image: url('../img/card1ob.png');
+  background-repeat: no-repeat;
+  background-position: 0 0px;
+  background-size: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
