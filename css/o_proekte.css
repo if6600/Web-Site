@@ -397,7 +397,7 @@
   transform: rotateY(180deg);
   }
 
-.card, .magedsan, .oborot2 {
+.card, .pic1, .oborot2 {
   position: absolute;
   left: 212px;
   top: 112px;
@@ -417,7 +417,7 @@
   position: relative;
 }
 
-.magedsan, .oborot2 {
+.pic1, .oborot2 {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -427,7 +427,7 @@ position: absolute;
   left: 0;
 }
 
-.magedsan {
+.pic1 {
   content: "";
   position: absolute;
   width: 477px;
@@ -450,12 +450,97 @@ position: absolute;
   oborot2ground: #f8f8f8;
 }
 
-.gepukod-kesvegan {
+.pic2 {
   content: "";
   position: absolute;
   width: 477px;
   height: 613px;
   background-image: url('../img/card1ob.png');
+  background-repeat: no-repeat;
+  background-position: 0 0px;
+  background-size: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+.card2 {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+  z-index: 50;
+}
+
+  .card2:hover .oborot1_2,
+  .card2.hover .oborot1_2 {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  }
+
+.card2, .pic1_2, .oborot2_2 {
+  position: absolute;
+  left: 730px;
+  top: 87px;
+  width: 477px;
+  height: 613px;
+}
+
+.oborot1_2 {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.pic1_2, .oborot2_2 {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pic1_2 {
+  content: "";
+  position: absolute;
+  width: 477px;
+  height: 613px;
+  background-image: url('../img/card2.png');
+  background-repeat: no-repeat;
+  background-position: 0 0px;
+  background-size: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.oborot2_2 {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  oborot2ground: #f8f8f8;
+}
+
+.pic2_2 {
+  content: "";
+  position: absolute;
+  width: 477px;
+  height: 613px;
+  background-image: url('../img/card2ob.png');
   background-repeat: no-repeat;
   background-position: 0 0px;
   background-size: 100%;
