@@ -54,7 +54,6 @@ var multiItemSlider = (function () {
       _sliderWrapper.style.transform = 'translateX(' + _transform + '%)';
     }
 
-    // обработчик события click для кнопок "назад" и "вперед"
     var _controlClick = function (e) {
       if (e.target.classList.contains('slider__control')) {
         e.preventDefault();
@@ -64,7 +63,6 @@ var multiItemSlider = (function () {
     };
 
     var _setUpListeners = function () {
-      // добавление к кнопкам "назад" и "вперед" обрботчика _controlClick для событя click
       _sliderControls.forEach(function (item) {
         item.addEventListener('click', _controlClick);
       });
@@ -86,3 +84,27 @@ var multiItemSlider = (function () {
 }());
 
 var slider = multiItemSlider('.slider')
+
+let circleAnimation = anime({
+  targets: '.constellation1_1, .constellation1_2, .constellation1_3',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo'
+})
+
+// Счетчик с изменением цвета по клику
+var onclickOnPlanet = 0
+document.getElementById('button').onclick = changeColor
+    function changeColor() {
+      onclickOnPlanet++
+      if (onclickOnPlanet % 2 === 0) {
+        document.body.style.filter = 'invert(0%) sepia(0%) saturate(0%) hue-rotate(254deg) brightness(100%) contrast(100%)'
+        document.body.style.backgroundColor = 'white'
+        document.body.style.transition = '1000ms'
+      } else {
+        document.body.style.filter = 'invert(100%) sepia(0%) saturate(0%) hue-rotate(322deg) brightness(100%) contrast(100%)'
+        document.body.style.backgroundColor = 'black'
+        document.body.style.transition = '1000ms'
+      }
+    }

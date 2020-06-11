@@ -5,6 +5,16 @@
   height: 100%;
 }
 
+a {
+ text-decoration: none;
+ color: white;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+
 .menu {
   color: white;
 }
