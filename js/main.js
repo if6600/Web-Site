@@ -85,12 +85,347 @@ var multiItemSlider = (function () {
 
 var slider = multiItemSlider('.slider')
 
-let circleAnimation = anime({
-  targets: '.constellation1_1, .constellation1_2, .constellation1_3',
+let star1Animation1 = anime({
+  targets: '#constellation1_1',
+  scale: 1.7,
+  rotate: {
+    value: -90,
+    duration: 1000,
+    easing: 'easeInOutExpo'
+  },
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star1Animation2 = anime({
+  targets: '#constellation1_2',
   scale: 1.7,
   direction: 'alternate',
   duration: 1000,
-  easing: 'easeInOutExpo'
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star1Animation3 = anime({
+  targets: '#constellation1_3',
+  scale: 1.5,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star2Animation1 = anime({
+  targets: '#constellation2_1',
+  scale: 1.7,
+  rotate: {
+    value: -90,
+    duration: 1000,
+    easing: 'easeInOutExpo'
+  },
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star2Animation2 = anime({
+  targets: '#constellation2_2',
+  scale: 1.5,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star2Animation3 = anime({
+  targets: '#constellation2_3',
+  scale: 1.5,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star2Animation4 = anime({
+  targets: '#constellation2_4',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star3Animation1 = anime({
+  targets: '#constellation3_1',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star3Animation2 = anime({
+  targets: '#constellation3_2',
+  scale: 1.7,
+  rotate: {
+    value: -90,
+    duration: 1000,
+    easing: 'easeInOutExpo'
+  },
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star3Animation3 = anime({
+  targets: '#constellation3_3',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star3Animation4 = anime({
+  targets: '#constellation3_4',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star4Animation1 = anime({
+  targets: '#constellation4_1',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star4Animation2 = anime({
+  targets: '#constellation4_2',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star4Animation3 = anime({
+  targets: '#constellation4_3',
+  scale: 1.7,
+  rotate: {
+    value: -90,
+    duration: 1000,
+    easing: 'easeInOutExpo'
+  },
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star4Animation4 = anime({
+  targets: '#constellation4_4',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star5Animation1 = anime({
+  targets: '#constellation5_1',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star5Animation2 = anime({
+  targets: '#constellation5_2',
+  scale: 1.7,
+  rotate: {
+    value: -180,
+    duration: 1000,
+    easing: 'easeInOutExpo'
+  },
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star5Animation3 = anime({
+  targets: '#constellation5_3',
+  scale: 1.7,
+  rotate: {
+    value: -90,
+    duration: 1000,
+    easing: 'easeInOutExpo'
+  },
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star6Animation1 = anime({
+  targets: '#constellation6_1',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star6Animation2 = anime({
+  targets: '#constellation6_2',
+  scale: 1.7,
+  rotate: {
+    value: -180,
+    duration: 1000,
+    easing: 'easeInOutExpo'
+  },
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star6Animation3 = anime({
+  targets: '#constellation6_3',
+  scale: 1.7,
+  rotate: {
+    value: -90,
+    duration: 1000,
+    easing: 'easeInOutExpo'
+  },
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star7Animation1 = anime({
+  targets: '#constellation7_1',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star7Animation2 = anime({
+  targets: '#constellation7_2',
+  scale: 1.7,
+  rotate: {
+    value: -205,
+    duration: 1000,
+    easing: 'easeInOutExpo'
+  },
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star7Animation3 = anime({
+  targets: '#constellation7_3',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star7Animation4 = anime({
+  targets: '#constellation7_4',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star7Animation5 = anime({
+  targets: '#constellation7_5',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star8Animation1 = anime({
+  targets: '#constellation8_1',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star8Animation2 = anime({
+  targets: '#constellation8_2',
+  scale: 1.7,
+  rotate: {
+    value: -90,
+    duration: 1000,
+    easing: 'easeInOutExpo'
+  },
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star8Animation3 = anime({
+  targets: '#constellation8_3',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star9Animation1 = anime({
+  targets: '#constellation9_1',
+  scale: 1.7,
+  rotate: {
+    value: -180,
+    duration: 1000,
+    easing: 'easeInOutExpo'
+  },
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star9Animation2 = anime({
+  targets: '#constellation9_2',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
+})
+
+let star9Animation3 = anime({
+  targets: '#constellation9_3',
+  scale: 1.7,
+  direction: 'alternate',
+  duration: 1000,
+  easing: 'easeInOutExpo',
+  autoplay: false
 })
 
 // Счетчик с изменением цвета по клику
@@ -108,3 +443,55 @@ document.getElementById('button').onclick = changeColor
         document.body.style.transition = '1000ms'
       }
     }
+
+            // Массив объектов. Каждый объект в массиве - звезда с ценой, массивом анимаций и селектором
+            let stars = [
+              {
+                'namestar': 'Алькор',
+                'animations': [star1Animation1],
+                'selector': '.constellation1_1'
+              },
+              {
+                'namestar': 'Андромеда',
+                'animations': [star1Animation2],
+                'selector': '.constellation1_2'
+              },
+              {
+                'namestar': 'Титавин',
+                'animations': [star1Animation3],
+                'selector': '.constellation1_3'
+              },
+              {
+                'namestar': 'Кастор',
+                'animations': [star2Animation1],
+                'selector': '.flower'
+              },
+              {
+                'namestar': 'Поллукс',
+                'animations': [star2Animation2],
+                'selector': '.circlestar'
+              }
+
+            ]
+
+          // Цикл по массиву звезд
+          stars.forEach((item_g) => {
+            let complex_stars = Array.from(document.querySelectorAll(item_g['selector']));
+            let namestar = document.getElementById('namestar');
+            // Цикл по примитивам, составляющим звезду
+            complex_stars.forEach((item_l, i_l) => {
+              item_l.addEventListener('mouseover', () => {
+                namestar.textContent = item_g['namestar']; // Вывод цены
+                item_g['animations'].map((animation) => animation.play()); // Инициализация анимаций примитивов
+              });
+            });
+
+            // Цикл по примитивам, составляющим звезду
+            complex_stars.forEach((item_l2) => {
+              item_l2.addEventListener("mouseleave", () => {
+                namestar.textContent = '';
+                item_g['animations'].map((animation) => {animation.seek(0); animation.pause();});
+              });
+            });
+
+            });
