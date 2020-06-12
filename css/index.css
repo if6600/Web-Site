@@ -2031,9 +2031,8 @@ div.blockdashed::after {
   align-items: center;
   justify-content: center;
   width: 40px;
-  color: #fff;
+  color: white;
   text-align: center;
-  opacity: 0.5;
   height: 30px;
   transform: translateY(-50%);
 }
@@ -2044,10 +2043,9 @@ div.blockdashed::after {
 
 .slider__control:hover,
 .slider__control:focus {
-  color: #fff;
+  color: white;
   text-decoration: none;
-  outline: 0;
-  opacity: .9;
+  outline: 2;
 }
 
 .slider__control_left {
