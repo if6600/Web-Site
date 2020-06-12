@@ -273,6 +273,7 @@ a:hover {
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
   padding: 8px 53px;
+  cursor: pointer;
 }
 
 .secondpage_cost:hover {
@@ -532,6 +533,7 @@ a:hover {
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
   padding: 8px 24px;
+  cursor: pointer;
 }
 
 .thirdpage_block_map:hover {

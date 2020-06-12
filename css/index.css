@@ -541,6 +541,8 @@ a:hover {
   font-size: 36px;
   line-height: 92.69%;
   color: white;
+  align-items: center;
+  text-align: center;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   letter-spacing: 0.055em;
@@ -556,7 +558,7 @@ a:hover {
 
 .info2 {
   position: absolute;
-  width: 115px;
+  width: 120px;
   height: 16px;
   left: 1089px;
   top: 342px;
@@ -569,6 +571,13 @@ a:hover {
   align-items: center;
   text-align: center;
   z-index: 99;
+}
+
+#info2 {
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  min-width: 100%;
 }
 
 .kupit {
@@ -594,6 +603,7 @@ a:hover {
   -moz-transition: all .3s linear;
   padding: 8px 40px;
   z-index: 99;
+  cursor: pointer;
 }
 
 .kupit:hover {
@@ -718,9 +728,6 @@ div.blockdashed::after {
   top: 100px;
 }
 
-.constellation1_line1 {
-}
-
 .moon {
   position: absolute;
   width: 35px;
@@ -833,6 +840,16 @@ div.blockdashed::after {
   z-index: 99;
 }
 
+.kvadrat:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: -20px;
+  left: -50px;
+  right: -50px;
+  bottom: -30px;
+}
+
 .krestik_2page {
   position: absolute;
   width: 15px;
@@ -928,6 +945,16 @@ div.blockdashed::after {
   border-radius: 100%;
   background: #000000;
   z-index: 99;
+}
+
+.blackellipse:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: -40px;
+  left: -40px;
+  right: -40px;
+  bottom: -20px;
 }
 
 .twocircles {
@@ -1277,6 +1304,7 @@ div.blockdashed::after {
   width: 42px;
   left: 794px;
   top: 326px;
+  cursor: pointer;
 }
 
 .katalog_fonpic {

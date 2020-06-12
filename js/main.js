@@ -447,48 +447,216 @@ document.getElementById('button').onclick = changeColor
             // Массив объектов. Каждый объект в массиве - звезда с ценой, массивом анимаций и селектором
             let stars = [
               {
+                'info2': 'Светит ярче всех',
                 'namestar': 'Алькор',
                 'animations': [star1Animation1],
                 'selector': '.constellation1_1'
               },
               {
+                'info2': 'Горячая комета',
                 'namestar': 'Андромеда',
                 'animations': [star1Animation2],
                 'selector': '.constellation1_2'
               },
               {
+                'info2': 'Очень холодная',
                 'namestar': 'Титавин',
                 'animations': [star1Animation3],
                 'selector': '.constellation1_3'
               },
               {
+                'info2': 'Принимает разные формы',
                 'namestar': 'Кастор',
                 'animations': [star2Animation1],
                 'selector': '.flower'
               },
               {
+                'info2': 'Полярная звезда',
                 'namestar': 'Поллукс',
                 'animations': [star2Animation2],
                 'selector': '.circlestar'
+              },
+              {
+                'info2': 'Блестящая',
+                'namestar': 'Альхена',
+                'animations': [star2Animation3],
+                'selector': '.sparkles_2page'
+              },
+              {
+                'info2': 'Самая малая звезда космоса',
+                'namestar': 'Мебсута',
+                'animations': [star2Animation4],
+                'selector': '.circlepage2'
+              },
+              {
+                'info2': 'Выглядит как спутник',
+                'namestar': 'Убхе',
+                'animations': [star3Animation1],
+                'selector': '.sputnuk'
+              },
+              {
+                'info2': 'Имеет острые углы',
+                'namestar': 'Альзир',
+                'animations': [star3Animation2],
+                'selector': '.sparkle_2page'
+              },
+              {
+                'info2': 'Постоянно меняет свое местополежение',
+                'namestar': 'Интеркрус',
+                'animations': [star3Animation3],
+                'selector': '.starwthcubes'
+              },
+              {
+                'info2': 'Тепло-холодная',
+                'namestar': 'Мицар',
+                'animations': [star3Animation4],
+                'selector': '.circleblackandwhite'
+              },
+              {
+                'info2': 'Падающая звезда',
+                'namestar': 'Алкаид',
+                'animations': [star4Animation1],
+                'selector': '.zvezda'
+              },
+              {
+                'info2': 'Очень хрупкая',
+                'namestar': 'Тания',
+                'animations': [star4Animation2],
+                'selector': '.sparkleincircle'
+              },
+              {
+                'info2': 'Постоянно меняет цвет',
+                'namestar': 'Новая Звезда',
+                'animations': [star4Animation3],
+                'selector': '.kvadrat'
+              },
+              {
+                'info2': 'Иногда становится прозрачной',
+                'namestar': 'Сириус',
+                'animations': [star4Animation4],
+                'selector': '.krestik_2page'
+              },
+              {
+                'info2': 'Выполняет функцию ночника',
+                'namestar': 'Адара',
+                'animations': [star5Animation1],
+                'selector': '.romb'
+              },
+              {
+                'info2': 'Мягкая',
+                'namestar': 'Исида',
+                'animations': [star5Animation2],
+                'selector': '.ellipse'
+              },
+              {
+                'info2': 'Собирает частицы пыли',
+                'namestar': 'Брахиум',
+                'animations': [star5Animation3],
+                'selector': '.triangle'
+              },
+              {
+                'info2': 'Не видно ночью',
+                'namestar': 'Садахбия',
+                'animations': [star6Animation1],
+                'selector': '.fillstar'
+              },
+              {
+                'info2': 'Светит только днем',
+                'namestar': 'Лэи',
+                'animations': [star6Animation3],
+                'selector': '.krestik_2page_2line'
+              },
+              {
+                'info2': 'Бледное сияние',
+                'namestar': 'Ситула',
+                'animations': [star6Animation2],
+                'selector': '.star_2page'
+              },
+              {
+                'info2': 'Размером как планета',
+                'namestar': 'Анха',
+                'animations': [star7Animation1],
+                'selector': '.blackcircles'
+              },
+              {
+                'info2': 'Часто трескается',
+                'namestar': 'Кластер',
+                'animations': [star7Animation2],
+                'selector': '.linestar'
+              },
+              {
+                'info2': 'Умеет рассыпаться на мелкие частицы',
+                'namestar': 'Менкалинан',
+                'animations': [star7Animation3],
+                'selector': '.blackellipse'
+              },
+              {
+                'info2': 'Две сросшиеся звезды',
+                'namestar': 'Хедус',
+                'animations': [star7Animation4],
+                'selector': '.twocircles'
+              },
+              {
+                'info2': 'Оставляет за собой светящийся след',
+                'namestar': 'Кастула',
+                'animations': [star7Animation5],
+                'selector': '.strway'
+              },
+              {
+                'info2': 'Умеет менять свой размер',
+                'namestar': 'Прайя',
+                'animations': [star8Animation1],
+                'selector': '.trianglestar'
+              },
+              {
+                'info2': 'Сложно поймать',
+                'namestar': 'Неккар',
+                'animations': [star8Animation2],
+                'selector': '.sparkincirc2'
+              },
+              {
+                'info2': 'Собирает частицы звезд',
+                'namestar': 'Огма',
+                'animations': [star8Animation3],
+                'selector': '.trianglewithfill'
+              },
+              {
+                'info2': 'Больная звезда',
+                'namestar': 'Минхир',
+                'animations': [star9Animation1],
+                'selector': '.str_2page_3line'
+              },
+              {
+                'info2': 'Можно купить только кусочек',
+                'namestar': 'Поррима',
+                'animations': [star9Animation2],
+                'selector': '.bigplanet'
+              },
+              {
+                'info2': 'Растущая луна',
+                'namestar': 'Авиор',
+                'animations': [star9Animation3],
+                'selector': '.moon'
               }
-
             ]
 
           // Цикл по массиву звезд
           stars.forEach((item_g) => {
             let complex_stars = Array.from(document.querySelectorAll(item_g['selector']));
             let namestar = document.getElementById('namestar');
+            let info2 = document.getElementById('info2');
             // Цикл по примитивам, составляющим звезду
             complex_stars.forEach((item_l, i_l) => {
-              item_l.addEventListener('mouseover', () => {
+              item_l.addEventListener('click', () => {
                 namestar.textContent = item_g['namestar']; // Вывод цены
+                info2.textContent = item_g['info2'];
                 item_g['animations'].map((animation) => animation.play()); // Инициализация анимаций примитивов
               });
             });
 
             // Цикл по примитивам, составляющим звезду
             complex_stars.forEach((item_l2) => {
-              item_l2.addEventListener("mouseleave", () => {
+              item_l2.addEventListener('dblclick', () => {
                 namestar.textContent = '';
                 item_g['animations'].map((animation) => {animation.seek(0); animation.pause();});
               });
