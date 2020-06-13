@@ -789,6 +789,40 @@ document.getElementById('button').onclick = changeColor
               let cubekatalog2_22 = document.querySelector(".cubekatalog2_2")
               let blacknwhite = document.querySelector(".figure2_4")
               let cubekatalog2_44 = document.querySelector(".cubekatalog2_4")
+              let romb1 = document.querySelector(".figure2")
+              let cubecatalog2 = document.querySelector(".cubekatalog2")
+              let cmn = document.querySelector(".figure3_1")
+              let cubecatalog3_11 = document.querySelector(".cubekatalog3_1")
+              let cmn2 = document.querySelector(".figure3_2")
+              let cubecatalog3_22 = document.querySelector(".cubekatalog3_2")
+              let cmn3 = document.querySelector(".figure3_3")
+              let cubecatalog3_33 = document.querySelector(".cubekatalog3_3")
+              let cmn4 = document.querySelector(".figure3_4")
+              let cubecatalog3_44 = document.querySelector(".cubekatalog3_4")
+              let cmn5 = document.querySelector(".figure3_5")
+              let cubecatalog3_55 = document.querySelector(".cubekatalog3_5")
+              let cmn6 = document.querySelector(".figure3_6")
+              let cubecatalog3_66 = document.querySelector(".cubekatalog3_6")
+              let cmn7 = document.querySelector(".figure4_4")
+              let cubecatalog4_44 = document.querySelector(".cubekatalog4_4")
+              let cmn8 = document.querySelector(".figure4_6")
+              let cubecatalog4_66 = document.querySelector(".cubekatalog4_6")
+              let cmn9 = document.querySelector(".figure5_1")
+              let cubecatalog5_11 = document.querySelector(".cubekatalog5_1")
+              let cmn10 = document.querySelector(".figure5_3")
+              let cubecatalog5_33 = document.querySelector(".cubekatalog5_3")
+              let cmn11 = document.querySelector(".figure5_4")
+              let cubecatalog5_44 = document.querySelector(".cubekatalog5_4")
+              let cmn12 = document.querySelector(".figure5_6")
+              let cubecatalog5_66 = document.querySelector(".cubekatalog5_6")
+              let cmn13 = document.querySelector(".figure6_1")
+              let cubecatalog6_1 = document.querySelector(".cubekatalog6_2")
+              let cmn14 = document.querySelector(".figure6_2")
+              let cubecatalog6_2 = document.querySelector(".cubekatalog6_3")
+              let cmn15 = document.querySelector(".figure6_4")
+              let cubecatalog6_5 = document.querySelector(".cubekatalog6_5")
+              let cmn16 = document.querySelector(".figure7_1")
+              let cubecatalog7_33 = document.querySelector(".cubekatalog7_3")
               var onclickOnCubeUnc = 1
               document.getElementById('uncommon').onclick = changeOpacityUnc
                 function changeOpacityUnc() {
@@ -802,6 +836,41 @@ document.getElementById('button').onclick = changeColor
                     cubekatalog2_22.style.opacity = '30%'
                     blacknwhite.style.opacity = '30%'
                     cubekatalog2_44.style.opacity = '30%'
+                    blackcirc2.style.opacity = '30%'
+                    romb1.style.opacity = '30%'
+                    cubecatalog2.style.opacity = '30%'
+                    cmn.style.opacity = '30%'
+                    cubecatalog3_11.style.opacity = '30%'
+                    cmn2.style.opacity = '30%'
+                    cubecatalog3_22.style.opacity = '30%'
+                    cmn3.style.opacity = '30%'
+                    cubecatalog3_33.style.opacity = '30%'
+                    cmn4.style.opacity = '30%'
+                    cubecatalog3_44.style.opacity = '30%'
+                    cmn5.style.opacity = '30%'
+                    cubecatalog3_55.style.opacity = '30%'
+                    cmn6.style.opacity = '30%'
+                    cubecatalog3_66.style.opacity = '30%'
+                    cmn7.style.opacity = '30%'
+                    cubecatalog4_44.style.opacity = '30%'
+                    cmn8.style.opacity = '30%'
+                    cubecatalog4_66.style.opacity = '30%'
+                    cmn9.style.opacity = '30%'
+                    cubecatalog5_11.style.opacity = '30%'
+                    cmn10.style.opacity = '30%'
+                    cubecatalog5_33.style.opacity = '30%'
+                    cmn11.style.opacity = '30%'
+                    cubecatalog5_44.style.opacity = '30%'
+                    cmn12.style.opacity = '30%'
+                    cubecatalog5_66.style.opacity = '30%'
+                    cmn13.style.opacity = '30%'
+                    cubecatalog6_1.style.opacity = '30%'
+                    cmn14.style.opacity = '30%'
+                    cubecatalog6_2.style.opacity = '30%'
+                    cmn15.style.opacity = '30%'
+                    cubecatalog6_5.style.opacity = '30%'
+                    cmn16.style.opacity = '30%'
+                    cubecatalog7_33.style.opacity = '30%'
                   } else {
                     ellipse.style.opacity = '100%'
                     cubekatalog.style.opacity = '100%'
@@ -811,8 +880,54 @@ document.getElementById('button').onclick = changeColor
                     cubekatalog2_22.style.opacity = '100%'
                     blacknwhite.style.opacity = '100%'
                     cubekatalog2_44.style.opacity = '100%'
+                    blackcirc2.style.opacity = '100%'
+                    romb1.style.opacity = '100%'
+                    cubecatalog2.style.opacity = '100%'
+                    cmn.style.opacity = '100%'
+                    cubecatalog3_11.style.opacity = '100%'
+                    cmn2.style.opacity = '100%'
+                    cubecatalog3_22.style.opacity = '100%'
+                    cmn3.style.opacity = '100%'
+                    cubecatalog3_33.style.opacity = '100%'
+                    cmn4.style.opacity = '100%'
+                    cubecatalog3_44.style.opacity = '100%'
+                    cmn5.style.opacity = '100%'
+                    cubecatalog3_55.style.opacity = '100%'
+                    cmn6.style.opacity = '100%'
+                    cubecatalog3_66.style.opacity = '100%'
+                    cmn7.style.opacity = '100%'
+                    cubecatalog4_44.style.opacity = '100%'
+                    cmn8.style.opacity = '100%'
+                    cubecatalog4_66.style.opacity = '100%'
+                    cmn9.style.opacity = '100%'
+                    cubecatalog5_11.style.opacity = '100%'
+                    cmn10.style.opacity = '100%'
+                    cubecatalog5_33.style.opacity = '100%'
+                    cmn11.style.opacity = '100%'
+                    cubecatalog5_44.style.opacity = '100%'
+                    cmn12.style.opacity = '100%'
+                    cubecatalog5_66.style.opacity = '100%'
+                    cmn13.style.opacity = '100%'
+                    cubecatalog6_1.style.opacity = '100%'
+                    cmn14.style.opacity = '100%'
+                    cubecatalog6_2.style.opacity = '100%'
+                    cmn15.style.opacity = '100%'
+                    cubecatalog6_5.style.opacity = '100%'
+                    cmn16.style.opacity = '100%'
+                    cubecatalog7_33.style.opacity = '100%'
                   }
                 }
+
+                // Каталог rare фигур
+                let romb = document.querySelector(".figure2")
+                var onclickOnCubesRare = 1
+                document.getElementById('rare').onclick = changeOpacityRare
+                  function changeOpacityRare() {
+                    onclickOnCubesRare++
+                    if (onclickOnCubesRare % 2 === 0) {
+                    } else {
+                    }
+                  }
 
           // Цикл по массиву звезд
           stars.forEach((item_g) => {
