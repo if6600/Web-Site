@@ -640,6 +640,180 @@ document.getElementById('button').onclick = changeColor
               }
             ]
 
+            // Каталог common фигур
+            let romb = document.querySelector(".figure2")
+            let cubekatalog2 = document.querySelector(".cubekatalog2")
+            let circ1 = document.querySelector(".figure2_2")
+            let circ2 = document.querySelector(".figure2_2_2")
+            let cubekatalog2_2 = document.querySelector(".cubekatalog2_2")
+            let circblcnwht = document.querySelector(".figure2_4")
+            let cubekatalog2_4 = document.querySelector(".cubekatalog2_4")
+            let circstr = document.querySelector(".figure2_1")
+            let cubekatalog2_1 = document.querySelector(".cubekatalog2_1")
+            let circube = document.querySelector(".figure3_2")
+            let cubekatalog3_2 = document.querySelector(".cubekatalog3_2")
+            let moon = document.querySelector(".figure3_4")
+            let cubekatalog3_4 = document.querySelector(".cubekatalog3_4")
+            let circles = document.querySelector(".figure3_5")
+            let cubekatalog3_5 = document.querySelector(".cubekatalog3_5")
+            let sparkles = document.querySelector(".figure4_1")
+            let cubekatalog4_1 = document.querySelector(".cubekatalog4_1")
+            let twocirc = document.querySelector(".figure4_2")
+            let cubekatalog4_2 = document.querySelector(".cubekatalog4_2")
+            let str = document.querySelector(".figure4_3")
+            let cubekatalog4_3 = document.querySelector(".cubekatalog4_3")
+            let str2 = document.querySelector(".figure4_4")
+            let cubekatalog4_4 = document.querySelector(".cubekatalog4_4")
+            let str3 = document.querySelector(".figure4_5")
+            let cubekatalog4_5 = document.querySelector(".cubekatalog4_5")
+            let triangle = document.querySelector(".figure4_6")
+            let cubekatalog4_6 = document.querySelector(".cubekatalog4_6")
+            let blccirc = document.querySelector(".figure5_1")
+            let cubekatalog5_1 = document.querySelector(".cubekatalog5_1")
+            let sputnic = document.querySelector(".figure5_2")
+            let cubekatalog5_2 = document.querySelector(".cubekatalog5_2")
+            let blcstr = document.querySelector(".figure5_4")
+            let cubekatalog5_4 = document.querySelector(".cubekatalog5_4")
+            let planet = document.querySelector(".figure5_5")
+            let cubekatalog5_5 = document.querySelector(".cubekatalog5_5")
+            let kolba = document.querySelector(".figure5_6")
+            let cubekatalog5_6 = document.querySelector(".cubekatalog5_6")
+            let strd = document.querySelector(".figure6_3")
+            let cubekatalog6_3 = document.querySelector(".cubekatalog6_4")
+            let strblc2 = document.querySelector(".figure7_1")
+            let cubekatalog7_3 = document.querySelector(".cubekatalog7_3")
+            let comet = document.querySelector(".figure7_2")
+            let cubekatalog7_4 = document.querySelector(".cubekatalog7_4")
+            var onclickOnCubes = 1
+            document.getElementById('common').onclick = changeOpacity
+              function changeOpacity() {
+                onclickOnCubes++
+                if (onclickOnCubes % 2 === 0) {
+                  romb.style.opacity = '30%'
+                  cubekatalog2.style.opacity = '30%'
+                  circ1.style.opacity = '30%'
+                  circ2.style.opacity = '30%'
+                  cubekatalog2_2.style.opacity = '30%'
+                  circblcnwht.style.opacity = '30%'
+                  cubekatalog2_4.style.opacity = '30%'
+                  circstr.style.opacity = '30%'
+                  cubekatalog2_1.style.opacity = '30%'
+                  circube.style.opacity = '30%'
+                  cubekatalog3_2.style.opacity = '30%'
+                  moon.style.opacity = '30%'
+                  cubekatalog3_4.style.opacity = '30%'
+                  circles.style.opacity = '30%'
+                  cubekatalog3_5.style.opacity = '30%'
+                  sparkles.style.opacity = '30%'
+                  cubekatalog4_1.style.opacity = '30%'
+                  twocirc.style.opacity = '30%'
+                  cubekatalog4_2.style.opacity = '30%'
+                  str.style.opacity = '30%'
+                  cubekatalog4_3.style.opacity = '30%'
+                  str2.style.opacity = '30%'
+                  cubekatalog4_4.style.opacity = '30%'
+                  str3.style.opacity = '30%'
+                  cubekatalog4_5.style.opacity = '30%'
+                  triangle.style.opacity = '30%'
+                  cubekatalog4_6.style.opacity = '30%'
+                  blccirc.style.opacity = '30%'
+                  cubekatalog5_1.style.opacity = '30%'
+                  sputnic.style.opacity = '30%'
+                  cubekatalog5_2.style.opacity = '30%'
+                  blcstr.style.opacity = '30%'
+                  cubekatalog5_4.style.opacity = '30%'
+                  planet.style.opacity = '30%'
+                  cubekatalog5_5.style.opacity = '30%'
+                  kolba.style.opacity = '30%'
+                  cubekatalog5_6.style.opacity = '30%'
+                  strd.style.opacity = '30%'
+                  cubekatalog6_3.style.opacity = '30%'
+                  strblc2.style.opacity = '30%'
+                  cubekatalog7_3.style.opacity = '30%'
+                  comet.style.opacity = '30%'
+                  cubekatalog7_4.style.opacity = '30%'
+                } else {
+                  romb.style.opacity = '100%'
+                  cubekatalog2.style.opacity = '100%'
+                  circ1.style.opacity = '100%'
+                  circ2.style.opacity = '100%'
+                  cubekatalog2_2.style.opacity = '100%'
+                  circblcnwht.style.opacity = '100%'
+                  cubekatalog2_4.style.opacity = '100%'
+                  circstr.style.opacity = '100%'
+                  cubekatalog2_1.style.opacity = '100%'
+                  circube.style.opacity = '100%'
+                  cubekatalog3_2.style.opacity = '100%'
+                  moon.style.opacity = '100%'
+                  cubekatalog3_4.style.opacity = '100%'
+                  circles.style.opacity = '100%'
+                  cubekatalog3_5.style.opacity = '100%'
+                  sparkles.style.opacity = '100%'
+                  cubekatalog4_1.style.opacity = '100%'
+                  twocirc.style.opacity = '100%'
+                  cubekatalog4_2.style.opacity = '100%'
+                  str.style.opacity = '100%'
+                  cubekatalog4_3.style.opacity = '100%'
+                  str2.style.opacity = '100%'
+                  cubekatalog4_4.style.opacity = '100%'
+                  str3.style.opacity = '100%'
+                  cubekatalog4_5.style.opacity = '100%'
+                  triangle.style.opacity = '100%'
+                  cubekatalog4_6.style.opacity = '100%'
+                  blccirc.style.opacity = '100%'
+                  cubekatalog5_1.style.opacity = '100%'
+                  sputnic.style.opacity = '100%'
+                  cubekatalog5_2.style.opacity = '100%'
+                  blcstr.style.opacity = '100%'
+                  cubekatalog5_4.style.opacity = '100%'
+                  planet.style.opacity = '100%'
+                  cubekatalog5_5.style.opacity = '100%'
+                  kolba.style.opacity = '100%'
+                  cubekatalog5_6.style.opacity = '100%'
+                  strd.style.opacity = '100%'
+                  cubekatalog6_3.style.opacity = '100%'
+                  strblc2.style.opacity = '100%'
+                  cubekatalog7_3.style.opacity = '100%'
+                  comet.style.opacity = '100%'
+                  cubekatalog7_4.style.opacity = '100%'
+                }
+              }
+
+              // Каталог uncommon фигур
+              let ellipse = document.querySelector(".figure1")
+              let cubekatalog = document.querySelector(".cubekatalog")
+              let sparc = document.querySelector(".figure2_3")
+              let cubekatalog2_3 = document.querySelector(".cubekatalog2_3")
+              let blackcirc = document.querySelector(".figure2_2")
+              let blackcirc2 = document.querySelector(".figure2_2_2")
+              let cubekatalog2_22 = document.querySelector(".cubekatalog2_2")
+              let blacknwhite = document.querySelector(".figure2_4")
+              let cubekatalog2_44 = document.querySelector(".cubekatalog2_4")
+              var onclickOnCubeUnc = 1
+              document.getElementById('uncommon').onclick = changeOpacityUnc
+                function changeOpacityUnc() {
+                  onclickOnCubeUnc++
+                  if (onclickOnCubeUnc % 2 === 0) {
+                    ellipse.style.opacity = '30%'
+                    cubekatalog.style.opacity = '30%'
+                    sparc.style.opacity = '30%'
+                    cubekatalog2_3.style.opacity = '30%'
+                    blackcirc.style.opacity = '30%'
+                    cubekatalog2_22.style.opacity = '30%'
+                    blacknwhite.style.opacity = '30%'
+                    cubekatalog2_44.style.opacity = '30%'
+                  } else {
+                    ellipse.style.opacity = '100%'
+                    cubekatalog.style.opacity = '100%'
+                    sparc.style.opacity = '100%'
+                    cubekatalog2_3.style.opacity = '100%'
+                    blackcirc.style.opacity = '100%'
+                    cubekatalog2_22.style.opacity = '100%'
+                    blacknwhite.style.opacity = '100%'
+                    cubekatalog2_44.style.opacity = '100%'
+                  }
+                }
+
           // Цикл по массиву звезд
           stars.forEach((item_g) => {
             let complex_stars = Array.from(document.querySelectorAll(item_g['selector']));
