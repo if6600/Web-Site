@@ -1251,25 +1251,49 @@ div.blockdashed::after {
   cursor: pointer;
 }
 
-.bubble {
+.vopros {
   position: absolute;
   width: 26px;
   height: 26px;
-  left: 866px;
-  top: 270px;
+  left: 875.5px;
+  top: 275px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
   border-radius: 100%;
+  padding: 3.5px;
   background: #FFFFFF;
   border: 1px solid #000000;
   box-sizing: border-box;
-  z-index: 99;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  z-index: 70;
+  cursor: pointer;
 }
 
-.vopros {
+
+.voprosinfo {
   position: absolute;
-  width: 9px;
-  height: 16px;
-  left: 875.5px;
-  top: 275px;
+  width: 489px;
+  height: 123px;
+  left: 365px;
+  top: 309px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  display: none;
+  z-index: 110;
+}
+
+.voprosinfo2 {
+  position: absolute;
+  width: 460px;
+  height: 64px;
+  left: 380px;
+  top: 337px;
   font-family: Helvetica;
   font-style: normal;
   font-weight: 300;
@@ -1278,9 +1302,15 @@ div.blockdashed::after {
   display: flex;
   align-items: center;
   text-align: center;
+  letter-spacing: -0.01em;
   color: #000000;
-  z-index: 100;
-  cursor: default;
+  display: none;
+  z-index: 115;
+}
+
+.vopros:hover .voprosinfo2 {
+  position: absolute;
+  display:block;
 }
 
 .krestikcube {
