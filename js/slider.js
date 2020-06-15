@@ -17,37 +17,37 @@ const toggleClass = (elemets, atciveElement, togClass) => {
 }
 
 let cost_texts = [
-  "Текст 1",
-  "Текст 2",
-  "Текст 3"
+  "Звезда находится очень близко от нас, стоимость выйдет не дороже 2000 $",
+  "Планета находится на среднем расстоянии, стоимость составит примерно 4000 $",
+  "Находится в самой далекой части космоса, сумма может превышать 9000 $"
 ]
 
 let planets = [
-  { 
-    img: "img/planet___.svg", 
-    texts: ["Картинка 1, Текст 1", "Картинка 1, Текст 2", "Картинка 1, Текст 3", "Картинка 1, Текст 4", "Картинка 1, Текст 5"]
+  {
+    img: "img/2page_pic4.svg",
+    texts: ["Запылилась", "Заболела", "Треснула", "Побледнела", "Раскололась"]
   },
-  { 
-    img: "img/planet___.svg", 
-    texts: ["Картинка 2, Текст 1", "Картинка 2, Текст 2", "Картинка 2, Текст 3", "Картинка 2, Текст 4", "Картинка 2, Текст 5"]
+  {
+    img: "img/1page_pic4.svg",
+    texts: ["Запылилась", "Заболела", "Треснула", "Побледнела", "Раскололась"]
   },
-  { 
-    img: "img/planet___.svg", 
-    texts: ["Картинка 3, Текст 1", "Картинка 3, Текст 2", "Картинка 3, Текст 3", "Картинка 3, Текст 4", "Картинка 3, Текст 5"]
+  {
+    img: "img/3page_pic2.svg",
+    texts: ["Запылилась", "Заболела", "Треснула", "Побледнела", "Раскололась"]
   },
-  { 
-    img: "img/planet___.svg", 
-    texts: ["Картинка 4, Текст 1", "Картинка 3, Текст 2", "Картинка 3, Текст 3", "Картинка 3, Текст 4", "Картинка 3, Текст 5"]
+  {
+    img: "img/planet___.svg",
+    texts: ["Запылилась", "Заболела", "Треснула", "Побледнела", "Раскололась"]
   },
 ];
 
 slider.oninput = function() {
   output.innerHTML = this.value;
-} 
+}
 
 next_planet.onclick = () => {
   let num = parseInt(planet_img.getAttribute("num")) + 1;
-  if (num === planets_buttons.length) 
+  if (num === planets_buttons.length)
     num = 0;
   planet_img.setAttribute("num", num);
   planet_img.style.backgroundImage = "url(" + planets[num].img + ")";
@@ -58,7 +58,7 @@ next_planet.onclick = () => {
 
 prev_planet.onclick = () => {
   let num = parseInt(planet_img.getAttribute("num")) - 1;
-  if (num < 0) 
+  if (num < 0)
     num = planets_buttons.length - 1;
   planet_img.setAttribute("num", num);
   planet_img.style.backgroundImage = "url(" + planets[num].img + ")";
@@ -75,7 +75,7 @@ cost_button.onclick = () => {
     cost_text.innerHTML = cost_texts[1];
   if (current_value > 20000 && current_value <= 30000)
     cost_text.innerHTML = cost_texts[2];
-} 
+}
 
 Array.prototype.forEach.call(planets_buttons, (planet_button, index) => {
   planet_button.addEventListener("click",  function() {
