@@ -186,28 +186,29 @@
       <path class="stz0" d="M156.1,81.2C119.7,78.3,90.5,50,86.3,14C82.2,50.3,52.7,78.5,16,81.2c37.5,2.8,67.5,33.1,70.4,70.6
       	C89.2,114.4,118.8,84.4,156.1,81.2z"/>
       </svg>
-      <svg class="counter_line" version="1.1" id="sparkle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-      	 viewBox="0 0 85.4 15.2" style="enable-background:new 0 0 85.4 15.2;" xml:space="preserve">
+      <input id="sparkle_slider" class="counter_line" type="range" min="0" max="30000" value="0">
+      <!-- <svg class="counter_line" version="1.1" id="sparkle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      	 viewBox="0 0 85.4 15.2" style="enable-background:new 0 0 85.4 15.2;" xml:space="preserve"> -->
       <style type="text/css">
       	.sta0{fill:none;stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10;}
       </style>
       <line class="sta0" x1="3.2" y1="7.1" x2="82.3" y2="7.1"/>
       </svg>
-      <div class="counter_cost">0 км</div>
-      <div class="secondpage_cost">Узнать стоимость</div>
-      <div class="counter_circle"></div>
+      <div class="counter_cost"><span id="count"></span>км</div>
+      <div id="show_cost" class="secondpage_cost">Узнать стоимость</div>
+      <div id="cost_text"></div>
 
       <div class="picright">
-        <div class="circle_planet1"></div>
-        <div class="circle_planet2"></div>
-        <div class="circle_planet3"></div>
-        <div class="circle_planet4"></div>
-        <div class="circle_underplanet1"></div>
-        <div class="circle_underplanet2"></div>
-        <div class="circle_underplanet3"></div>
-        <div class="circle_underplanet4"></div>
-        <div class="circle_underplanet5"></div>
-        <div class="info_underplanet">Треснула</div>
+        <div id="circle_planet1" class="circle_planet"></div>
+        <div id="circle_planet2" class="circle_planet"></div>
+        <div id="circle_planet3" class="circle_planet"></div>
+        <div id="circle_planet4" class="circle_planet"></div>
+        <div id="circle_underplanet1" class="circle_underplanet"></div>
+        <div id="circle_underplanet2" class="circle_underplanet"></div>
+        <div id="circle_underplanet3" class="circle_underplanet"></div>
+        <div id="circle_underplanet4" class="circle_underplanet"></div>
+        <div id="circle_underplanet5" class="circle_underplanet"></div>
+        <div id="info_underplanet"></div>
         <svg class="duga" version="1.1" id="sparkle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         	 viewBox="0 0 52.7 10.5" style="enable-background:new 0 0 52.7 10.5;" xml:space="preserve">
         <style type="text/css">
@@ -215,21 +216,8 @@
         </style>
         <path class="staa0" d="M3.1,3.6c0,0,22.9,10.5,47.3,0.1"/>
         </svg>
-        <svg class="page_pic" version="1.1" id="sparkle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        	 viewBox="0 0 103.1 105.3" style="enable-background:new 0 0 103.1 105.3;" xml:space="preserve">
-        <style type="text/css">
-        	.rrr{fill:none;stroke:#FFFFFF;stroke-linejoin:bevel;stroke-width:0.4;stroke-miterlimit:10;}
-        	.rre{stroke:#FFFFFF;stroke-linejoin:bevel;stroke-width:0.4;stroke-miterlimit:10;}
-        </style>
-        <circle class="rrr" cx="51.9" cy="52.7" r="47.3"/>
-        <path class="rre" d="M24.5,21.7c-4.5-0.4-8.1-3.9-8.6-8.3c-0.5,4.5-4.2,8-8.7,8.3c4.6,0.3,8.3,4.1,8.7,8.7
-        	C16.3,25.8,19.9,22.1,24.5,21.7z"/>
-        <path class="rre" d="M95,82.3c-3-0.2-5.3-2.5-5.7-5.5c-0.3,3-2.7,5.3-5.7,5.5c3.1,0.2,5.5,2.7,5.7,5.7C89.5,85,91.9,82.5,95,82.3z"
-        	/>
-        <circle class="rrr" cx="32.3" cy="39" r="11.3"/>
-        <polyline class="rrr" points="71,9.4 62.3,27 79.2,35.4 67.3,50.7 "/>
-        </svg>
-        <svg class="strelka" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <div id="page_pic"></div>
+        <svg version="1.1" id="strelka" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         	 viewBox="0 0 145.8 84.9" style="enable-background:new 0 0 145.8 84.9;" xml:space="preserve">
         <style type="text/css">
         	.st09q0{fill:none;stroke:white;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
@@ -238,7 +226,7 @@
         <line class="st09q0" x1="137.2" y1="42.2" x2="11.5" y2="42.2"/>
         <polyline class="st09q0" points="38.2,70.3 31.8,63.9 10.3,42.2 31.8,20.6 37.8,14.5 "/>
         </svg>
-        <svg class="strelka2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg version="1.1" id="strelka2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         	 viewBox="0 0 145.8 84.9" style="enable-background:new 0 0 145.8 84.9;" xml:space="preserve">
         <style type="text/css">
         	.st090{fill:none;stroke:white;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
@@ -330,6 +318,6 @@
       </div>
     </div>
 
-
+    <script src="js/slider.js"></script>
   </body>
 </html>

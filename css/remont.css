@@ -220,18 +220,47 @@ a:hover {
   top: 350px;
 }
 
-.page_pic {
+#page_pic {
   position: absolute;
-  width: 385px;
-  left: 905px;
-  top: 210px;
+  left: 925px;
+  top: 216px;
+  width: 350px;
+  height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .counter_line {
+  -webkit-appearance: none; 
+  outline: none;
+  appearance: none;
   position: absolute;
   width: 263px;
   left: 102px;
-  top: 420px;
+  top: 442px;
+  height: 2px;
+}
+
+.counter_line::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 48px; 
+  height: 48px; 
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+   background: #000000;
+  cursor: pointer; 
+}
+
+.counter_line::-moz-range-thumb {
+  appearance: none;
+  width: 48px; 
+  height: 48px; 
+  border-color: #ffff;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  background: #000000;
+  cursor: pointer; 
 }
 
 .secondpage_block_info {
@@ -313,94 +342,90 @@ a:hover {
   align-items: center;
 }
 
-.circle_planet1 {
+.circle_planet {
+  top: 145px;
   position: absolute;
+  background: #FFFFFF;
+  border-radius: 100%;
+  opacity: 0.5;
+}
+
+.circle_planet.active {
+  opacity: 1;
+}
+
+#circle_planet1 {
   width: 11px;
   height: 10px;
   left: 1058px;
-  top: 145px;
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 100%;
 }
 
-.circle_planet2 {
-  position: absolute;
+#circle_planet2 {
   width: 10px;
   height: 10px;
   left: 1083px;
-  top: 145px;
-  background: #FFFFFF;
-  border-radius: 100%;
 }
 
-.circle_planet3 {
-  position: absolute;
+#circle_planet3 {
   width: 10px;
   height: 10px;
   left: 1108px;
-  top: 145px;
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 100%;
 }
 
-.circle_planet4 {
-  position: absolute;
+#circle_planet4 {
   width: 10px;
   height: 10px;
   left: 1133px;
-  top: 145px;
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 100%;
 }
 
-.circle_underplanet1 {
+.circle_underplanet {
   position: absolute;
+  background: #FFFFFF;
+  border-radius: 100%;
+  opacity: 0.5;
+}
+
+.circle_underplanet.active {
+  opacity: 1;
+}
+
+#circle_underplanet1 {
   width: 11px;
   height: 11px;
   left: 950px;
   top: 650px;
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 100%;
 }
 
-.circle_underplanet2 {
-  position: absolute;
+#circle_underplanet2 {
   width: 15px;
   height: 15px;
   left: 1018px;
   top: 665px;
-  border-radius: 100%;
-  background: rgba(255, 255, 255, 0.5);
 }
 
-.circle_underplanet3 {
-  position: absolute;
+#circle_underplanet3 {
   width: 25px;
   height: 25px;
   left: 1086px;
   top: 672px;
-  background: white;
-  border-radius: 100%;
 }
 
-.circle_underplanet4 {
-  position: absolute;
+#circle_underplanet4 {
   width: 15px;
   height: 15px;
   left: 1166px;
   top: 665px;
-  border-radius: 100%;
-  background: rgba(255, 255, 255, 0.5);
 }
 
-.circle_underplanet5 {
-  position: absolute;
+#circle_underplanet5 {  
   width: 12px;
   height: 12px;
   left: 1238px;
   top: 650px;
-  border-radius: 100%;
-  background: rgba(255, 255, 255, 0.5);
+}
+
+.circle_planet, .circle_underplanet {
+  cursor: pointer;
 }
 
 .thirdpage_block {
@@ -418,9 +443,9 @@ a:hover {
   top: 680px;
 }
 
-.info_underplanet {
+#info_underplanet {
   position: absolute;
-  width: 65px;
+  width: 130px;
   height: 16px;
   left: 1068px;
   top: 760px;
@@ -439,21 +464,23 @@ a:hover {
   top: -40px;
 }
 
-.strelka {
+#strelka {
   position: absolute;
   width: 30px;
   left: 1000px;
   top: 142px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
-.strelka2 {
+#strelka2 {
   position: absolute;
   width: 30px;
   left: 1170px;
   top: 142px;
   box-sizing: border-box;
   transform: rotate(180deg);
+  cursor: pointer;
 }
 
 .thirdpage_block_name {
@@ -656,6 +683,25 @@ a:hover {
 .vk {
   position: absolute;
   width: 62px;
-  left: 1291px;
+  left: 1280px;
   top: 1788px;
+}
+
+#count {
+  padding-right: 10px;
+}
+
+#cost_text {
+  position: absolute;
+  width: 300px;
+  height: 70px;
+  left: 440px;
+  top: 702px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
 }
