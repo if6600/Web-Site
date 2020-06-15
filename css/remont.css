@@ -670,6 +670,7 @@ a:hover {
   width: 55px;
   left: 1010px;
   top: 1783px;
+  z-index: 100;
 }
 
 .facebook {
@@ -677,6 +678,7 @@ a:hover {
   width: 24px;
   left: 1120px;
   top: 1783px;
+  z-index: 100;
 }
 
 .instagram {
@@ -684,6 +686,7 @@ a:hover {
   width: 45px;
   left: 1200px;
   top: 1783px;
+  z-index: 100;
 }
 
 .vk {
@@ -691,6 +694,7 @@ a:hover {
   width: 62px;
   left: 1280px;
   top: 1788px;
+  z-index: 100;
 }
 
 .podval {
