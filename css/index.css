@@ -1308,6 +1308,7 @@ div.blockdashed::after {
   z-index: 115;
 }
 
+
 .vopros:hover + .voprosinfo {
   position: absolute;
   display:block;
