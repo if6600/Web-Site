@@ -431,7 +431,7 @@ a:hover {
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
-position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -456,7 +456,6 @@ position: absolute;
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  oborot2ground: #f8f8f8;
 }
 
 .pic2 {
@@ -516,7 +515,7 @@ position: absolute;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
-position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -541,7 +540,6 @@ position: absolute;
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  oborot2ground: #f8f8f8;
 }
 
 .pic2_2 {
