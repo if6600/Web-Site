@@ -228,6 +228,9 @@ a:hover {
   height: 360px;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-transition: background-image 0.3s ease-in-out;
+  -moz-transition: background-image 0.3s ease-in-out;
+  transition: background-image 0.3s ease-in-out;
 }
 
 .counter_line {
@@ -246,9 +249,9 @@ a:hover {
   appearance: none;
   width: 48px;
   height: 48px;
-  border-radius: 50%;
   -webkit-border-radius: 50%;
-   background: #000000;
+  border: 1px solid #ffff;
+  background: #000000;
   cursor: pointer;
 }
 
@@ -383,10 +386,12 @@ a:hover {
   background: #FFFFFF;
   border-radius: 100%;
   opacity: 0.5;
+  transition: all .2s ease-in-out;
 }
 
 .circle_underplanet.active {
   opacity: 1;
+  transform: scale(1.7);
 }
 
 #circle_underplanet1 {

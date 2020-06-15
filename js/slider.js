@@ -24,19 +24,19 @@ let cost_texts = [
 
 let planets = [
   {
-    img: "img/2page_pic4.svg",
+    imgs: ["img/2page_pic4.svg", "img/2page_pic4.svg", "img/2page_pic4.svg", "img/2page_pic4.svg", "img/2page_pic4.svg"],
     texts: ["Запылилась", "Заболела", "Треснула", "Побледнела", "Раскололась"]
   },
   {
-    img: "img/1page_pic4.svg",
+    imgs: ["img/1page_pic4.svg", "img/1page_pic4.svg", "img/1page_pic4.svg", "img/1page_pic4.svg", "img/1page_pic4.svg"],
     texts: ["Запылилась", "Заболела", "Треснула", "Побледнела", "Раскололась"]
   },
   {
-    img: "img/3page_pic2.svg",
+    imgs: ["img/3page_pic2.svg", "img/3page_pic2.svg", "img/3page_pic2.svg", "img/3page_pic2.svg", "img/3page_pic2.svg"],
     texts: ["Запылилась", "Заболела", "Треснула", "Побледнела", "Раскололась"]
   },
   {
-    img: "img/planet___.svg",
+    imgs: ["img/planet___.svg", "img/planet___.svg", "img/planet___.svg", "img/planet___.svg", "img/planet___.svg", ],
     texts: ["Запылилась", "Заболела", "Треснула", "Побледнела", "Раскололась"]
   },
 ];
@@ -50,7 +50,7 @@ next_planet.onclick = () => {
   if (num === planets_buttons.length)
     num = 0;
   planet_img.setAttribute("num", num);
-  planet_img.style.backgroundImage = "url(" + planets[num].img + ")";
+  planet_img.style.backgroundImage = "url(" + planets[num].imgs[0] + ")";
   toggleClass(planets_buttons, planets_buttons[num], "active");
   planet_text.innerHTML = planets[num].texts[0];
   toggleClass(underPlanets_buttons, underPlanets_buttons[0], "active");
@@ -61,7 +61,7 @@ prev_planet.onclick = () => {
   if (num < 0)
     num = planets_buttons.length - 1;
   planet_img.setAttribute("num", num);
-  planet_img.style.backgroundImage = "url(" + planets[num].img + ")";
+  planet_img.style.backgroundImage = "url(" + planets[num].imgs[0] + ")";
   toggleClass(planets_buttons, planets_buttons[num], "active");
   planet_text.innerHTML = planets[num].texts[0];
   toggleClass(underPlanets_buttons, underPlanets_buttons[0], "active");
@@ -80,7 +80,7 @@ cost_button.onclick = () => {
 Array.prototype.forEach.call(planets_buttons, (planet_button, index) => {
   planet_button.addEventListener("click",  function() {
     planet_img.setAttribute("num", index);
-    planet_img.style.backgroundImage = "url(" + planets[index].img + ")";
+    planet_img.style.backgroundImage = "url(" + planets[index].imgs[0] + ")";
     toggleClass(planets_buttons, planet_button, "active");
 
     planet_text.innerHTML = planets[index].texts[0];
@@ -93,6 +93,7 @@ Array.prototype.forEach.call(underPlanets_buttons, (underPlanets_button, index) 
     let num = parseInt(planet_img.getAttribute("num"));
     planet_text.innerHTML = planets[num].texts[index];
     toggleClass(underPlanets_buttons, underPlanets_button, "active");
+    planet_img.style.backgroundImage = "url(" + planets[num].imgs[index] + ")";
    });
 });
 
@@ -101,6 +102,6 @@ Array.prototype.forEach.call(underPlanets_buttons, (underPlanets_button, index) 
 output.innerHTML = slider.value;
 toggleClass(planets_buttons, planets_buttons[0], "active");
 planet_img.setAttribute("num", 0);
-planet_img.style.backgroundImage = "url(" + planets[0].img + ")";
+planet_img.style.backgroundImage = "url(" + planets[0].imgs[0] + ")";
 toggleClass(underPlanets_buttons, underPlanets_buttons[0], "active");
 planet_text.innerHTML = planets[0].texts[0];
