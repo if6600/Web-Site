@@ -486,6 +486,7 @@ a:hover {
   width: 51px;
   left: 936px;
   top: 643px;
+  z-index: 30;
 }
 
 .sparkleright2 {
@@ -1308,6 +1309,45 @@ div.blockdashed::after {
   z-index: 115;
 }
 
+.line1_3 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line1_2 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line1_1 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line2_1 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line2_2 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line3_3 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line3_1 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line3_2 {
+  position: absolute;
+  z-index: 60;
+}
 
 .vopros:hover + .voprosinfo {
   position: absolute;

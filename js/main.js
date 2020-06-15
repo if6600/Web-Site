@@ -501,7 +501,7 @@ document.getElementById('button').onclick = changeColor
                 'selector': '.sparkle_2page'
               },
               {
-                'info2': 'Постоянно меняет свое местополежение',
+                'info2': 'Постоянно меняет местополежение',
                 'namestar': 'Интеркрус',
                 'animations': [star3Animation3],
                 'selector': '.starwthcubes'
