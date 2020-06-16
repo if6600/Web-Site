@@ -1,3 +1,7 @@
+html {
+  max-width: 1440px;
+}
+
 .firstpage_block {
   position: absolute;
   background-color: white;

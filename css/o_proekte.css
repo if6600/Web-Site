@@ -1,3 +1,7 @@
+html {
+  max-width: 1440px;
+}
+
 .firstpage_block {
   position: absolute;
   background-color: black;
@@ -567,11 +571,12 @@ a:hover {
 }
 
 @media (max-width: 834px) {
+
   .firstpage_block {
     position: absolute;
     background-color: black;
     width: 100%;
-    height: 100%;
+    height: 110%;
   }
 
   a {
@@ -596,110 +601,129 @@ a:hover {
   }
 
   .oproektename {
-    position: absolute;
-    width: 358px;
-    height: 63px;
-    left: 600px;
-    top: 312px;
-    font-family: AkzidenzGroteskPro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 63px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.055em;
-    color: #000000;
+    width: 210px;
+    height: 46px;
+    left: 315px;
+    top: 347px;
+    font-size: 48px;
+    line-height: 60px;
   }
 
   .info {
-    position: absolute;
-    width: 507px;
-    height: 48px;
-    left: 462px;
-    top: 406px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
+    width: 364px;
+    height: 29px;
+    left: 234px;
+    top: 431px;
+    font-size: 10px;
+    line-height: 12px;
   }
 
   .linestarname {
-    position: absolute;
     width: 31px;
-    left: 702px;
-    top: 271.8px;
-    box-sizing: border-box;
+    left: 401px;
+    top: 303px;
   }
 
   .circle {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 229px;
+    width: 7px;
+    height: 7px;
+    left: 358px;
     top: 192px;
-    border-radius: 100%;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
   }
 
   .circle2 {
-    position: absolute;
-    width: 22px;
-    height: 22px;
-    left: 646px;
-    top: 584px;
-    border-radius: 100%;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    left: 449px;
+    top: 602px;
   }
 
   .circle3 {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 1139px;
-    top: 527.8px;
-    border-radius: 100%;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
+    width: 7px;
+    height: 7px;
+    left: 752px;
+    top: 441px;
   }
 
   .sparkle {
-    position: absolute;
-    width: 337px;
-    left: 102px;
-    top: 388px;
+    width: 242px;
+    left: 53px;
+    top: 484px;
   }
 
   .sparkle2 {
-    position: absolute;
-    width: 135px;
-    left: 352px;
-    top: 154px;
+    width: 97px;
+    left: 125px;
+    top: 160px;
   }
 
   .sparkle3 {
-    position: absolute;
-    width: 385px;
-    left: 946px;
-    top: 89px;
+    width: 259px;
+    left: 536px;
+    top: 118px;
   }
 
   .sparkle4 {
-    position: absolute;
-    width: 93px;
-    height: 90px;
-    left: 973px;
-    top: 606px;
+    width: 67px;
+    height: 65px;
+    left: 606px;
+    top: 591px;
+  }
+
+  .magazin {
+    width: 53px;
+    height: 22px;
+    left: 147px;
+    top: 31px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .katalog {
+    width: 47px;
+    height: 22px;
+    left: 236px;
+    top: 31px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .remont {
+    width: 43px;
+    height: 22px;
+    left: 319px;
+    top: 31px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .o_proekte {
+    width: 63px;
+    height: 22px;
+    left: 407px;
+    top: 31px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .figuremenu {
+    width: 29px;
+    left: 65px;
+    top: 25px;
+  }
+
+  .buttonstroke {
+    width: 26px;
+    height: 26px;
+    left: 743px;
+    top: 31px;
+  }
+
+  .button {
+    width: 18px;
+    height: 18px;
+    left: 747px;
+    top: 35px;
   }
 
   .secondpage_block {
@@ -707,60 +731,39 @@ a:hover {
     background-color: white;
     top: 821px;
     width: 100%;
-    height: 110%;
+    height: 100%;
   }
 
   .circlefon {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 1021px;
-    top: 639px;
-    border-radius: 100%;
-    border: 1px solid #000000;
-    box-sizing: border-box;
+    width: 7px;
+    height: 7px;
+    left: 643px;
+    top: 597px;
   }
 
   .sparklesfon {
-    position: absolute;
-    width: 44px;
-    left: 1246px;
-    top: 192px;
+    width: 45px;
+    height: 38px;
+    left: 710px;
+    top: 161px;
   }
 
   .web {
-    position: absolute;
-    height: 63px;
-    left: 832px;
-    top: 335px;
-    font-family: AkzidenzGroteskPro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 63px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    letter-spacing: 0.055em;
-    color: #FFFFFF;
+    width: 230px;
+    height: 44px;
+    left: 572px;
+    top: 331px;
+    font-size: 48px;
+    line-height: 60px;
   }
 
   .about2 {
-    position: absolute;
-    width: 506px;
-    height: 35px;
-    left: 832px;
-    top: 438px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    color: #000000;
+    width: 189px;
+    height: 48px;
+    left: 578px;
+    top: 408px;
+    font-size: 10px;
+    line-height: 12px;
   }
 
   .thirdpage_block {
@@ -768,130 +771,87 @@ a:hover {
     background-color: black;
     top: 1640px;
     width: 100%;
-    height: 115%;
+    height: 113%;
   }
 
   .kniga {
-    position: absolute;
-    width: 439px;
-    height: 63px;
-    left: 103px;
-    top: 335px;
-    font-family: AkzidenzGroteskPro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 63px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-    letter-spacing: 0.055em;
-    color: #000000;
+    width: 261px;
+    height: 90px;
+    left: 60px;
+    top: 264px;
+    text-align: left;
+    font-size: 48px;
+    line-height: 93.5%;
   }
 
   .about3 {
-    position: absolute;
-    width: 494px;
-    height: 49px;
-    left: 105px;
-    top: 440px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
+    width: 191px;
+    height: 62px;
+    left: 65px;
+    top: 391px;
+    font-size: 10px;
+    line-height: 12px;
   }
 
   .circlefon_2 {
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    left: 529px;
-    top: 183px;
-    border-radius: 100%;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
+    width: 11px;
+    height: 11px;
+    left: 198px;
+    top: 114px;
   }
 
   .circlefon_2_2 {
-    position: absolute;
-    width: 9px;
-    height: 9px;
-    left: 474px;
-    top: 708px;
-    border-radius: 100%;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
+    width: 6px;
+    height: 6px;
+    left: 250px;
+    top: 652px;
   }
 
   .sparkleincircle {
-    position: absolute;
-    width: 38px;
-    height: 38px;
-    left: 217px;
-    top: 620px;
+    width: 40px;
+    left: 65px;
+    top: 580px;
   }
 
   .sticker {
-    position: absolute;
-    width: 263px;
-    left: 80px;
-    top: 26px;
-    z-index: 99;
+    width: 206px;
+    height: 205px;
+    left: 37px;
+    top: 77px;
   }
 
   .sticker2 {
-    position: absolute;
-    width: 263px;
-    left: 1087px;
-    top: 563px;
-    z-index: 99;
+    width: 204px;
+    height: 203px;
+    left: 608px;
+    top: 483px;
   }
 
   .card2 {
-    position: absolute;
-    width: 489px;
-    height: 628.71px;
-    left: 738px;
-    top: 87px;
-    z-index: 50;
+    width: 377.83px;
+    left: 333px;
+    top: 115px;
   }
 
   .twitter {
-    position: absolute;
-    width: 55px;
-    left: 1010px;
-    top: 1783px;
-    z-index: 99;
+    width: 51px;
+    left: 550px;
+    top: 1680px;
   }
 
   .facebook {
-    position: absolute;
-    width: 24px;
-    left: 1120px;
-    top: 1783px;
-    z-index: 99;
+    left: 625px;
+    top: 1680px;
   }
 
   .instagram {
-    position: absolute;
-    width: 45px;
-    left: 1200px;
-    top: 1783px;
-    z-index: 99;
+    left: 675px;
+    top: 1680px;
   }
 
   .vk {
-    position: absolute;
-    width: 62px;
-    left: 1291px;
-    top: 1788px;
-    z-index: 99;
+    left: 738px;
+    top: 1685px;
   }
 
   .description2 {
@@ -900,63 +860,37 @@ a:hover {
   }
 
   .logofigure {
-    position: absolute;
-    width: 25px;
-    left: 90px;
-    top: 1801px;
-    z-index: 100;
+    width: 35px;
+    left: 65px;
+    top: 1689px;
   }
 
   .mail {
-    position: absolute;
-    height: 16px;
-    left: 486px;
-    top: 1803px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
+    width: 59px;
+    height: 14px;
+    left: 236px;
+    top: 1700px;
     font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.7);
-    z-index: 99;
+    line-height: 12px;
   }
 
   .telefon {
-    position: absolute;
-    width: 167px;
-    height: 16px;
-    left: 727px;
-    top: 1803px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
+    width: 72px;
+    height: 13px;
+    left: 407px;
+    top: 1700px;
     font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.7);
-    z-index: 99;
+    line-height: 12px;
   }
 
   .logo {
-    position: absolute;
-    height: 26px;
-    left: 132px;
-    top: 1801px;
-    font-family: AkzidenzGroteskPro;
-    font-style: normal;
-    font-weight: bold;
+    width: 12px;
+    height: 12px;
+    left: 115px;
+    top: 1698px;
     font-size: 36px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: black;
-    -webkit-text-stroke-width: 0.7px;
-    -webkit-text-stroke-color: white;
-    z-index: 99;
+    line-height: 15px;
+    -webkit-text-stroke-width: 1px;
   }
 
   .card {
@@ -977,10 +911,10 @@ a:hover {
 
   .card, .pic1, .oborot2 {
     position: absolute;
-    left: 212px;
-    top: 112px;
-    width: 477px;
-    height: 613px;
+    width: 372px;
+    height: 478px;
+    left: 140px;
+    top: 170px;
   }
 
   .oborot1 {
@@ -1008,8 +942,8 @@ a:hover {
   .pic1 {
     content: "";
     position: absolute;
-    width: 477px;
-    height: 613px;
+    width: 372px;
+    height: 478px;
     background-image: url('../img/card1.png');
     background-repeat: no-repeat;
     background-position: 0 0px;
@@ -1030,8 +964,8 @@ a:hover {
   .pic2 {
     content: "";
     position: absolute;
-    width: 477px;
-    height: 613px;
+    width: 372px;
+    height: 478px;
     background-image: url('../img/card1ob.png');
     background-repeat: no-repeat;
     background-position: 0 0px;
@@ -1061,10 +995,10 @@ a:hover {
 
   .card2, .pic1_2, .oborot2_2 {
     position: absolute;
-    left: 742px;
-    top: 87px;
-    width: 477px;
-    height: 613px;
+    width: 377.83px;
+    height: 485.79px;
+    left: 350px;
+    top: 115px;
   }
 
   .oborot1_2 {
@@ -1092,8 +1026,8 @@ a:hover {
   .pic1_2 {
     content: "";
     position: absolute;
-    width: 477px;
-    height: 613px;
+    width: 372px;
+    height: 478px;
     background-image: url('../img/card2.png');
     background-repeat: no-repeat;
     background-position: 0 0px;
@@ -1114,8 +1048,8 @@ a:hover {
   .pic2_2 {
     content: "";
     position: absolute;
-    width: 477px;
-    height: 613px;
+    width: 372px;
+    height: 478px;
     background-image: url('../img/card2ob.png');
     background-repeat: no-repeat;
     background-position: 0 0px;
@@ -1131,7 +1065,8 @@ a:hover {
     background-color: black;
     width: 100%;
     height: 19.5%;
-    top: 770px;
+    top: 600px;
     z-index: 0;
+    display: none;
   }
 }
