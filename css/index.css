@@ -280,6 +280,19 @@ a:hover {
   z-index: 99;
 }
 
+.theway {
+  position: absolute;
+  width: 842.97px;
+  height: 248px;
+  left: 931px;
+  top: 320px;
+  background-image: url('../img/str.png');
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 124px;
+  transform: rotate(-31.97deg);
+  z-index: 1;
+}
 
 .theway_circle {
   position: absolute;
