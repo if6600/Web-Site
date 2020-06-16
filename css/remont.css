@@ -1112,7 +1112,7 @@ a:hover {
     background-color: white;
     top: 2000px;
     width: 100%;
-    height: 100%;
+    height: 30%;
   }
 
   .duga {
@@ -1210,33 +1210,33 @@ a:hover {
     top: 1689px;
   }
 
-    .mail {
-      width: 59px;
-      height: 14px;
-      left: 236px;
-      top: 1700px;
-      font-size: 14px;
-      line-height: 12px;
-    }
+  .mail {
+    width: 59px;
+    height: 14px;
+    left: 236px;
+    top: 1700px;
+    font-size: 14px;
+    line-height: 12px;
+  }
 
-    .telefon {
-      width: 72px;
-      height: 13px;
-      left: 407px;
-      top: 1700px;
-      font-size: 14px;
-      line-height: 12px;
-    }
+  .telefon {
+    width: 72px;
+    height: 13px;
+    left: 407px;
+    top: 1700px;
+    font-size: 14px;
+    line-height: 12px;
+  }
 
-    .logo {
-      width: 12px;
-      height: 12px;
-      left: 115px;
-      top: 1698px;
-      font-size: 36px;
-      line-height: 15px;
-      -webkit-text-stroke-width: 1px;
-    }
+  .logo {
+    width: 12px;
+    height: 12px;
+    left: 115px;
+    top: 1698px;
+    font-size: 36px;
+    line-height: 15px;
+    -webkit-text-stroke-width: 1px;
+  }
 
   .infoblock {
     position: absolute;

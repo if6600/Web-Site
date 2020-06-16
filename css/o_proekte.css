@@ -565,3 +565,573 @@ a:hover {
   top: 770px;
   z-index: 0;
 }
+
+@media (max-width: 834px) {
+  .firstpage_block {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+  }
+
+  a {
+   text-decoration: none;
+   color: white;
+  }
+
+  a:hover {
+    opacity: 0.5;
+  }
+
+  .menu {
+    color: white;
+  }
+
+  .buttonstroke {
+    border: 1px solid white;
+  }
+
+  .button {
+    background-color: white;
+  }
+
+  .oproektename {
+    position: absolute;
+    width: 358px;
+    height: 63px;
+    left: 600px;
+    top: 312px;
+    font-family: AkzidenzGroteskPro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 63px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #000000;
+  }
+
+  .info {
+    position: absolute;
+    width: 507px;
+    height: 48px;
+    left: 462px;
+    top: 406px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .linestarname {
+    position: absolute;
+    width: 31px;
+    left: 702px;
+    top: 271.8px;
+    box-sizing: border-box;
+  }
+
+  .circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 229px;
+    top: 192px;
+    border-radius: 100%;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  .circle2 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 646px;
+    top: 584px;
+    border-radius: 100%;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  .circle3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 1139px;
+    top: 527.8px;
+    border-radius: 100%;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  .sparkle {
+    position: absolute;
+    width: 337px;
+    left: 102px;
+    top: 388px;
+  }
+
+  .sparkle2 {
+    position: absolute;
+    width: 135px;
+    left: 352px;
+    top: 154px;
+  }
+
+  .sparkle3 {
+    position: absolute;
+    width: 385px;
+    left: 946px;
+    top: 89px;
+  }
+
+  .sparkle4 {
+    position: absolute;
+    width: 93px;
+    height: 90px;
+    left: 973px;
+    top: 606px;
+  }
+
+  .secondpage_block {
+    position: absolute;
+    background-color: white;
+    top: 821px;
+    width: 100%;
+    height: 110%;
+  }
+
+  .circlefon {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 1021px;
+    top: 639px;
+    border-radius: 100%;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+
+  .sparklesfon {
+    position: absolute;
+    width: 44px;
+    left: 1246px;
+    top: 192px;
+  }
+
+  .web {
+    position: absolute;
+    height: 63px;
+    left: 832px;
+    top: 335px;
+    font-family: AkzidenzGroteskPro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+  }
+
+  .about2 {
+    position: absolute;
+    width: 506px;
+    height: 35px;
+    left: 832px;
+    top: 438px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+
+  .thirdpage_block {
+    position: absolute;
+    background-color: black;
+    top: 1640px;
+    width: 100%;
+    height: 115%;
+  }
+
+  .kniga {
+    position: absolute;
+    width: 439px;
+    height: 63px;
+    left: 103px;
+    top: 335px;
+    font-family: AkzidenzGroteskPro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    letter-spacing: 0.055em;
+    color: #000000;
+  }
+
+  .about3 {
+    position: absolute;
+    width: 494px;
+    height: 49px;
+    left: 105px;
+    top: 440px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  .circlefon_2 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 529px;
+    top: 183px;
+    border-radius: 100%;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  .circlefon_2_2 {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 474px;
+    top: 708px;
+    border-radius: 100%;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  .sparkleincircle {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 217px;
+    top: 620px;
+  }
+
+  .sticker {
+    position: absolute;
+    width: 263px;
+    left: 80px;
+    top: 26px;
+    z-index: 99;
+  }
+
+  .sticker2 {
+    position: absolute;
+    width: 263px;
+    left: 1087px;
+    top: 563px;
+    z-index: 99;
+  }
+
+  .card2 {
+    position: absolute;
+    width: 489px;
+    height: 628.71px;
+    left: 738px;
+    top: 87px;
+    z-index: 50;
+  }
+
+  .twitter {
+    position: absolute;
+    width: 55px;
+    left: 1010px;
+    top: 1783px;
+    z-index: 99;
+  }
+
+  .facebook {
+    position: absolute;
+    width: 24px;
+    left: 1120px;
+    top: 1783px;
+    z-index: 99;
+  }
+
+  .instagram {
+    position: absolute;
+    width: 45px;
+    left: 1200px;
+    top: 1783px;
+    z-index: 99;
+  }
+
+  .vk {
+    position: absolute;
+    width: 62px;
+    left: 1291px;
+    top: 1788px;
+    z-index: 99;
+  }
+
+  .description2 {
+    position: absolute;
+    top: -910px;
+  }
+
+  .logofigure {
+    position: absolute;
+    width: 25px;
+    left: 90px;
+    top: 1801px;
+    z-index: 100;
+  }
+
+  .mail {
+    position: absolute;
+    height: 16px;
+    left: 486px;
+    top: 1803px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 99;
+  }
+
+  .telefon {
+    position: absolute;
+    width: 167px;
+    height: 16px;
+    left: 727px;
+    top: 1803px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 99;
+  }
+
+  .logo {
+    position: absolute;
+    height: 26px;
+    left: 132px;
+    top: 1801px;
+    font-family: AkzidenzGroteskPro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: white;
+    z-index: 99;
+  }
+
+  .card {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+    z-index: 50;
+  }
+
+    .card:hover .oborot1,
+    .card.hover .oborot1 {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    }
+
+  .card, .pic1, .oborot2 {
+    position: absolute;
+    left: 212px;
+    top: 112px;
+    width: 477px;
+    height: 613px;
+  }
+
+  .oborot1 {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+
+  .pic1, .oborot2 {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .pic1 {
+    content: "";
+    position: absolute;
+    width: 477px;
+    height: 613px;
+    background-image: url('../img/card1.png');
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .oborot2 {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+
+  .pic2 {
+    content: "";
+    position: absolute;
+    width: 477px;
+    height: 613px;
+    background-image: url('../img/card1ob.png');
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+
+  .card2 {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+    z-index: 50;
+  }
+
+    .card2:hover .oborot1_2,
+    .card2.hover .oborot1_2 {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    }
+
+  .card2, .pic1_2, .oborot2_2 {
+    position: absolute;
+    left: 742px;
+    top: 87px;
+    width: 477px;
+    height: 613px;
+  }
+
+  .oborot1_2 {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+
+  .pic1_2, .oborot2_2 {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .pic1_2 {
+    content: "";
+    position: absolute;
+    width: 477px;
+    height: 613px;
+    background-image: url('../img/card2.png');
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .oborot2_2 {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+
+  .pic2_2 {
+    content: "";
+    position: absolute;
+    width: 477px;
+    height: 613px;
+    background-image: url('../img/card2ob.png');
+    background-repeat: no-repeat;
+    background-position: 0 0px;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .podval {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 19.5%;
+    top: 770px;
+    z-index: 0;
+  }
+}
