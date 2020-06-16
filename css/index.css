@@ -1,2192 +1,2193 @@
-@media (max-width: 1440px) {
-  .firstpage_block {
+
+
+.firstpage_block {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 110%;
+  min-height: 110%;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
+a {
+ text-decoration: none;
+ color: white;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.menu {
+  font-family: AkzidenzGroteskPro;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.description {
+  position: absolute;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.info {
+  position: absolute;
+  width: 506px;
+  height: 64px;
+  left: 468px;
+  top: 386px;
+  font-family: Helvetica;
+  font-style: normal;
+  width: 506px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.buttonstroke{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 1312px;
+  top: 37px;
+  border: 1px solid white;
+  border-radius: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.button {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 1317px;
+  top: 42px;
+  border-radius: 100%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.magazin {
+  position: absolute;
+  width: 44px;
+  height: 22px;
+  left: 223px;
+  top: 38px;
+  text-decoration: none;
+}
+
+.katalog {
+  position: absolute;
+  width: 40px;
+  height: 22px;
+  left: 345px;
+  top: 38px;
+}
+
+.remont {
+  position: absolute;
+  width: 37px;
+  height: 22px;
+  left: 467px;
+  top: 39px;
+}
+
+.o_proekte {
+  position: absolute;
+  width: 52px;
+  height: 22px;
+  left: 586px;
+  top: 39px;
+}
+
+.faza {
+  position: absolute;
+  width: 135px;
+  height: 63px;
+  left: 652px;
+  top: 238px;
+  letter-spacing: 0.055em;
+  font-size: 50px;
+}
+
+.center {
+  position: absolute;
+  font-size: 36px;
+  width: 436px;
+  height: 45px;
+  left: 502px;
+  top: 301px;
+  letter-spacing: 0.055em;
+}
+
+.circlestrokeleft {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 468px;
+  top: 179px;
+  border-radius: 100%;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.circlefillleft {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 153px;
+  top: 197px;
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.circlestrokeright {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 832px;
+  top: 105px;
+  border-radius: 100%;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.circlefillright {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 769px;
+  top: 597px;
+  background-color: white;
+  border-radius: 100%;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.leftprice {
+  position: absolute;
+  left: 346px;
+  top: 585px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.rightprice1 {
+  position: absolute;
+  left: 918px;
+  top: 182px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.rightprice2 {
+  position: absolute;
+  width: 67px;
+  height: 15px;
+  left: 862px;
+  top: 611px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 99;
+}
+
+.ellipseleft {
+  position: absolute;
+  width: 448px;
+  height: 448px;
+  left: -69px;
+  top: 371px;
+  border-radius: 100%;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.ellipseleft2 {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  left: -35px;
+  top: 405px;
+  border-radius: 100%;
+  background-image: url('../img/str.png');
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+.planet1 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 1004px;
+  top: 515px;
+  border-radius: 100%;
+  background: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 98;
+}
+
+.planet2 {
+  position: absolute;
+  width: 67px;
+  height: 66px;
+  left: 1037px;
+  top: 553px;
+  border-radius: 100%;
+  background: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.theway {
+  position: absolute;
+  width: 842.97px;
+  height: 248px;
+  left: 931px;
+  top: 320px;
+  background-image: url('../img/str.png');
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 124px;
+  transform: rotate(-31.97deg);
+  z-index: 1;
+}
+
+.theway_circle {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 1163px;
+  top: 449px;
+  border-radius: 100%;
+  background: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 97;
+}
+
+.theway_circle2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 1233px;
+  top: 403px;
+  border-radius: 100%;
+  background-color: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 97;
+}
+
+.theway_circle3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 1280px;
+  top: 500px;
+  border-radius: 100%;
+  background-color: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 97;
+}
+
+.theway_circle4 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left: 1378px;
+  top: 385px;
+  border-radius: 100%;
+  background-color: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 97;
+}
+
+.theway_circle5 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  left: 1408px;
+  top: 321px;
+  border-radius: 100%;
+  background-color: white;
+  border: 1px solid white;
+  box-sizing: border-box;
+  z-index: 97;
+}
+
+.star1 {
+  position: absolute;
+  width: 120px;
+  height: 119px;
+  left: 94px;
+  top: 527px;
+  box-sizing: border-box;
+}
+
+.sparkletheway {
+  position: absolute;
+  width: 58px;
+  height: 53px;
+  left: 1290px;
+  top: 584px;
+  z-index: 99;
+}
+
+.sparkleleft {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 500px;
+  top: 640px;
+}
+
+.sparkleright {
+  position: absolute;
+  width: 23px;
+  height: 21px;
+  left: 1231px;
+  top: 562px;
+  z-index: 99;
+}
+
+.sparklethewaygroup {
+  position: absolute;
+  width: 16px;
+  height: 19px;
+  left: 1326px;
+  top: 356px;
+  z-index: 99;
+}
+
+.star2 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 994px;
+  top: 99px;
+}
+
+.ramka {
+  position: absolute;
+  width: 597px;
+  height: 95px;
+  left: 421px;
+  top: 371px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 47.5px;
+}
+
+.drop {
+  position: absolute;
+  width: 15px;
+  height: 25px;
+  left: 316px;
+  top: 266px;
+  box-sizing: border-box;
+}
+
+.sparkles {
+  position: absolute;
+  height: 35px;
+  left: 1326px;
+  top: 356px;
+  z-index: 99;
+}
+
+.cost {
+  position: absolute;
+  width: 120px;
+  left: 836px;
+  top: 588px;
+  z-index: 98;
+}
+
+.costleft {
+  position: absolute;
+  width: 120px;
+  left: 312px;
+  top: 562px;
+}
+
+.costright {
+  position: absolute;
+  width: 120px;
+  left: 879px;
+  top: 159px;
+}
+
+.figuremenu {
+  position: absolute;
+  width: 33px;
+  left: 102px;
+  top: 31px;
+  cursor: pointer;
+}
+
+.figuremenu2 {
+  position: absolute;
+  width: 35px;
+  left: 704px;
+  top: 197px;
+}
+
+.planettheway {
+  position: absolute;
+  top: 50px;
+}
+
+.duga {
+  position: absolute;
+  width: 51px;
+  left: 936px;
+  top: 643px;
+  z-index: 30;
+}
+
+.sparkleright2 {
+  position: absolute;
+  width: 21px;
+  left: 1115px;
+  top: 390px;
+}
+
+.secondpage_block {
+  position: absolute;
+  background-color: white;
+  top: 821px;
+  width: 100%;
+  height: 116%;
+}
+
+.description2 {
+  position: absolute;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  z-index: 99;
+}
+
+.magazin2 {
+  position: absolute;
+  width: 1078px;
+  height: 63px;
+  left: 183px;
+  top: 100px;
+  font-size: 50px;
+  line-height: 63px;
+  letter-spacing: 0.055em;
+  z-index: 99;
+}
+
+.namestar {
+  position: absolute;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  width: 200px;
+  height: 33px;
+  left: 1048px;
+  top: 283px;
+  font-size: 36px;
+  line-height: 92.69%;
+  color: white;
+  align-items: center;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 0.055em;
+  z-index: 99;
+}
+
+#namestar {
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  min-width: 100%;
+}
+
+.info2 {
+  position: absolute;
+  width: 120px;
+  height: 16px;
+  left: 1089px;
+  top: 342px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  z-index: 99;
+}
+
+#info2 {
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  min-width: 100%;
+}
+
+.kupit {
+  position: absolute;
+  width: 128px;
+  height: 30px;
+  left: 1083px;
+  top: 384px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 53px;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  padding: 8px 40px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+.kupit:hover {
+  color: #fff;
+  background: #333;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+}
+
+.content_2page {
+  position: absolute;
+  top: 170px;
+}
+
+.figureundername {
+  position: absolute;
+  width: 39px;
+  left: 703px;
+  top: 48px;
+}
+
+.sparklemenu {
+  position: absolute;
+  width: 15px;
+  left: 77px;
+  top: 40px;
+  display:none;
+}
+
+.blockdashed {
+  position: absolute;
+  width: 993px;
+  height: 600px;
+  left: 101px;
+  top: 1052px;
+  background-color: white;
+  border: 1px dashed black;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+div.blockdashed::after {
+  position: absolute;
+  content: "";
+  background: url("../img/fon.png");
+  background-repeat: no-repeat;
+  background-position: 280px 20px;
+  background-size: 45%;
+  opacity: 0.1;
+  top: -10px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.krestik {
+  position: absolute;
+  width: 19px;
+  left: 92px;
+  top: 1043px;
+  z-index: 99;
+}
+
+.krestik2 {
+  position: absolute;
+  width: 19px;
+  left: 1084px;
+  top: 1043px;
+  z-index: 99;
+}
+
+.krestik3 {
+  position: absolute;
+  width: 19px;
+  left: 92px;
+  top: 1642px;
+  z-index: 99;
+}
+
+.krestik4 {
+  position: absolute;
+  width: 19px;
+  left: 1084px;
+  top: 1642px;
+  z-index: 99;
+}
+
+.constellation1_1 {
+  position: absolute;
+  width: 15px;
+  left: 159px;
+  top: 1016px;
+  z-index: 99;
+}
+
+.constellation1_2 {
+  position: absolute;
+  width: 34px;
+  left: 177px;
+  top: 1076px;
+  z-index: 99;
+}
+
+.constellation1_3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 245px;
+  top: 1042px;
+  background: white;
+  border-radius: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.constellation1 {
+  position: absolute;
+  top: 100px;
+}
+
+.moon {
+  position: absolute;
+  width: 35px;
+  left: 409px;
+  top: 1170px;
+  z-index: 99;
+}
+
+.sputnuk {
+  position: absolute;
+  width: 53px;
+  left: 944px;
+  top: 1078px;
+  z-index: 99;
+}
+
+.sparkle_2page {
+  position: absolute;
+  width: 25px;
+  left: 908px;
+  top: 1003px;
+  z-index: 99;
+}
+
+.starwthcubes {
+  position: absolute;
+  width: 27px;
+  left: 846px;
+  top: 1053px;
+  z-index: 99;
+}
+
+.circleblackandwhite {
+  position: absolute;
+  width: 24px;
+  left: 821px;
+  top: 1128px;
+  z-index: 99;
+}
+
+.flower {
+  position: absolute;
+  width: 35px;
+  left: 525px;
+  top: 1077px;
+  z-index: 99;
+}
+
+.circlestar {
+  position: absolute;
+  width: 35px;
+  left: 596px;
+  top: 1040px;
+  z-index: 99;
+}
+
+.sparkles_2page {
+  position: absolute;
+  width: 30px;
+  left: 615px;
+  top: 1108px;
+  z-index: 99;
+}
+
+.circlepage2 {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 608px;
+  top: 1000px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.bigplanet {
+  position: absolute;
+  width: 48px;
+  left: 480px;
+  top: 1300px;
+  z-index: 99;
+}
+
+.zvezda {
+  position: absolute;
+  width: 35px;
+  left: 300px;
+  top: 1150px;
+  z-index: 99;
+}
+
+.sparkleincircle {
+  position: absolute;
+  width: 38px;
+  left: 264px;
+  top: 1267.21px;
+  z-index: 99;
+}
+
+.kvadrat {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 224px;
+  top: 1233.21px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.kvadrat:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: -20px;
+  left: -50px;
+  right: -50px;
+  bottom: -30px;
+}
+
+.krestik_2page {
+  position: absolute;
+  width: 15px;
+  left: 260px;
+  top: 1190px;
+  z-index: 99;
+}
+
+.romb {
+  position: absolute;
+  width: 30px;
+  left: 767px;
+  top: 1243px;
+  z-index: 99;
+}
+
+.ellipse {
+  position: absolute;
+  width: 10px;
+  height: 17px;
+  left: 720px;
+  top: 1260.61px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+  z-index: 99;
+}
+
+.triangle {
+  position: absolute;
+  width: 14px;
+  left: 659px;
+  top: 1253px;
+  transform: rotate(-180deg);
+  z-index: 99;
+}
+
+.fillstar {
+  position: absolute;
+  width: 38px;
+  left: 946px;
+  top: 1239px;
+  z-index: 99;
+}
+
+.star_2page {
+  position: absolute;
+  width: 25px;
+  left: 903px;
+  top: 1213px;
+  z-index: 99;
+}
+
+.krestik_2page_2line {
+  position: absolute;
+  width: 20px;
+  left: 926.81px;
+  top: 1310px;
+  z-index: 99;
+}
+
+.str_2page_3line {
+  position: absolute;
+  width: 40px;
+  left: 183px;
+  top: 1544px;
+  z-index: 99;
+}
+
+.blackcircles {
+  position: absolute;
+  width: 30px;
+  left: 335px;
+  top: 1363.38px;
+  z-index: 99;
+}
+
+.linestar {
+  position: absolute;
+  width: 33px;
+  left: 372px;
+  top: 1430px;
+  z-index: 99;
+}
+
+.blackellipse {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 429px;
+  top: 1367.38px;
+  border-radius: 100%;
+  background: #000000;
+  z-index: 99;
+}
+
+.blackellipse:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: -40px;
+  left: -40px;
+  right: -40px;
+  bottom: -20px;
+}
+
+.twocircles {
+  position: absolute;
+  width: 30px;
+  left: 460px;
+  top: 1444.38px;
+  z-index: 99;
+}
+
+.strway {
+  position: absolute;
+  width: 40px;
+  left: 478px;
+  top: 1320px;
+  z-index: 99;
+}
+
+.trianglestar {
+  position: absolute;
+  width: 34px;
+  left: 739px;
+  top: 1372px;
+  z-index: 99;
+}
+
+.sparkincirc2 {
+  position: absolute;
+  width: 30px;
+  left: 688px;
+  top: 1410px;
+  z-index: 99;
+}
+
+.trianglewithfill {
+  position: absolute;
+  width: 30px;
+  left: 647px;
+  top: 1357px;
+  z-index: 99;
+}
+
+.constellation2 {
+  position: absolute;
+  top: 100px;
+}
+
+.constellation3_2 {
+  position: absolute;
+  top: 150px;
+}
+
+.constellation3_1 {
+  position: absolute;
+  top: 120px;
+}
+
+.constellation2_1 {
+  position: absolute;
+  top: 100px;
+}
+
+.constellation2_2 {
+  position: absolute;
+  top: 100px;
+}
+
+.constellation2_3 {
+  position: absolute;
+  top: 170px;
+}
+
+.constellation3 {
+  position: absolute;
+  top: 110px;
+}
+
+.line1_1 {
+  position: absolute;
+  top: 1133px;
+  left: 170px;
+  width: 71px;
+  z-index: 99;
+}
+
+.line1_2 {
+  position: absolute;
+  left: 557px;
+  top: 1108px;
+  width: 69px;
+  z-index: 99;
+}
+
+.line1_3 {
+  position: absolute;
+  left: 835px;
+  top: 1126px;
+  width: 120px;
+  z-index: 99;
+}
+
+.line2_1 {
+  position: absolute;
+  left: 218px;
+  top: 1273px;
+  width: 110px;
+  z-index: 99;
+}
+
+.line2_2 {
+  position: absolute;
+  left: 672px;
+  top: 1354px;
+  width: 100px;
+  z-index: 99;
+}
+
+.line3_1 {
+  position: absolute;
+  left: 351px;
+  top: 1447px;
+  width: 130px;
+  z-index: 99;
+}
+
+.line3_2 {
+  position: absolute;
+  left: 672px;
+  top: 1535px;
+  width: 70px;
+  z-index: 99;
+}
+
+.line3_3 {
+  position: absolute;
+  left: 926px;
+  top: 1403px;
+  width: 40px;
+  z-index: 99;
+}
+
+.picblock {
+  position: absolute;
+  top: 1770px;
+  width: 100%;
+  height: 713px;
+  background: url("../img/slider.png");
+  z-index: 8;
+}
+
+.sumka {
+  position: absolute;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  width: 369px;
+  height: 63px;
+  left: 102px;
+  top: 2330px;
+  font-size: 50px;
+  line-height: 63px;
+  letter-spacing: 0.055em;
+  z-index: 99;
+}
+
+.about {
+  position: absolute;
+  width: 263px;
+  height: 64px;
+  left: 345px;
+  top: 2330px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: black;
+  z-index: 99;
+}
+
+.strelka {
+  position: absolute;
+  width: 35px;
+  left: 102px;
+  top: 2125px;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.strelka2 {
     position: absolute;
-    background-color: black;
-    width: 100%;
-    height: 110%;
-    min-height: 110%;
-    overflow-x:hidden;
-    overflow-y:hidden;
-  }
-
-  a {
-   text-decoration: none;
-   color: white;
-  }
-
-  a:hover {
-    opacity: 0.5;
-  }
-
-  .menu {
-    font-family: AkzidenzGroteskPro;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-    cursor: pointer;
-  }
-
-  .description {
-    position: absolute;
-    font-family: AkzidenzGroteskPro;
-    font-style: normal;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-  }
-
-  .info {
-    position: absolute;
-    width: 506px;
-    height: 64px;
-    left: 468px;
-    top: 386px;
-    font-family: Helvetica;
-    font-style: normal;
-    width: 506px;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-  }
-
-  .buttonstroke{
-    position: absolute;
-    width: 32px;
-    height: 32px;
+    width: 35px;
     left: 1312px;
-    top: 37px;
-    border: 1px solid white;
-    border-radius: 100%;
-    box-sizing: border-box;
-    cursor: pointer;
-  }
-
-  .button {
-    position: absolute;
-    width: 22px;
-    height: 22px;
-    left: 1317px;
-    top: 42px;
-    border-radius: 100%;
-    background-color: white;
-    cursor: pointer;
-  }
-
-  .magazin {
-    position: absolute;
-    width: 44px;
-    height: 22px;
-    left: 223px;
-    top: 38px;
-    text-decoration: none;
-  }
-
-  .katalog {
-    position: absolute;
-    width: 40px;
-    height: 22px;
-    left: 345px;
-    top: 38px;
-  }
-
-  .remont {
-    position: absolute;
-    width: 37px;
-    height: 22px;
-    left: 467px;
-    top: 39px;
-  }
-
-  .o_proekte {
-    position: absolute;
-    width: 52px;
-    height: 22px;
-    left: 586px;
-    top: 39px;
-  }
-
-  .faza {
-    position: absolute;
-    width: 135px;
-    height: 63px;
-    left: 652px;
-    top: 238px;
-    letter-spacing: 0.055em;
-    font-size: 50px;
-  }
-
-  .center {
-    position: absolute;
-    font-size: 36px;
-    width: 436px;
-    height: 45px;
-    left: 502px;
-    top: 301px;
-    letter-spacing: 0.055em;
-  }
-
-  .circlestrokeleft {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 468px;
-    top: 179px;
-    border-radius: 100%;
-    border: 1px solid white;
-    box-sizing: border-box;
-  }
-
-  .circlefillleft {
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    left: 153px;
-    top: 197px;
-    border-radius: 100%;
-    background-color: white;
-    border: 1px solid white;
-    box-sizing: border-box;
-  }
-
-  .circlestrokeright {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 832px;
-    top: 105px;
-    border-radius: 100%;
-    border: 1px solid white;
-    box-sizing: border-box;
-  }
-
-  .circlefillright {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    left: 769px;
-    top: 597px;
-    background-color: white;
-    border-radius: 100%;
-    border: 1px solid white;
-    box-sizing: border-box;
-  }
-
-  .leftprice {
-    position: absolute;
-    left: 346px;
-    top: 585px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-  }
-
-  .rightprice1 {
-    position: absolute;
-    left: 918px;
-    top: 182px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-  }
-
-  .rightprice2 {
-    position: absolute;
-    width: 67px;
-    height: 15px;
-    left: 862px;
-    top: 611px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-    z-index: 99;
-  }
-
-  .ellipseleft {
-    position: absolute;
-    width: 448px;
-    height: 448px;
-    left: -69px;
-    top: 371px;
-    border-radius: 100%;
-    border: 1px solid white;
-    box-sizing: border-box;
-  }
-
-  .ellipseleft2 {
-    position: absolute;
-    width: 380px;
-    height: 380px;
-    left: -35px;
-    top: 405px;
-    border-radius: 100%;
-    background-image: url('../img/str.png');
-    border: 1px solid white;
-    box-sizing: border-box;
-  }
-
-  .planet1 {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 1004px;
-    top: 515px;
-    border-radius: 100%;
-    background: black;
-    border: 1px solid white;
-    box-sizing: border-box;
-    z-index: 98;
-  }
-
-  .planet2 {
-    position: absolute;
-    width: 67px;
-    height: 66px;
-    left: 1037px;
-    top: 553px;
-    border-radius: 100%;
-    background: black;
-    border: 1px solid white;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .theway {
-    position: absolute;
-    width: 842.97px;
-    height: 248px;
-    left: 931px;
-    top: 320px;
-    background-image: url('../img/str.png');
-    border: 1px solid white;
-    box-sizing: border-box;
-    border-radius: 124px;
-    transform: rotate(-31.97deg);
-    z-index: 1;
-  }
-
-  .theway_circle {
-    position: absolute;
-    width: 34px;
-    height: 34px;
-    left: 1163px;
-    top: 449px;
-    border-radius: 100%;
-    background: black;
-    border: 1px solid white;
-    box-sizing: border-box;
-    z-index: 97;
-  }
-
-  .theway_circle2 {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 1233px;
-    top: 403px;
-    border-radius: 100%;
-    background-color: black;
-    border: 1px solid white;
-    box-sizing: border-box;
-    z-index: 97;
-  }
-
-  .theway_circle3 {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    left: 1280px;
-    top: 500px;
-    border-radius: 100%;
-    background-color: black;
-    border: 1px solid white;
-    box-sizing: border-box;
-    z-index: 97;
-  }
-
-  .theway_circle4 {
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    left: 1378px;
-    top: 385px;
-    border-radius: 100%;
-    background-color: black;
-    border: 1px solid white;
-    box-sizing: border-box;
-    z-index: 97;
-  }
-
-  .theway_circle5 {
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    left: 1408px;
-    top: 321px;
-    border-radius: 100%;
-    background-color: white;
-    border: 1px solid white;
-    box-sizing: border-box;
-    z-index: 97;
-  }
-
-  .star1 {
-    position: absolute;
-    width: 120px;
-    height: 119px;
-    left: 94px;
-    top: 527px;
-    box-sizing: border-box;
-  }
-
-  .sparkletheway {
-    position: absolute;
-    width: 58px;
-    height: 53px;
-    left: 1290px;
-    top: 584px;
-    z-index: 99;
-  }
-
-  .sparkleleft {
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    left: 500px;
-    top: 640px;
-  }
-
-  .sparkleright {
-    position: absolute;
-    width: 23px;
-    height: 21px;
-    left: 1231px;
-    top: 562px;
-    z-index: 99;
-  }
-
-  .sparklethewaygroup {
-    position: absolute;
-    width: 16px;
-    height: 19px;
-    left: 1326px;
-    top: 356px;
-    z-index: 99;
-  }
-
-  .star2 {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    left: 994px;
-    top: 99px;
-  }
-
-  .ramka {
-    position: absolute;
-    width: 597px;
-    height: 95px;
-    left: 421px;
-    top: 371px;
-    border: 1px solid white;
-    box-sizing: border-box;
-    border-radius: 47.5px;
-  }
-
-  .drop {
-    position: absolute;
-    width: 15px;
-    height: 25px;
-    left: 316px;
-    top: 266px;
-    box-sizing: border-box;
-  }
-
-  .sparkles {
-    position: absolute;
-    height: 35px;
-    left: 1326px;
-    top: 356px;
-    z-index: 99;
-  }
-
-  .cost {
-    position: absolute;
-    width: 120px;
-    left: 836px;
-    top: 588px;
-    z-index: 98;
-  }
-
-  .costleft {
-    position: absolute;
-    width: 120px;
-    left: 312px;
-    top: 562px;
-  }
-
-  .costright {
-    position: absolute;
-    width: 120px;
-    left: 879px;
-    top: 159px;
-  }
-
-  .figuremenu {
-    position: absolute;
-    width: 33px;
-    left: 102px;
-    top: 31px;
-    cursor: pointer;
-  }
-
-  .figuremenu2 {
-    position: absolute;
-    width: 35px;
-    left: 704px;
-    top: 197px;
-  }
-
-  .planettheway {
-    position: absolute;
-    top: 50px;
-  }
-
-  .duga {
-    position: absolute;
-    width: 51px;
-    left: 936px;
-    top: 643px;
-    z-index: 30;
-  }
-
-  .sparkleright2 {
-    position: absolute;
-    width: 21px;
-    left: 1115px;
-    top: 390px;
-  }
-
-  .secondpage_block {
-    position: absolute;
-    background-color: white;
-    top: 821px;
-    width: 100%;
-    height: 116%;
-  }
-
-  .description2 {
-    position: absolute;
-    font-family: AkzidenzGroteskPro;
-    font-style: normal;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    z-index: 99;
-  }
-
-  .magazin2 {
-    position: absolute;
-    width: 1078px;
-    height: 63px;
-    left: 183px;
-    top: 100px;
-    font-size: 50px;
-    line-height: 63px;
-    letter-spacing: 0.055em;
-    z-index: 99;
-  }
-
-  .namestar {
-    position: absolute;
-    font-family: AkzidenzGroteskPro;
-    font-style: normal;
-    font-weight: bold;
-    width: 200px;
-    height: 33px;
-    left: 1048px;
-    top: 283px;
-    font-size: 36px;
-    line-height: 92.69%;
-    color: white;
-    align-items: center;
-    text-align: center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    letter-spacing: 0.055em;
-    z-index: 99;
-  }
-
-  #namestar {
-    align-items: center;
-    justify-content: center;
-    display: inline-block;
-    min-width: 100%;
-  }
-
-  .info2 {
-    position: absolute;
-    width: 120px;
-    height: 16px;
-    left: 1089px;
-    top: 342px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    z-index: 99;
-  }
-
-  #info2 {
-    align-items: center;
-    justify-content: center;
-    display: inline-block;
-    min-width: 100%;
-  }
-
-  .kupit {
-    position: absolute;
-    width: 128px;
-    height: 30px;
-    left: 1083px;
-    top: 384px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    background-color: white;
-    border: 1px solid black;
-    box-sizing: border-box;
-    border-radius: 53px;
-    transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear;
-    padding: 8px 40px;
-    z-index: 99;
-    cursor: pointer;
-  }
-
-  .kupit:hover {
-    color: #fff;
-    background: #333;
-    transition: all .3s linear;
-    -webkit-transition: all .3s linear;
-    -moz-transition: all .3s linear;
-  }
-
-  .content_2page {
-    position: absolute;
-    top: 170px;
-  }
-
-  .figureundername {
-    position: absolute;
-    width: 39px;
-    left: 703px;
-    top: 48px;
-  }
-
-  .sparklemenu {
-    position: absolute;
-    width: 15px;
-    left: 77px;
-    top: 40px;
-    display:none;
-  }
-
-  .blockdashed {
-    position: absolute;
-    width: 993px;
-    height: 600px;
-    left: 101px;
-    top: 1052px;
-    background-color: white;
-    border: 1px dashed black;
-    box-sizing: border-box;
-    z-index: 1;
-  }
-
-  div.blockdashed::after {
-    position: absolute;
-    content: "";
-    background: url("../img/fon.png");
-    background-repeat: no-repeat;
-    background-position: 280px 20px;
-    background-size: 45%;
-    opacity: 0.1;
-    top: -10px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: 1;
-  }
-
-  .krestik {
-    position: absolute;
-    width: 19px;
-    left: 92px;
-    top: 1043px;
-    z-index: 99;
-  }
-
-  .krestik2 {
-    position: absolute;
-    width: 19px;
-    left: 1084px;
-    top: 1043px;
-    z-index: 99;
-  }
-
-  .krestik3 {
-    position: absolute;
-    width: 19px;
-    left: 92px;
-    top: 1642px;
-    z-index: 99;
-  }
-
-  .krestik4 {
-    position: absolute;
-    width: 19px;
-    left: 1084px;
-    top: 1642px;
-    z-index: 99;
-  }
-
-  .constellation1_1 {
-    position: absolute;
-    width: 15px;
-    left: 159px;
-    top: 1016px;
-    z-index: 99;
-  }
-
-  .constellation1_2 {
-    position: absolute;
-    width: 34px;
-    left: 177px;
-    top: 1076px;
-    z-index: 99;
-  }
-
-  .constellation1_3 {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 245px;
-    top: 1042px;
-    background: white;
-    border-radius: 100%;
-    border: 1px solid black;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .constellation1 {
-    position: absolute;
-    top: 100px;
-  }
-
-  .moon {
-    position: absolute;
-    width: 35px;
-    left: 409px;
-    top: 1170px;
-    z-index: 99;
-  }
-
-  .sputnuk {
-    position: absolute;
-    width: 53px;
-    left: 944px;
-    top: 1078px;
-    z-index: 99;
-  }
-
-  .sparkle_2page {
-    position: absolute;
-    width: 25px;
-    left: 908px;
-    top: 1003px;
-    z-index: 99;
-  }
-
-  .starwthcubes {
-    position: absolute;
-    width: 27px;
-    left: 846px;
-    top: 1053px;
-    z-index: 99;
-  }
-
-  .circleblackandwhite {
-    position: absolute;
-    width: 24px;
-    left: 821px;
-    top: 1128px;
-    z-index: 99;
-  }
-
-  .flower {
-    position: absolute;
-    width: 35px;
-    left: 525px;
-    top: 1077px;
-    z-index: 99;
-  }
-
-  .circlestar {
-    position: absolute;
-    width: 35px;
-    left: 596px;
-    top: 1040px;
-    z-index: 99;
-  }
-
-  .sparkles_2page {
-    position: absolute;
-    width: 30px;
-    left: 615px;
-    top: 1108px;
-    z-index: 99;
-  }
-
-  .circlepage2 {
-    position: absolute;
-    width: 9px;
-    height: 9px;
-    left: 608px;
-    top: 1000px;
-    border-radius: 50%;
-    background: white;
-    border: 1px solid black;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .bigplanet {
-    position: absolute;
-    width: 48px;
-    left: 480px;
-    top: 1300px;
-    z-index: 99;
-  }
-
-  .zvezda {
-    position: absolute;
-    width: 35px;
-    left: 300px;
-    top: 1150px;
-    z-index: 99;
-  }
-
-  .sparkleincircle {
-    position: absolute;
-    width: 38px;
-    left: 264px;
-    top: 1267.21px;
-    z-index: 99;
-  }
-
-  .kvadrat {
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    left: 224px;
-    top: 1233.21px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .kvadrat:before {
-    content: '';
-    position: absolute;
-    display: block;
-    top: -20px;
-    left: -50px;
-    right: -50px;
-    bottom: -30px;
-  }
-
-  .krestik_2page {
-    position: absolute;
-    width: 15px;
-    left: 260px;
-    top: 1190px;
-    z-index: 99;
-  }
-
-  .romb {
-    position: absolute;
-    width: 30px;
-    left: 767px;
-    top: 1243px;
-    z-index: 99;
-  }
-
-  .ellipse {
-    position: absolute;
-    width: 10px;
-    height: 17px;
-    left: 720px;
-    top: 1260.61px;
-    border-radius: 100%;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    transform: rotate(45deg);
-    z-index: 99;
-  }
-
-  .triangle {
-    position: absolute;
-    width: 14px;
-    left: 659px;
-    top: 1253px;
-    transform: rotate(-180deg);
-    z-index: 99;
-  }
-
-  .fillstar {
-    position: absolute;
-    width: 38px;
-    left: 946px;
-    top: 1239px;
-    z-index: 99;
-  }
-
-  .star_2page {
-    position: absolute;
-    width: 25px;
-    left: 903px;
-    top: 1213px;
-    z-index: 99;
-  }
-
-  .krestik_2page_2line {
-    position: absolute;
-    width: 20px;
-    left: 926.81px;
-    top: 1310px;
-    z-index: 99;
-  }
-
-  .str_2page_3line {
-    position: absolute;
-    width: 40px;
-    left: 183px;
-    top: 1544px;
-    z-index: 99;
-  }
-
-  .blackcircles {
-    position: absolute;
-    width: 30px;
-    left: 335px;
-    top: 1363.38px;
-    z-index: 99;
-  }
-
-  .linestar {
-    position: absolute;
-    width: 33px;
-    left: 372px;
-    top: 1430px;
-    z-index: 99;
-  }
-
-  .blackellipse {
-    position: absolute;
-    width: 21px;
-    height: 21px;
-    left: 429px;
-    top: 1367.38px;
-    border-radius: 100%;
-    background: #000000;
-    z-index: 99;
-  }
-
-  .blackellipse:before {
-    content: '';
-    position: absolute;
-    display: block;
-    top: -40px;
-    left: -40px;
-    right: -40px;
-    bottom: -20px;
-  }
-
-  .twocircles {
-    position: absolute;
-    width: 30px;
-    left: 460px;
-    top: 1444.38px;
-    z-index: 99;
-  }
-
-  .strway {
-    position: absolute;
-    width: 40px;
-    left: 478px;
-    top: 1320px;
-    z-index: 99;
-  }
-
-  .trianglestar {
-    position: absolute;
-    width: 34px;
-    left: 739px;
-    top: 1372px;
-    z-index: 99;
-  }
-
-  .sparkincirc2 {
-    position: absolute;
-    width: 30px;
-    left: 688px;
-    top: 1410px;
-    z-index: 99;
-  }
-
-  .trianglewithfill {
-    position: absolute;
-    width: 30px;
-    left: 647px;
-    top: 1357px;
-    z-index: 99;
-  }
-
-  .constellation2 {
-    position: absolute;
-    top: 100px;
-  }
-
-  .constellation3_2 {
-    position: absolute;
-    top: 150px;
-  }
-
-  .constellation3_1 {
-    position: absolute;
-    top: 120px;
-  }
-
-  .constellation2_1 {
-    position: absolute;
-    top: 100px;
-  }
-
-  .constellation2_2 {
-    position: absolute;
-    top: 100px;
-  }
-
-  .constellation2_3 {
-    position: absolute;
-    top: 170px;
-  }
-
-  .constellation3 {
-    position: absolute;
-    top: 110px;
-  }
-
-  .line1_1 {
-    position: absolute;
-    top: 1133px;
-    left: 170px;
-    width: 71px;
-    z-index: 99;
-  }
-
-  .line1_2 {
-    position: absolute;
-    left: 557px;
-    top: 1108px;
-    width: 69px;
-    z-index: 99;
-  }
-
-  .line1_3 {
-    position: absolute;
-    left: 835px;
-    top: 1126px;
-    width: 120px;
-    z-index: 99;
-  }
-
-  .line2_1 {
-    position: absolute;
-    left: 218px;
-    top: 1273px;
-    width: 110px;
-    z-index: 99;
-  }
-
-  .line2_2 {
-    position: absolute;
-    left: 672px;
-    top: 1354px;
-    width: 100px;
-    z-index: 99;
-  }
-
-  .line3_1 {
-    position: absolute;
-    left: 351px;
-    top: 1447px;
-    width: 130px;
-    z-index: 99;
-  }
-
-  .line3_2 {
-    position: absolute;
-    left: 672px;
-    top: 1535px;
-    width: 70px;
-    z-index: 99;
-  }
-
-  .line3_3 {
-    position: absolute;
-    left: 926px;
-    top: 1403px;
-    width: 40px;
-    z-index: 99;
-  }
-
-  .picblock {
-    position: absolute;
-    top: 1770px;
-    width: 100%;
-    height: 713px;
-    background: url("../img/slider.png");
-    z-index: 8;
-  }
-
-  .sumka {
-    position: absolute;
-    font-family: AkzidenzGroteskPro;
-    font-style: normal;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    width: 369px;
-    height: 63px;
-    left: 102px;
-    top: 2330px;
-    font-size: 50px;
-    line-height: 63px;
-    letter-spacing: 0.055em;
-    z-index: 99;
-  }
-
-  .about {
-    position: absolute;
-    width: 263px;
-    height: 64px;
-    left: 345px;
-    top: 2330px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    color: black;
-    z-index: 99;
-  }
-
-  .strelka {
-    position: absolute;
-    width: 35px;
-    left: 102px;
     top: 2125px;
     box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .strelka2 {
-      position: absolute;
-      width: 35px;
-      left: 1312px;
-      top: 2125px;
-      box-sizing: border-box;
-      transform: rotate(-180deg);
-      z-index: 99;
-  }
-
-  .fourpage_block {
-    position: absolute;
-    background-color: white;
-    top: 2480px;
-    width: 100%;
-    height: 110%;
-    z-index: 7;
-  }
-
-  .katalog_4 {
-    position: absolute;
-    font-family: AkzidenzGroteskPro;
-    font-style: normal;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    width: 164px;
-    height: 63px;
-    left: 636px;
-    top: 105px;
-    font-size: 50px;
-    line-height: 63px;
-    letter-spacing: 0.055em;
-    z-index: 99;
-  }
-
-  .circleblackandwhite2 {
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    left: 706px;
-    top: 55px;
-    z-index: 99;
-  }
-
-  .katalog_info {
-    position: absolute;
-    width: 345px;
-    height: 32px;
-    left: 548px;
-    top: 202px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-  }
-
-  .cubemenu {
-    position: absolute;
-    width: 77px;
-    height: 75px;
-    left: 588px;
-    top: 310px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    cursor: pointer;
-  }
-
-  .cubemenu2 {
-    position: absolute;
-    width: 77px;
-    height: 75px;
-    left: 681px;
-    top: 310px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    cursor: pointer;
-  }
-
-  .cubemenu3 {
-    position: absolute;
-    width: 77px;
-    height: 75px;
-    left: 776px;
-    top: 310px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    cursor: pointer;
-  }
-
-  .vopros {
-    position: absolute;
-    width: 26px;
-    height: 26px;
-    left: 875.5px;
-    top: 275px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    border-radius: 100%;
-    padding: 3.5px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    z-index: 70;
-    cursor: pointer;
-  }
-
-
-  .voprosinfo {
-    position: absolute;
-    width: 489px;
-    height: 123px;
-    left: 365px;
-    top: 309px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.01em;
-    color: #000000;
-    padding: 19px;
-    display: none;
-    z-index: 110;
-  }
-
-  .line1_3 {
-    position: absolute;
-    z-index: 60;
-  }
-
-  .line1_2 {
-    position: absolute;
-    z-index: 60;
-  }
-
-  .line1_1 {
-    position: absolute;
-    z-index: 60;
-  }
-
-  .line2_1 {
-    position: absolute;
-    z-index: 60;
-  }
-
-  .line2_2 {
-    position: absolute;
-    z-index: 60;
-  }
-
-  .line3_3 {
-    position: absolute;
-    z-index: 60;
-  }
-
-  .line3_1 {
-    position: absolute;
-    z-index: 60;
-  }
-
-  .line3_2 {
-    position: absolute;
-    z-index: 60;
-  }
-
-  .vopros:hover + .voprosinfo {
-    position: absolute;
-    display:block;
-  }
-
-  .krestikcube {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 611px;
-    top: 331px;
-    z-index: 100;
-  }
-
-  .sparklecube {
-    position: absolute;
-    width: 35px;
-    left: 701px;
-    top: 330px;
-  }
-
-  .circlestarcube {
-    position: absolute;
-    width: 42px;
-    left: 794px;
-    top: 326px;
-    cursor: pointer;
-  }
-
-  .katalog_fonpic {
-    position: absolute;
-    width: 1018px;
-    left: 218px;
-    top: 543px;
-    z-index: 60;
-  }
-
-  .cubekatalog {
-    position: absolute;
-    width: 120.02px;
-    height: 120.02px;
-    left: 569.27px;
-    top: 470px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-  }
-
-  .cubekatalog2 {
-    position: absolute;
-    width: 119.28px;
-    height: 120.02px;
-    left: 750.63px;
-    top: 470px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog2_1 {
-    position: absolute;
-    width: 120.02px;
-    height: 120.02px;
-    left: 385.9px;
-    top: 650px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog2_2 {
-    position: absolute;
-    width: 120.02px;
-    height: 119.28px;
-    left: 569.27px;
-    top: 650px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog2_3 {
-    position: absolute;
-    width: 119.28px;
-    height: 120.02px;
-    left: 750.63px;
-    top: 650px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog2_4 {
-    position: absolute;
-    width: 119.28px;
-    height: 119.28px;
-    left: 932.27px;
-    top: 650px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog3_1 {
-    position: absolute;
-    width: 120.02px;
-    height: 119.28px;
-    left: 206px;
-    top: 825px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog3_2 {
-    position: absolute;
-    width: 120.02px;
-    height: 120.77px;
-    left: 385.9px;
-    top: 825px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog3_3 {
-    position: absolute;
-    width: 120.02px;
-    height: 119.28px;
-    left: 569.27px;
-    top: 825px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog3_4 {
-    position: absolute;
-    width: 119.28px;
-    height: 120.77px;
-    left: 750.63px;
-    top: 825px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog3_5 {
-    position: absolute;
-    width: 119.28px;
-    height: 119.28px;
-    left: 932.27px;
-    top: 825px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog3_6 {
-    position: absolute;
-    width: 119.28px;
-    height: 120.77px;
-    left: 1110px;
-    top: 825px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog4_1 {
-    position: absolute;
-    width: 120.02px;
-    height: 119.28px;
-    left: 206px;
-    top: 1000px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog4_2 {
-    position: absolute;
-    width: 120.02px;
-    height: 120.77px;
-    left: 385.9px;
-    top: 1000px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog4_3 {
-    position: absolute;
-    width: 120.02px;
-    height: 120.02px;
-    left: 569.27px;
-    top: 1000px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog4_4 {
-    position: absolute;
-    width: 120.02px;
-    height: 119.28px;
-    left: 750.63px;
-    top: 1000px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog4_5 {
-    position: absolute;
-    width: 119.28px;
-    height: 120.02px;
-    left: 932.27px;
-    top: 1000px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog4_6 {
-    position: absolute;
-    width: 120.02px;
-    height: 120.77px;
-    left: 1110px;
-    top: 1000px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog5_1 {
-    position: absolute;
-    width: 120.02px;
-    height: 120.02px;
-    left: 206px;
-    top: 1180px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog5_2 {
-    position: absolute;
-    width: 120.02px;
-    height: 120.02px;
-    left: 385.9px;
-    top: 1180px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog5_3 {
-    position: absolute;
-    width: 120.02px;
-    height: 120.02px;
-    left: 569.27px;
-    top: 1180px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog5_4 {
-    position: absolute;
-    width: 120.02px;
-    height: 119.28px;
-    left: 750.63px;
-    top: 1180px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog5_5 {
-    position: absolute;
-    width: 119.28px;
-    height: 120.02px;
-    left: 932.27px;
-    top: 1180px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog5_6 {
-    position: absolute;
-    width: 119.28px;
-    height: 119.28px;
-    left: 1110px;
-    top: 1180px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog6_2 {
-    position: absolute;
-    width: 120.02px;
-    height: 119.28px;
-    left: 385.9px;
-    top: 1355px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog6_3 {
-    position: absolute;
-    width: 120.02px;
-    height: 119.28px;
-    left: 569.27px;
-    top: 1355px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog6_4 {
-    position: absolute;
-    width: 119.28px;
-    height: 120.02px;
-    left: 750.63px;
-    top: 1355px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog6_5 {
-    position: absolute;
-    width: 119.28px;
-    height: 119.28px;
-    left: 932.27px;
-    top: 1355px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog7_3 {
-    position: absolute;
-    width: 120.02px;
-    height: 120.02px;
-    left: 569.27px;
-    top: 1525px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-  .cubekatalog7_4 {
-    position: absolute;
-    width: 120.02px;
-    height: 120.02px;
-    left: 750.63px;
-    top: 1525px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 99;
-  }
-
-
-  .mail {
-    position: absolute;
-    height: 16px;
-    left: 486px;
-    top: 1800px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    color: rgba(0, 0, 0, 0.7);
-    z-index: 99;
-  }
-
-  .telefon {
-    position: absolute;
-    width: 167px;
-    height: 16px;
-    left: 727px;
-    top: 1800px;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    color: rgba(0, 0, 0, 0.7);
-    z-index: 99;
-  }
-
-  .logo {
-    position: absolute;
-    height: 26px;
-    left: 132px;
-    top: 1798px;
-    font-family: AkzidenzGroteskPro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    z-index: 99;
-  }
-
-  .figure1 {
-    position: absolute;
-    width: 35.04px;
-    height: 63.37px;
-    left: 610.27px;
-    top: 498px;
-    border-radius: 100%;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 100;
-  }
-
-  .figure2 {
-    position: absolute;
-    width: 65px;
-    left: 778px;
-    top: 497px;
-    z-index: 100;
-  }
-
-  .figure2_1 {
-    position: absolute;
-    width: 61.13px;
-    height: 61.13px;
-    left: 414.98px;
-    top: 681px;
-    z-index: 100;
-  }
-
-  .figure2_2 {
-    position: absolute;
-    width: 58.15px;
-    height: 58.89px;
-    left: 600.58px;
-    top: 681px;
-    border-radius: 100%;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 100;
-  }
-
-  .figure2_2_2 {
-    position: absolute;
-    width: 41.75px;
-    height: 41px;
-    left: 608.78px;
-    top: 690px;
-    background: #000000;
-    border-radius: 100%;
-    box-sizing: border-box;
-    z-index: 100;
-  }
-
-  .figure2_3 {
-    position: absolute;
-    width: 65px;
-    left: 777px;
-    top: 680px;
-    z-index: 100;
-  }
-
-  .figure2_4 {
-    position: absolute;
-    width: 56px;
-    left: 964px;
-    top: 683px;
-    z-index: 100;
-  }
-
-  .figure3_1 {
-    position: absolute;
-    width: 44.73px;
-    left: 242px;
-    top: 861px;
-    z-index: 100;
-  }
-
-  .figure3_2 {
-    position: absolute;
-    width: 59.64px;
-    height: 58.89px;
-    left: 415px;
-    top: 856px;
-    z-index: 100;
-  }
-
-  .figure3_3 {
-    position: absolute;
-    width: 58.15px;
-    height: 58.15px;
-    left: 600px;
-    top: 856px;
-    border-radius: 100%;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 100;
-  }
-
-  .figure3_4 {
-    position: absolute;
-    width: 65.6px;
-    left: 778px;
-    top: 852px;
-    z-index: 100;
-  }
-
-  .figure3_5 {
-    position: absolute;
-    width: 58px;
-    left: 964px;
-    top: 855px;
-    z-index: 100;
-  }
-
-  .figure3_6 {
-    position: absolute;
-    width: 64.86px;
-    height: 64.11px;
-    left: 1138px;
-    top: 855px;
-    z-index: 100;
-  }
-
-  .figure4_1 {
-    position: absolute;
-    width: 55.16px;
-    height: 62.62px;
-    left: 236.57px;
-    top: 1027px;
-    z-index: 100;
-  }
-
-  .figure4_2 {
-    position: absolute;
-    width: 65px;
-    left: 414px;
-    top: 1027px;
-    z-index: 100;
-  }
-
-  .figure4_3 {
-    position: absolute;
-    width: 61.87px;
-    left: 598px;
-    top: 1028px;
-    box-sizing: border-box;
-    z-index: 100;
-  }
-
-  .figure4_4 {
-    position: absolute;
-    width: 65px;
-    left: 778px;
-    top: 1027px;
-    z-index: 100;
-  }
-
-  .figure4_5 {
-    position: absolute;
-    width: 150px;
-    left: 959px;
-    top: 1010px;
-    box-sizing: border-box;
-    z-index: 100;
-  }
-
-  .figure4_6 {
-    position: absolute;
-    width: 60px;
-    left: 1140px;
-    top: 1031px;
-    z-index: 100;
-  }
-
-  .figure5_1 {
-    position: absolute;
-    width: 57px;
-    height: 57px;
-    left: 237.38px;
-    top: 1210px;
-    border-radius: 100%;
-    background: #000000;
-    z-index: 100;
-  }
-
-  .figure5_2 {
-    position: absolute;
-    width: 100px;
-    left: 390px;
-    top: 1170px;
-    z-index: 100;
-  }
-
-  .figure5_3 {
-    position: absolute;
-    width: 63.37px;
-    left: 597px;
-    top: 1215px;
-    box-sizing: border-box;
     transform: rotate(-180deg);
-    z-index: 100;
-  }
-
-  .figure5_4 {
-    position: absolute;
-    width: 70px;
-    left: 777px;
-    top: 1205px;
-    z-index: 100;
-  }
-
-  .figure5_5 {
-    position: absolute;
-    width: 69.33px;
-    left: 957px;
-    top: 1205px;
-    z-index: 100;
-  }
-
-  .figure5_6 {
-    position: absolute;
-    width: 69.33px;
-    left: 1134.4px;
-    top: 1205px;
-    z-index: 100;
-  }
-
-  .figure6_1 {
-    position: absolute;
-    width: 47.71px;
-    height: 48.46px;
-    left: 421px;
-    top: 1390px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    z-index: 100;
-  }
-
-  .figure6_2 {
-    position: absolute;
-    width: 60px;
-    left: 599px;
-    top: 1386px;
-    z-index: 100;
-  }
-
-  .figure6_3 {
-    position: absolute;
-    width: 65px;
-    left: 777px;
-    top: 1383px;
-    z-index: 100;
-  }
-
-  .figure6_4 {
-    position: absolute;
-    width: 65px;
-    left: 960px;
-    top: 1381px;
-    z-index: 100;
-  }
-
-  .figure7_1 {
-    position: absolute;
-    width: 75px;
-    height: 74px;
-    left: 591px;
-    top: 1547px;
-    z-index: 100;
-  }
-
-  .figure7_2 {
-    position: absolute;
-    width: 70px;
-    left: 775px;
-    top: 1555px;
-    z-index: 100;
-    transform: rotate(45deg);
-  }
-
-  .logofigure {
-    position: absolute;
-    width: 25px;
-    left: 90px;
-    top: 1798px;
-    z-index: 100;
-  }
-
-  .twitter {
-    position: absolute;
-    width: 55px;
-    left: 1010px;
-    top: 1785px;
-  }
-
-  .facebook {
-    position: absolute;
-    width: 24px;
-    left: 1120px;
-    top: 1785px;
-  }
-
-  .instagram {
-    position: absolute;
-    width: 45px;
-    left: 1200px;
-    top: 1785px;
-  }
-
-  .vk {
-    position: absolute;
-    width: 62px;
-    left: 1280px;
-    top: 1790px;
-  }
-
-  .slider {
-    position: relative;
-    overflow: hidden;
-    top: 1750px;
-  }
-
-  .slider__wrapper {
-    display: flex;
-    transition: transform 0.6s ease;
-  }
-
-  .slider__item {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .slider__control {
-    position: absolute;
-    top: 50%;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    color: white;
-    text-align: center;
-    height: 30px;
-    transform: translateY(-50%);
-  }
-
-  .slider__control_show {
-    display: flex;
-  }
-
-  .slider__control:hover,
-  .slider__control:focus {
-    color: white;
-    text-decoration: none;
-    outline: 2;
-  }
-
-  .slider__control_left {
-    left: 20px;
-  }
-
-  .slider__control_right {
-    right: 20px;
-  }
-
-  .slider__control::before {
-    content: '';
-    display: inline-block;
-    width: 30px;
-    height: 40px;
-    background: transparent no-repeat center center;
-    background-size: 100% 100%;
-    background-image: url(../img/strelka.svg);
-  }
-
-  .slider__control_left::before {
-
-  }
-
-  .slider__control_right::before {
-  	transform: scaleX(-1) translateY(-50%);
-  }
-
-  .slider__content_img {
-    display: inline-block;
-    height: auto;
-    max-width: 100%;
-  }
-
-  .podval {
-    position: absolute;
-    background-color: white;
-    width: 100%;
-    height: 19.5%;
-    top: 4180px;
-    z-index: 0;
-  }
+    z-index: 99;
 }
+
+.fourpage_block {
+  position: absolute;
+  background-color: white;
+  top: 2480px;
+  width: 100%;
+  height: 110%;
+  z-index: 7;
+}
+
+.katalog_4 {
+  position: absolute;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  width: 164px;
+  height: 63px;
+  left: 636px;
+  top: 105px;
+  font-size: 50px;
+  line-height: 63px;
+  letter-spacing: 0.055em;
+  z-index: 99;
+}
+
+.circleblackandwhite2 {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 706px;
+  top: 55px;
+  z-index: 99;
+}
+
+.katalog_info {
+  position: absolute;
+  width: 345px;
+  height: 32px;
+  left: 548px;
+  top: 202px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.cubemenu {
+  position: absolute;
+  width: 77px;
+  height: 75px;
+  left: 588px;
+  top: 310px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.cubemenu2 {
+  position: absolute;
+  width: 77px;
+  height: 75px;
+  left: 681px;
+  top: 310px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.cubemenu3 {
+  position: absolute;
+  width: 77px;
+  height: 75px;
+  left: 776px;
+  top: 310px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.vopros {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 875.5px;
+  top: 275px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 100%;
+  padding: 3.5px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  z-index: 70;
+  cursor: pointer;
+}
+
+
+.voprosinfo {
+  position: absolute;
+  width: 489px;
+  height: 123px;
+  left: 365px;
+  top: 309px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #000000;
+  padding: 19px;
+  display: none;
+  z-index: 110;
+}
+
+.line1_3 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line1_2 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line1_1 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line2_1 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line2_2 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line3_3 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line3_1 {
+  position: absolute;
+  z-index: 60;
+}
+
+.line3_2 {
+  position: absolute;
+  z-index: 60;
+}
+
+.vopros:hover + .voprosinfo {
+  position: absolute;
+  display:block;
+}
+
+.krestikcube {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 611px;
+  top: 331px;
+  z-index: 100;
+}
+
+.sparklecube {
+  position: absolute;
+  width: 35px;
+  left: 701px;
+  top: 330px;
+}
+
+.circlestarcube {
+  position: absolute;
+  width: 42px;
+  left: 794px;
+  top: 326px;
+  cursor: pointer;
+}
+
+.katalog_fonpic {
+  position: absolute;
+  width: 1018px;
+  left: 218px;
+  top: 543px;
+  z-index: 60;
+}
+
+.cubekatalog {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 569.27px;
+  top: 470px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.cubekatalog2 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.02px;
+  left: 750.63px;
+  top: 470px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog2_1 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 385.9px;
+  top: 650px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog2_2 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 569.27px;
+  top: 650px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog2_3 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.02px;
+  left: 750.63px;
+  top: 650px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog2_4 {
+  position: absolute;
+  width: 119.28px;
+  height: 119.28px;
+  left: 932.27px;
+  top: 650px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_1 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 206px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_2 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.77px;
+  left: 385.9px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_3 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 569.27px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_4 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.77px;
+  left: 750.63px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_5 {
+  position: absolute;
+  width: 119.28px;
+  height: 119.28px;
+  left: 932.27px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog3_6 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.77px;
+  left: 1110px;
+  top: 825px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_1 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 206px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_2 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.77px;
+  left: 385.9px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_3 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 569.27px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_4 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 750.63px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_5 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.02px;
+  left: 932.27px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog4_6 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.77px;
+  left: 1110px;
+  top: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_1 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 206px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_2 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 385.9px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_3 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 569.27px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_4 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 750.63px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_5 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.02px;
+  left: 932.27px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog5_6 {
+  position: absolute;
+  width: 119.28px;
+  height: 119.28px;
+  left: 1110px;
+  top: 1180px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog6_2 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 385.9px;
+  top: 1355px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog6_3 {
+  position: absolute;
+  width: 120.02px;
+  height: 119.28px;
+  left: 569.27px;
+  top: 1355px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog6_4 {
+  position: absolute;
+  width: 119.28px;
+  height: 120.02px;
+  left: 750.63px;
+  top: 1355px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog6_5 {
+  position: absolute;
+  width: 119.28px;
+  height: 119.28px;
+  left: 932.27px;
+  top: 1355px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog7_3 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 569.27px;
+  top: 1525px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.cubekatalog7_4 {
+  position: absolute;
+  width: 120.02px;
+  height: 120.02px;
+  left: 750.63px;
+  top: 1525px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+
+.mail {
+  position: absolute;
+  height: 16px;
+  left: 486px;
+  top: 1800px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+  z-index: 99;
+}
+
+.telefon {
+  position: absolute;
+  width: 167px;
+  height: 16px;
+  left: 727px;
+  top: 1800px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+  z-index: 99;
+}
+
+.logo {
+  position: absolute;
+  height: 26px;
+  left: 132px;
+  top: 1798px;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  z-index: 99;
+}
+
+.figure1 {
+  position: absolute;
+  width: 35.04px;
+  height: 63.37px;
+  left: 610.27px;
+  top: 498px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.figure2 {
+  position: absolute;
+  width: 65px;
+  left: 778px;
+  top: 497px;
+  z-index: 100;
+}
+
+.figure2_1 {
+  position: absolute;
+  width: 61.13px;
+  height: 61.13px;
+  left: 414.98px;
+  top: 681px;
+  z-index: 100;
+}
+
+.figure2_2 {
+  position: absolute;
+  width: 58.15px;
+  height: 58.89px;
+  left: 600.58px;
+  top: 681px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.figure2_2_2 {
+  position: absolute;
+  width: 41.75px;
+  height: 41px;
+  left: 608.78px;
+  top: 690px;
+  background: #000000;
+  border-radius: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.figure2_3 {
+  position: absolute;
+  width: 65px;
+  left: 777px;
+  top: 680px;
+  z-index: 100;
+}
+
+.figure2_4 {
+  position: absolute;
+  width: 56px;
+  left: 964px;
+  top: 683px;
+  z-index: 100;
+}
+
+.figure3_1 {
+  position: absolute;
+  width: 44.73px;
+  left: 242px;
+  top: 861px;
+  z-index: 100;
+}
+
+.figure3_2 {
+  position: absolute;
+  width: 59.64px;
+  height: 58.89px;
+  left: 415px;
+  top: 856px;
+  z-index: 100;
+}
+
+.figure3_3 {
+  position: absolute;
+  width: 58.15px;
+  height: 58.15px;
+  left: 600px;
+  top: 856px;
+  border-radius: 100%;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.figure3_4 {
+  position: absolute;
+  width: 65.6px;
+  left: 778px;
+  top: 852px;
+  z-index: 100;
+}
+
+.figure3_5 {
+  position: absolute;
+  width: 58px;
+  left: 964px;
+  top: 855px;
+  z-index: 100;
+}
+
+.figure3_6 {
+  position: absolute;
+  width: 64.86px;
+  height: 64.11px;
+  left: 1138px;
+  top: 855px;
+  z-index: 100;
+}
+
+.figure4_1 {
+  position: absolute;
+  width: 55.16px;
+  height: 62.62px;
+  left: 236.57px;
+  top: 1027px;
+  z-index: 100;
+}
+
+.figure4_2 {
+  position: absolute;
+  width: 65px;
+  left: 414px;
+  top: 1027px;
+  z-index: 100;
+}
+
+.figure4_3 {
+  position: absolute;
+  width: 61.87px;
+  left: 598px;
+  top: 1028px;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.figure4_4 {
+  position: absolute;
+  width: 65px;
+  left: 778px;
+  top: 1027px;
+  z-index: 100;
+}
+
+.figure4_5 {
+  position: absolute;
+  width: 150px;
+  left: 959px;
+  top: 1010px;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.figure4_6 {
+  position: absolute;
+  width: 60px;
+  left: 1140px;
+  top: 1031px;
+  z-index: 100;
+}
+
+.figure5_1 {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  left: 237.38px;
+  top: 1210px;
+  border-radius: 100%;
+  background: #000000;
+  z-index: 100;
+}
+
+.figure5_2 {
+  position: absolute;
+  width: 100px;
+  left: 390px;
+  top: 1170px;
+  z-index: 100;
+}
+
+.figure5_3 {
+  position: absolute;
+  width: 63.37px;
+  left: 597px;
+  top: 1215px;
+  box-sizing: border-box;
+  transform: rotate(-180deg);
+  z-index: 100;
+}
+
+.figure5_4 {
+  position: absolute;
+  width: 70px;
+  left: 777px;
+  top: 1205px;
+  z-index: 100;
+}
+
+.figure5_5 {
+  position: absolute;
+  width: 69.33px;
+  left: 957px;
+  top: 1205px;
+  z-index: 100;
+}
+
+.figure5_6 {
+  position: absolute;
+  width: 69.33px;
+  left: 1134.4px;
+  top: 1205px;
+  z-index: 100;
+}
+
+.figure6_1 {
+  position: absolute;
+  width: 47.71px;
+  height: 48.46px;
+  left: 421px;
+  top: 1390px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.figure6_2 {
+  position: absolute;
+  width: 60px;
+  left: 599px;
+  top: 1386px;
+  z-index: 100;
+}
+
+.figure6_3 {
+  position: absolute;
+  width: 65px;
+  left: 777px;
+  top: 1383px;
+  z-index: 100;
+}
+
+.figure6_4 {
+  position: absolute;
+  width: 65px;
+  left: 960px;
+  top: 1381px;
+  z-index: 100;
+}
+
+.figure7_1 {
+  position: absolute;
+  width: 75px;
+  height: 74px;
+  left: 591px;
+  top: 1547px;
+  z-index: 100;
+}
+
+.figure7_2 {
+  position: absolute;
+  width: 70px;
+  left: 775px;
+  top: 1555px;
+  z-index: 100;
+  transform: rotate(45deg);
+}
+
+.logofigure {
+  position: absolute;
+  width: 25px;
+  left: 90px;
+  top: 1798px;
+  z-index: 100;
+}
+
+.twitter {
+  position: absolute;
+  width: 55px;
+  left: 1010px;
+  top: 1785px;
+}
+
+.facebook {
+  position: absolute;
+  width: 24px;
+  left: 1120px;
+  top: 1785px;
+}
+
+.instagram {
+  position: absolute;
+  width: 45px;
+  left: 1200px;
+  top: 1785px;
+}
+
+.vk {
+  position: absolute;
+  width: 62px;
+  left: 1280px;
+  top: 1790px;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  top: 1750px;
+}
+
+.slider__wrapper {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.slider__item {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.slider__control {
+  position: absolute;
+  top: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  color: white;
+  text-align: center;
+  height: 30px;
+  transform: translateY(-50%);
+}
+
+.slider__control_show {
+  display: flex;
+}
+
+.slider__control:hover,
+.slider__control:focus {
+  color: white;
+  text-decoration: none;
+  outline: 2;
+}
+
+.slider__control_left {
+  left: 20px;
+}
+
+.slider__control_right {
+  right: 20px;
+}
+
+.slider__control::before {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url(../img/strelka.svg);
+}
+
+.slider__control_left::before {
+
+}
+
+.slider__control_right::before {
+	transform: scaleX(-1) translateY(-50%);
+}
+
+.slider__content_img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.podval {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 19.5%;
+  top: 4180px;
+  z-index: 0;
+}
+
 @media (max-width: 834px) {
 
   .firstpage_block {
@@ -2579,12 +2580,15 @@
   }
 
   .kupit {
-    width: 36px;
-    height: 21px;
-    left: 644px;
-    top: 390px;
+    width: 103px;
+    height: 33px;
+    left: 610px;
+    top: 380px;
     font-size: 10px;
     line-height: 12px;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 0px 35px;
   }
 
   .content_2page {
@@ -3072,10 +3076,9 @@
   .fourpage_block {
     position: absolute;
     background-color: white;
-    top: 2480px;
+    top: 2150px;
     width: 100%;
     height: 100%;
-    height: 110%;
     z-index: 7;
   }
 
@@ -3132,13 +3135,107 @@
     top: 266px;
   }
 
+  .slider {
+    position: relative;
+    overflow: hidden;
+    top: 1750px;
+  }
+
+  .slider__wrapper {
+    display: flex;
+    transition: transform 0.6s ease;
+  }
+
+  .slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .slider__control {
+    position: absolute;
+    top: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: white;
+    text-align: center;
+    height: 30px;
+    transform: translateY(-50%);
+  }
+
+  .slider__control_show {
+    display: flex;
+  }
+
+  .slider__control:hover,
+  .slider__control:focus {
+    color: white;
+    text-decoration: none;
+    outline: 2;
+  }
+
+  .slider__control_left {
+    left: 20px;
+  }
+
+  .slider__control_right {
+    right: 20px;
+  }
+
+  .slider__control::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url(../img/strelka.svg);
+  }
+
+  .slider__control_left::before {
+
+  }
+
+  .slider__control_right::before {
+  	transform: scaleX(-1) translateY(-50%);
+  }
+
+  .slider__content_img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+  }
+
   .vopros {
-    width: 11px;
-    height: 16px;
-    left: 550px;
+    width: 33px;
+    height: 33px;
+    left: 539px;
     top: 274px;
     font-size: 18px;
     line-height: 21px;
+  }
+
+  .voprosinfo {
+    position: absolute;
+    width: 362px;
+    height: 100px;
+    left: 160px;
+    top: 295px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 16px;
+    padding: 13px;
+  }
+
+  .vopros:hover + .voprosinfo {
+    position: absolute;
+    display:block;
   }
 
   .krestikcube {
@@ -3610,7 +3707,7 @@
     background-color: white;
     width: 100%;
     height: 19.5%;
-    top: 3938px;
+    top: 3610px;
     z-index: 0;
   }
 
