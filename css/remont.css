@@ -1161,7 +1161,7 @@ a:hover {
     width: 205px;
     height: 78px;
     left: 65px;
-    top: 349px;
+    top: 280px;
     font-size: 24px;
     line-height: 26px;
     -webkit-text-stroke-width: 0.6px;
@@ -1171,16 +1171,16 @@ a:hover {
     width: 200px;
     height: 11px;
     left: 65px;
-    top: 470px;
+    top: 400px;
     font-size: 24px;
     line-height: 26px;
   }
 
   .thirdpage_block_map {
-    width: 162px;
+    width: 167px;
     height: 47.24px;
     left: 65px;
-    top: 530px;
+    top: 460px;
   }
 
   .thirdpage_block_map:hover {
@@ -1195,7 +1195,7 @@ a:hover {
     width: 532px;
     height: 485px;
     left: 237px;
-    top: 172px;
+    top: 150px;
   }
 
   .infopage3 {
@@ -1205,47 +1205,38 @@ a:hover {
   }
 
   .logofigure {
-    width: 30px;
-    left: 64px;
-    top: 1800px;
+    width: 35px;
+    left: 65px;
+    top: 1689px;
   }
 
-  .mail {
-    width: 61px;
-    height: 14px;
-    left: 235px;
-    top: 1800px;
-    font-size: 14px;
-    line-height: 12px;
-  }
+    .mail {
+      width: 59px;
+      height: 14px;
+      left: 236px;
+      top: 1700px;
+      font-size: 14px;
+      line-height: 12px;
+    }
 
-  .telefon {
-    width: 69px;
-    height: 13px;
-    left: 406px;
-    top: 2731px;
-    font-size: 14px;
-    line-height: 12px;
-  }
+    .telefon {
+      width: 72px;
+      height: 13px;
+      left: 407px;
+      top: 1700px;
+      font-size: 14px;
+      line-height: 12px;
+    }
 
-  .logo {
-    position: absolute;
-    height: 26px;
-    left: 132px;
-    top: 1798px;
-    font-family: AkzidenzGroteskPro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    z-index: 99;
-  }
+    .logo {
+      width: 12px;
+      height: 12px;
+      left: 115px;
+      top: 1698px;
+      font-size: 36px;
+      line-height: 15px;
+      -webkit-text-stroke-width: 1px;
+    }
 
   .infoblock {
     position: absolute;
@@ -1253,42 +1244,30 @@ a:hover {
   }
 
   .center {
-    position: absolute;
-    width: 280px;
-    left: 795.59px;
+    width: 270px;
+    left: 417px;
     top: 345px;
   }
 
   .twitter {
-    position: absolute;
-    width: 55px;
-    left: 1010px;
-    top: 1783px;
-    z-index: 100;
+    width: 51px;
+    left: 550px;
+    top: 1680px;
   }
 
   .facebook {
-    position: absolute;
-    width: 24px;
-    left: 1120px;
-    top: 1783px;
-    z-index: 100;
+    left: 625px;
+    top: 1680px;
   }
 
   .instagram {
-    position: absolute;
-    width: 45px;
-    left: 1200px;
-    top: 1783px;
-    z-index: 100;
+    left: 675px;
+    top: 1680px;
   }
 
   .vk {
-    position: absolute;
-    width: 62px;
-    left: 1280px;
-    top: 1788px;
-    z-index: 100;
+    left: 738px;
+    top: 1685px;
   }
 
   .podval {
