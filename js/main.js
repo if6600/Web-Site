@@ -489,7 +489,7 @@ document.getElementById('button').onclick = changeColor
                 'selector': '.circlepage2'
               },
               {
-                'info2': 'Выглядит как спутник',
+                'info2': 'Маленький спутник',
                 'namestar': 'Убхе',
                 'animations': [star3Animation1],
                 'selector': '.sputnuk'
@@ -573,7 +573,7 @@ document.getElementById('button').onclick = changeColor
                 'selector': '.star_2page'
               },
               {
-                'info2': 'Размером как планета',
+                'info2': 'Очень большая',
                 'namestar': 'Анха',
                 'animations': [star7Animation1],
                 'selector': '.blackcircles'
@@ -585,7 +585,7 @@ document.getElementById('button').onclick = changeColor
                 'selector': '.linestar'
               },
               {
-                'info2': 'Умеет рассыпаться на мелкие частицы',
+                'info2': 'Постоянно рассыпается',
                 'namestar': 'Менкалинан',
                 'animations': [star7Animation3],
                 'selector': '.blackellipse'
@@ -597,7 +597,7 @@ document.getElementById('button').onclick = changeColor
                 'selector': '.twocircles'
               },
               {
-                'info2': 'Оставляет за собой светящийся след',
+                'info2': 'Оставляет светящийся след',
                 'namestar': 'Кастула',
                 'animations': [star7Animation5],
                 'selector': '.strway'
