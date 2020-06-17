@@ -604,7 +604,7 @@ a:hover {
   transition: all .3s linear;
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
-  padding: 8px 40px;
+  padding: 8px 41px;
   z-index: 99;
   cursor: pointer;
 }
