@@ -548,13 +548,15 @@ a:hover {
   position: absolute;
   width: 223px;
   height: 52px;
-  left: 137px;
-  top: 511px;
+  left: 105px;
+  top: 505px;
   text-align: center;
   font-family: Helvetica;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   display: flex;
+  font-size: 14px;
+  line-height: 16px;
   align-items: center;
   color: #000000;
   border: 1px solid #FFFFFF;
@@ -565,7 +567,7 @@ a:hover {
   transition: all .3s linear;
   -webkit-transition: all .3s linear;
   -moz-transition: all .3s linear;
-  padding: 8px 24px;
+  padding: 8px 37px;
   cursor: pointer;
 }
 
@@ -1177,10 +1179,12 @@ a:hover {
   }
 
   .thirdpage_block_map {
-    width: 167px;
-    height: 47.24px;
+    width: 180px;
+    height: 37px;
     left: 65px;
     top: 460px;
+    font-size: 10px;
+    line-height: 11px;
   }
 
   .thirdpage_block_map:hover {
@@ -1194,7 +1198,7 @@ a:hover {
   .thirdpage_block_pic {
     width: 532px;
     height: 485px;
-    left: 237px;
+    left: 255px;
     top: 150px;
   }
 
